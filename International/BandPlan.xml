@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<!--     28 April 2020     Arrin, Callsign: KN1E     International (Basic)   V0.0   0Hz to 2.5GHz (All Allocations)|   Edited in Notepad++   Free to use for those who want to expand their knowledge of the radio spectrum. -->
-<!--                                                 There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.    -->
-<!--                                                                                                                                                                                                                         -->
+<!--     29 April 2020     Arrin, Callsign: KN1E     International (Basic) (Temporary)   V0.0   0Hz to 2.5GHz (All Allocations)|   Free to use for those who want to expand their knowledge of the radio spectrum.        -->
+<!--                                                 There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations. -->
+<!--                                                                                                                                                                                                                      -->
 
 
 <ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
