@@ -43,7 +43,7 @@
 	<RangeEntry minFrequency="2300000" maxFrequency="2495000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 120m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="2495000" maxFrequency="2505000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
 	<RangeEntry minFrequency="2505000" maxFrequency="2850000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
-    <RangeEntry minFrequency="2850000" maxFrequency="3155000" mode="AM" step="100" color="40AFFFEE">Transoceanic Flights (Aeronautical Mobile)</RangeEntry>
+        <RangeEntry minFrequency="2850000" maxFrequency="3155000" mode="AM" step="100" color="40AFFFEE">Transoceanic Flights (Aeronautical Mobile)</RangeEntry>
 	<RangeEntry minFrequency="3155000" maxFrequency="3200000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
 	<RangeEntry minFrequency="3200000" maxFrequency="3400000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>  
 	<RangeEntry minFrequency="3400000" maxFrequency="3500000" mode="LSB" step="100" color="40AFFFEE">Aeronautical</RangeEntry> 
@@ -245,7 +245,7 @@
 	<RangeEntry minFrequency="148000000" maxFrequency="150000000" mode="WFM" step="100" color="40FFCD00">Orbcomm Uplink</RangeEntry>	
 	<RangeEntry minFrequency="150000000" maxFrequency="155987500" mode="WFM" step="100" color="5500C9C9">Fixed Mobile</RangeEntry>
 	<!-- _BUG_     Marine VHF is the most popular Marine band so it was expanded. (File crashes when commented out channels are added. Don't know what the issue is. Only works if first allocations is at least 200KHz long. After it is exactly 45 small allocations, maybe that is the max of consecutive small allocations.  Data handling issue? -->
-    <RangeEntry minFrequency="155987500" maxFrequency="156187500" mode="WFM" step="100" color="5500C9C9">Marine VHF Ch. 0, 60, 1, 61, 2, 62, 3, 63 (Ship Stations)</RangeEntry>  
+        <RangeEntry minFrequency="155987500" maxFrequency="156187500" mode="WFM" step="100" color="5500C9C9">Marine VHF Ch. 0, 60, 1, 61, 2, 62, 3, 63 (Ship Stations)</RangeEntry>  
 <!--    <RangeEntry minFrequency="156012500" maxFrequency="156037500‬" mode="NFM" step="100" color="55008080">60</RangeEntry>   -->
 <!-- 	<RangeEntry minFrequency="156037500‬" maxFrequency="156062500" mode="WFM" step="100" color="5500C9C9">1</RangeEntry>  -->
 <!-- 	<RangeEntry minFrequency="156062500" maxFrequency="1560875‬00" mode="WFM" step="100" color="55008080">61</RangeEntry>  -->
@@ -278,7 +278,7 @@
 	<RangeEntry minFrequency="156737500" maxFrequency="156762500" mode="WFM" step="100" color="5500C9C9">15 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
 	<RangeEntry minFrequency="156762500" maxFrequency="156787500" mode="WFM" step="100" color="55008080">75 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
 	<RangeEntry minFrequency="156787500" maxFrequency="156812500" mode="WFM" step="100" color="50FF0091">International Distress (Ch. 16)</RangeEntry>   <!-- Simplex Frequency -->
-    <RangeEntry minFrequency="156812500" maxFrequency="156837500" mode="WFM" step="100" color="55008080">76 (Splx)</RangeEntry>  <!-- Simplex Frequency --> 
+        <RangeEntry minFrequency="156812500" maxFrequency="156837500" mode="WFM" step="100" color="55008080">76 (Splx)</RangeEntry>  <!-- Simplex Frequency --> 
 	<RangeEntry minFrequency="156837500" maxFrequency="156862500" mode="WFM" step="100" color="5500C9C9">17 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
  	<RangeEntry minFrequency="156862500" maxFrequency="156887500" mode="WFM" step="100" color="55008080">77 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
  	<RangeEntry minFrequency="156887500" maxFrequency="156912500" mode="WFM" step="100" color="5500C9C9">18</RangeEntry>  
@@ -342,7 +342,7 @@
 	<RangeEntry minFrequency="161937500" maxFrequency="161962500" mode="WFM" step="100" color="55008080">27</RangeEntry>
 	<RangeEntry minFrequency="161962500" maxFrequency="161987500" mode="WFM" step="100" color="5500C9C9">87B</RangeEntry>	
 	<RangeEntry minFrequency="161987500" maxFrequency="162012500" mode="WFM" step="100" color="55008080">88B/ 28</RangeEntry>
-    <RangeEntry minFrequency="162012500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>	
+        <RangeEntry minFrequency="162012500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>	
 	<RangeEntry minFrequency="162137500" maxFrequency="162162500" mode="WFM" step="100" color="55008080">31</RangeEntry>
 	
 	<RangeEntry minFrequency="162162500" maxFrequency="174000000" mode="WFM" step="100" color="55008080">Fixed Mobile/ Marine</RangeEntry>
@@ -447,7 +447,7 @@
 	<RangeEntry minFrequency="1699750000" maxFrequency="1700250000" mode="WFM" step="100" color="555CBABA">METEOR M2 Center</RangeEntry>  <!-- METEOR M2: 1700MHz (AHRPT) -->
 	<RangeEntry minFrequency="1700250000" maxFrequency="1701050000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1701050000" maxFrequency="1701550000" mode="WFM" step="100" color="55F07070">Metop-A, Metop-B, FY-3C Center</RangeEntry>  <!-- Metop-A, Metop-B (AHRPT), FY-3C: 1701.3MHz (CHRPT)-->
-    <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+        <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1702250000" maxFrequency="1702750000" mode="WFM" step="100" color="557AFFFF">NOAA-15 Center</RangeEntry>  <!-- NOAA-15: 1702.5MHz (HRPT) -->
 	<RangeEntry minFrequency="1702750000" maxFrequency="1704250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1704250000" maxFrequency="1704750000" mode="WFM" step="100" color="55FFBA2E">FY-3A, FY-3B Center</RangeEntry>  <!-- FY-3A, FY-3B: 1704.5MHz (CHRPT) -->
@@ -459,7 +459,7 @@
 	
 	<RangeEntry minFrequency="1708500000" maxFrequency="1710000000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry>											
 	<RangeEntry minFrequency="2025000000" maxFrequency="2110000000" mode="WFM" step="1000" color="5091A4EE">Earth-to-Space and Space-to-Space Communications</RangeEntry>
-    <RangeEntry minFrequency="2290000000" maxFrequency="2300000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy</RangeEntry>  
+        <RangeEntry minFrequency="2290000000" maxFrequency="2300000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy</RangeEntry>  
 	
 	<RangeEntry minFrequency="2300000000" maxFrequency="2310000000" mode="WFM" step="100" color="50FF0000">13cm Ham Band (Lower)</RangeEntry>
 	<RangeEntry minFrequency="2320000000" maxFrequency="2332500000" mode="WFM" step="1000" color="5000ABFF">Satellite Digital Audio Radio Service (SDARS)</RangeEntry>
