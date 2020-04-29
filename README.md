@@ -4,7 +4,7 @@ Expanded band plan file for SDR#.
 
 ## Download Links
 
-[US BandPlan XML](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)
+[US BandPlan XML](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)  
 International BandPlan coming soon.
 
 ## Installing
