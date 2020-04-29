@@ -1,10 +1,17 @@
 # Band plans for SDRsharp
 
+Expanded band plan file for SDR#.
+
+## Download Links
+
+(US BandPlan XML)[https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml]
+International BandPlan coming soon.
+
+## Installing
+It's as easy as dropping it in the SDR# folder. Just make sure to have a backup of the old default bandplan in case something doesn't work! For anyone that needs to see it, [here](https://youtu.be/0OqyOx87hJk) is a super simple video on how to install the XML file.
+
 ## Backstory
 Hello everyone! A while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan for where I live (the US) that could then be used as a framework so people in other countries or regions could change the allocations to their needs. With enough country and regional bandplans we could possibly have a community of bandplans that users could choose from. So, this is my attempt at starting that project. I've made the US bandplan, and as to not leave non-US users without something I threw together a basic International bandplan. I didn't know where the best place to have all other community made plans stored at would be (Github? idk), so I'll let the community/mods decide on that. But, I should get to the plans.
-
-The US plan can be found here. (Google Drive)
-The International plan can be found here. (Google Drive)
 
 If you want to see videos of them and get motion sick at the same time here is US plan in SDR#, and here is a scroll through the code.  I also have the International plan in SDR#,and of course a video of the code too. The videos have no audio! They are for previewing purposes only! So, they're nothing special.
 
@@ -46,6 +53,3 @@ Devices)
 
 ### More
 The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
-
-## Installing
-It's as easy as dropping it in the SDR# folder. Just make sure to have a backup of the old default bandplan in case something doesn't work! For anyone that needs to see it, [here](https://youtu.be/0OqyOx87hJk) is a super simple video on how to install the XML file.
