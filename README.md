@@ -54,6 +54,9 @@ CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2
 The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
 
 
+## International Bandplan
+The International Bandplan is currently going through heavy checks and revisions, so if you want to use it go ahead, It is okay for use, just check back in a few for any updates. I will go into detail about it when it is more or less finished.
+
 ## Create Your Own Bandplan
 The purpose of the efforts here are to give SDR users the ability to identify signals and bands with greater ease than before. With a basic file provided it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
 It has a simple layout with nothing more than a basic structure that the writer can adhere to if they desire. Luckily XML is a simple language that can be easily learned by those even with little skill. 
