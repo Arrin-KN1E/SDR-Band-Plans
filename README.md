@@ -1,6 +1,6 @@
 # Band plans for SDRsharp
 
-Expanded band plan file for SDR#.
+Expanded band plan files for SDR#.
 
 ## Download Links
 
@@ -17,10 +17,10 @@ If you want to see videos of them and get motion sick at the same time here is U
 
 I should start off by saying I'm not a programmer and I did this by myself. So, there are going to be mistakes and I don't know everything about every allocation so there might be a setting wrong here and there. So, I greatly apologize for any mistakes in either of the plans. Now, to get start getting into the technical details!
 
-I used the FCC Online Table of Frequency Allocations Table as a general allocations guide. I used what I knew to fill in the details. Since I live in the US I know US frequencies decently well, so it was pretty easy to fill in the details. For international frequencies I know almost nothing so I tried to play it safe on the International plan and using what I think most of the world uses. I made it quick and I hope it can be replaced by a community bandplan relativly quickly. So, I know I made amistakes in the International plan I just don't know where. Even so, the bandplans are meant to be more of a foundation to be built upon and a proposed structure than being the be all end all. That's why I didn't make a simple US version (The International plan basically is anyway) or make ITU regions 1, 2, or 3 plans.
+I used the FCC Online Table of Frequency Allocations Table as a general allocations guide. I used what I knew to fill in the details. Since I live in the US I know US frequencies decently well, so it was pretty easy to fill in the details. For international frequencies I know almost nothing so I tried to play it safe on the International plan and using what I think most of the world uses. I made it quick and I hope it can be replaced by a community bandplan relativly quickly. So, I know I made mistakes in the International plan I just don't know where. Even so, the bandplans are meant to be more of a foundation to be built upon and a proposed structure than being the be all end all. That's why I didn't make a simple US version (The International plan basically is anyway) or make ITU regions 1, 2, or 3 plans.
 
 
-## Band Plan Contains
+## The US Band Plan Contains
 The US plan contains, among many other things not listed:
 
 ### Broadcast
@@ -36,7 +36,7 @@ Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Upli
 SiriusXM Satellites  
 
 ### ISM
-50m (67MHz), 22m (13.7MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 4m (84MHz), 2m (168MHz), 70cm (433MHz), 33cm (900MHz), 13cm (2.5GHz)  
+50m (67MHz), 22m (13.7MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz Part 15 Common Use), 33cm (900MHz), 13cm (2.5GHz)  
 
 ### Time Signals
 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670)  
@@ -45,11 +45,14 @@ SiriusXM Satellites
 ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)  
 
 ### Marine
-Distress (2, 4, 6, 8, 12, 16, 156 (VHF) MHz) (Marine 4MHz and Marine VHF are expanded), WEFAX (Boston, New Orleans, Port Reyes)  
-
+2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), and Most Distress Frequencies
 ### Miscellaneous
-CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands, Railroad H.O.T and E.O.T. (Head and End of train 
-Devices)
+CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands, Railroad H.O.T and E.O.T. (Head and End of train Devices)
 
 ### More
 The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
+
+
+## Create Your Own Bandplan
+The purpose of the efforts here are to give SDR users the ability to identify signals and bands with greater ease than before. With a basic file provided it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
+It has a simple layout with nothing more than a basic structure that the writer can adhere to if they desire. Luckily XML is a simple language that can be easily learned by those even with no skill. 
