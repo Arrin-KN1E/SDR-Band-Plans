@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--     29 April 2020     Arrin, Callsign: KN1E     International (Basic) (Temporary)   V0.0   0Hz to 2.5GHz (All Allocations)|   Free to use for those who want to expand their knowledge of the radio spectrum.        -->
+<!--     28 April 2020     Arrin, Callsign: KN1E     International (Basic) (Temporary)   V0.0   0Hz to 2.5GHz (All Allocations)|   Free to use for those who want to expand their knowledge of the radio spectrum.        -->
 <!--                                                 There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations. -->
 <!--                                                                                                                                                                                                                      -->
 
@@ -497,29 +497,29 @@
 	
 	
 	
-<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
 <!-- 			                                                                                                                                                   -->
-<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)              -->
-<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),     -->
-<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 Note: Some TV channels are no longer used for TV anymore.                  -->
+<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)                      -->
+<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),             -->
+<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 Note: Some TV channels are no longer used for TV anymore.                          -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Ham: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm                   -->
+<!-- 	 Ham: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm                           -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),           -->
+<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),                   -->
 <!-- 			     GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT),               -->
 <!-- 			     GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only),  -->
 <!-- 			     ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D),          -->
 <!-- 			     AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites                                                                                   -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Time Signals: 20KHz Time Signal, WWVB, Standard Frequency and Time Signals (2.5, 5, 10, 15, 20, 25)                                                       -->
+<!-- 	 Time Signals: 20KHz Time Signal, WWVB, Standard Frequency and Time Signals (2.5, 5, 10, 15, 20, 25)                                                               -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Aeronautical: ADSB 978, ADSB 1090                                                                                           		                       -->
+<!-- 	 Aeronautical: ADSB 978, ADSB 1090                                                                                           		                           -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Marine: Distress (2, 4, 6, 8, 12, 16, 156 (VHF) MHz) (Marine 4MHz and Marine VHF are expanded)                                                            -->
+<!-- 	 Marine: Distress (2, 4, 6, 8, 12, 16, 156 (VHF) MHz) (Marine 4MHz and Marine VHF are expanded)                                                                    -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
-<!--   All other allocation names are the general use of the allocation.                                                                                           -->
-<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                  -->
+<!--   All other allocation names are the general use of the allocation.                                                                                                   -->
+<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                          -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->	
@@ -631,7 +631,7 @@
 <!--	Maritime - 55008080  (Dark Blue-Green)/ Alt. is - 5500C9C9 (Lighter Blue-Green)                                                                            -->
 <!--	Aeronautical/ Aviation - 505D88FF  (Light Blue)                                                                                                            -->
 <!--                                                                                                                                                               -->
-<!--    Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)			                                                                       -->
+<!--    Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)			                                                           -->
 <!--	Longwave - 505347FF  (Light Blue)                                                                                                                          -->
 <!--	Medium Wave - 505D63FF  (Light Blue)                                                                                                                       -->
 <!--	Shortwave - 505D63FF  (Light Blue)                                                                                                                         -->
@@ -685,7 +685,7 @@
 <!--	GOES - 5500FFFF  (Aqua)                                                                                                                                    -->
 <!--                                                                                                                                                               -->	
 <!--	FY-3n HRPT - 55FFBA2E  (Light Orange)                                                                                                                      -->
-<!--   METOP HRPT - 55F07070  (Light Red)                                                                                                                          -->
+<!--    METOP HRPT - 55F07070  (Light Red)                                                                                                                         -->
 <!--                                                                                                                                                               -->	
 <!--	GPS, GALILEO, GLONASS - (Keep Same)  (Yellow, Blue, Orange)                                                                                                -->
 <!--    Iridium - 33FF672F   (Orange)                                                                                                                              -->
@@ -795,14 +795,14 @@
 
 
 
-<!-- Comments about this band plan file:                                                                                                                              -->
-<!-- 			                                                                                                                                                      -->
-<!-- Hmmm, this looks like my International band-plan. Not great, not terrible...                                                                                     -->
-<!-- 			                                                                                                                                                      -->
-<!-- I know this is not going to be the best plan for international SDRsharp users, but I wanted to offer something as to not just leave them without.                -->
-<!-- This plan is a quickly edited version of the US plan so there are going to be mistakes and it's going to basically be a simpiler form of the US plan.      -->
-<!-- 			                                                                                                                                                      -->
-<!-- 			                                                                                                                                                      -->
+<!-- Comments about this band plan file:                                                                                                                   -->
+<!-- 			                                                                                                                                   -->
+<!-- Hmmm, this looks like my International band-plan. Not great, not terrible...                                                                          -->
+<!-- 			                                                                                                                                   -->
+<!-- I know this is not going to be the best plan for international SDRsharp users, but I wanted to offer something as to not just leave them without.     -->
+<!-- This plan is a quickly edited version of the US plan so there are going to be mistakes and it's going to basically be a simpiler form of the US plan. -->
+<!-- 			                                                                                                                                   -->
+<!-- 			                                                                                                                                   -->
 
 
 
