@@ -14,7 +14,7 @@ It's as easy as dropping it in the SDR# folder. Just make sure to have a backup 
 ## Backstory
 Hello everyone! A while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan for where I live (the US) that could then be used as a framework so people in other countries or regions could change the allocations to their needs. With enough country and regional bandplans we could possibly have a community of bandplans that users could choose from. So, this is my attempt at starting that project. I've made the US bandplan, and as to not leave non-US users without something I threw together a basic International bandplan. I didn't know where the best place to have all other community made plans stored at would be (Github? idk), so I'll let the community/mods decide on that. But, I should get to the plans.
 
-If you want to see videos of them and get motion sick at the same time [here is US plan in SDR#](https://youtu.be/Azj1fn24qsA), and [here is a scroll through the code](https://www.youtube.com/watch?v=T091WzRwMAQ).  I also have an [International plan in SDR#](https://youtu.be/u709OSG_Abg),and of course a [video of the code too](https://youtu.be/Rhgy7woPk50). The videos have no audio! They are for previewing purposes only! So, they're nothing special.
+If you want to see videos of them and get motion sick at the same time [here is the US plan in SDR#](https://youtu.be/Azj1fn24qsA), and [here is a scroll through the code](https://www.youtube.com/watch?v=T091WzRwMAQ).  I also have the [International plan in SDR#](https://youtu.be/u709OSG_Abg),and of course a [video of the code too](https://youtu.be/Rhgy7woPk50). The videos have no audio! They are for previewing purposes only! So, they're nothing special.
 
 I should start off by saying I'm not a programmer and I did this by myself. So, there are going to be mistakes and I don't know everything about every allocation so there might be a setting wrong here and there. So, I greatly apologize for any mistakes in any of the plans. Now, to get start getting into the technical details!
 
@@ -37,7 +37,7 @@ Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Upli
 SiriusXM Satellites  
 
 ### ISM
-50m (6.7MHz), 22m (13.7MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz Part 15 Common Use), 33cm (900MHz), 13cm (2.5GHz)  
+50m (6.7MHz), 22m (13.7MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Not ISM but Common Use Part 15), 33cm (900MHz), 13cm (2.5GHz)  
 
 ### Time Signals
 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670)  
