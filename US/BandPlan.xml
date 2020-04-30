@@ -960,12 +960,12 @@
 <!-- 			                                                                                                                                                   -->
 <!-- 	 Aeronautical: ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)		                           -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Marine: 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans,                           -->
-<!-- 		 Port Reyes), and Most Distress Frequencies 	                                                                                                                                                   -->
+<!-- 	 Marine: 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans,           -->
+<!-- 		 Port Reyes), and Most Distress Frequencies 	                                                                                                           -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
 <!-- 	Miscellaneous: CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands,         -->
-<!-- 		       Railroad H.O.T and E.O.T. (Head and End of train Devices)                                       -->
+<!-- 		       Railroad H.O.T and E.O.T. (Head and End of train Devices)                                                                                           -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
@@ -1136,7 +1136,7 @@
 <!--	GOES - 5500FFFF  (Aqua)                                                                                                                                    -->
 <!--                                                                                                                                                               -->	
 <!--	FY-3n HRPT - 55FFBA2E  (Light Orange)                                                                                                                      -->
-<!--    METOP HRPT - 55F07070  (Light Red)                                                                                                                          -->
+<!--    METOP HRPT - 55F07070  (Light Red)                                                                                                                         -->
 <!--                                                                                                                                                               -->	
 <!--	GPS, GALILEO, GLONASS - (Keep Same)  (Yellow, Blue, Orange)                                                                                                -->
 <!--    Iridium - 33FF672F   (Orange)                                                                                                                              -->
