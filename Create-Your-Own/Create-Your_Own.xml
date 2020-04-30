@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!--                     This is an unembellished file for you to make your own bandplan! Edit and use what settings/ colors/ format you want. You dont even have to use the top credits section, but please at least state region/ bandplan purpose for clarity and ease of use. Just remember to rename to Bandplan.xml if you want it to work without a user having to rename it!      -->
+
+
+<!--     (Date of initial Creation)     (Creator [if you want to be credited])     (For what region/ country/ use) (Version of region/...etc. e.g. basic, full, no color, etc. )  (Version number, not different enough to be on it's own but needs distinction [not necessary])   (Frequency Range)  (Add a remark if you want e.g. Free to use for those who want to expand their knowledge of the radio spectrum.)  -->
+<!--                                                                               (What do you have besides the allocations? e.g. There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.) -->
+<!--                                                                                                                                                                                                                         -->
+
+
+<ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	
+<!--100KHz-->	
+
+    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+
+<!--1MHz-->
+
+    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+
+<!--10MHz-->	
+
+    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+
+<!--100MHz-->	
+	
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	
+<!--1GHz-->
+	
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!-- 			                                                                                                                                                   -->
+<!-- 			                                                                                                                                                   -->	
+
+
+
+
+	
+<!-- References:                                                                                                                                                   -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!-- <RangeEntry minFrequency="" maxFrequency="" mode="WFM" step="10" color="">Repeater Outputs</RangeEntry>                                                       -->
+<!-- <RangeEntry minFrequency="" maxFrequency="" mode="WFM" step="100" color=""/>                                                                                  -->
+
+
+
+
+
+<!-- Band Plan Color Legend:                                                                                                                                       -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+
+
+
+
+
+<!-- This is a Basic explanation so you can to learn how to edit this file to your liking.                                                  -->
+<!--                                                                                                                                        -->
+<!--                                                                                                                                        -->
+<!--                                                                                                                                        -->
+<!-- An Example line to refer to (for 500KHz):                                                                                              -->
+<!-- <RangeEntry minFrequency="499940" maxFrequency="500060" mode="WFM" step="10" color="77FFAA00"> >Name of Banner</RangeEntry>            -->
+<!--                                                                                                                                        -->
+<!-- First, the line of code will draw a banner from one frequency to another (i.e from "minFrequency" to "maxFrequency") In this example,  -->
+<!-- the frequency of interest is 500000Hz or 500KHz with a bandwidth of 120Hz, 60Hz on each side band. When entering a frequency it has to -->
+<!-- be entered in Hz. "Mode" refers to what mode SDR# will automatically switch to when in that range (i.e WFM, NFM, AM, USB, LSB, CW).    -->
+<!-- "step" is how far the cursor will jump up or down in frequency when scrolling within that range.                                       -->
+<!--                                                                                                                                        -->
+<!-- "color" is the transparency and color of the banner, or YRGB (Y = transparency). The values are in the standard hexadecimal format of  -->
+<!-- two Hex (nibble) values together to form a byte. So, Y(transparency) and 24-bit(RGB) color. If Y = 00 the banner will be fully         -->
+<!-- transparent, if Y = 80 (half) it will be transparent and if another banner is there the colors will mix. However, the colors wont      -->
+<!-- be quite the same as you would see from something like a color picker because it will mix with the black, blue, yellow of the          -->
+<!-- background colors too.  If Y = FF it is solid banner.                                                                                  -->
+<!--                                                                                                                                        -->
+<!--                                                                                                                                        -->
+<!-- A More Practical Example:                                                                                                              -->
+<!-- <RangeEntry minFrequency="145200000" maxFrequency="145500000" mode="WFM" step="12500" color="508000FF">Repeater Outputs</RangeEntry>   -->
+<!--                                                                                                                                        -->
+<!-- "minFrequency" is 145.2MHz and "maxFrequency" is 145.5MHz, so there will be a banner drawn from 145.2MHz and 145.5MHz. SDR# will be in -->
+<!-- WFM mode. The cursor will step 12.5KHz, the width of a most Ham radio transmissions in that band. In color transparacy is "50" or      -->
+<!-- about 1/3, R = 80 (50%), G = 00 (0%), B = FF(100%). So, the color will be purple mixed with the background or other banners. It takes  -->
+<!-- some getting used to when dealing with the colors. Finally, between a '>' and a '<' is the lettering/ title of the banner. The opening -->
+<!-- and closing "RangeEntry" can be ignored.                                                                                               -->
+<!--                                                                                                                                        -->
+<!--                                                                                                                                        -->
+<!-- For Just a Color Banner or to Change "mode" or "step" settings:                                                                        -->
+<!-- <RangeEntry minFrequency="145200000" maxFrequency="145500000" mode="WFM" step="12500" color="508000FF"/>                               -->
+<!--                                                                                                                                        -->
+<!-- This is the same thing as the previous example just without a banner title. The only important difference is that after color section  -->
+<!-- it must end with a "/>" unlike an ending that has a title, which ends with ">Title</RangeEntry>".                                      -->
+<!-- If a color banner is added (banner without text) it can show there is a change winthin the band without cluttering the screen with a   -->
+<!-- lot of words. If just changing a mode or step setting is what is desired then setting a banner to 100% transparent will work by not    -->
+<!-- showing up but still changing settings (i.e. color="00xxxxxx"). If it's fully transparent it does not matter what color it is.         --> 
+<!--                                                                                                                                        -->
+<!-- HTML Color Picker: https://www.rapidtables.com/web/color/html-color-codes.html                                                         -->
+<!--                                                                                                                                        -->
+<!--                                                                                                                                        -->
+
+
+
+
+
+
+<!-- Comments about this band plan file:                                                                                                                              -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
+
+
+
+</ArrayOfRangeEntry>
