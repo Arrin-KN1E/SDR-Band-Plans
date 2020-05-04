@@ -1,6 +1,6 @@
 # Band plans for SDRsharp
 
-Expanded band plan files for SDR#.
+These are expanded band plan files for SDR#. They are an update on the default bandplans, which are meant to be an aid for signal identification.
 
 ## Download Links
 
