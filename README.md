@@ -7,7 +7,8 @@ These are expanded band plan files for SDR#. They are an update on the default b
 [US BandPlan XML](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)  
 [International BandPlan XML](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/International/BandPlan.xml)  
 [Create Your Own Bandplan XML](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml)  
-[IEEE Database of Frequency Allocations for all ITU Countries (A Bandplan Alt. for Non-US End Users)](http://www.grss-ieee.org/frequency_allocations.html)
+[IEEE Database of Frequency Allocations for all ITU Countries (A Bandplan Alt. for Non-US End Users)](http://www.grss-ieee.org/frequency_allocations.html)  
+[European Table of Frequency Allocations](https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf)
 
 ## Installing
 It's as easy as dropping it in the SDR# folder. Just make sure to have a backup of the old default bandplan in case something doesn't work! For anyone that needs to see it, [here](https://youtu.be/0OqyOx87hJk) is a super simple video on how to install the XML file.
@@ -56,7 +57,37 @@ The files also contain a list of contents, reference, color legend, explanation 
 
 
 ## International Bandplan
-The International Bandplan is currently going through heavy checks and revisions, so if you want to use it go ahead, It is okay for use, just check back in a few for any updates. I will go into detail about it when it is more or less finished.
+Quick Author's Note: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice. I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. Anyway...
+
+The International plan contains, among many other things not listed:
+
+### Broadcast
+AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television (Generalized)
+
+### Ham
+With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m  
+Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm   
+
+### Satellites
+NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, 
+Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), 
+Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), 
+SiriusXM Satellites  
+
+### ISM
+22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)   
+
+### Time Signals
+20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz 
+
+### Aeronautical
+ADSB 978, ADSB 1090
+
+### Marine
+2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), and Most Distress Frequencies
+
+### More
+The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
 
 ## Create Your Own Bandplan
 The purpose of the efforts here are to give SDR users the ability to identify signals and bands with greater ease than before. With a basic file provided it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
