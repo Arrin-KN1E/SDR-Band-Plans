@@ -8,48 +8,50 @@
 
 
 	<RangeEntry minFrequency="0" maxFrequency="8300" mode="CW" step="10" color="40FFFFFF">Submarine Communications/ Unallocated</RangeEntry> <!-- Technically Unallocated -->
-	<RangeEntry minFrequency="8300" maxFrequency="11300" mode="USB" step="10" color="50738FFF">Meteorological Aids/ Radionavigation</RangeEntry> 
-	<RangeEntry minFrequency="11300" maxFrequency="14000" mode="USB" step="10" color="5500FF7F">Radionavigation</RangeEntry> 
-	<RangeEntry minFrequency="14000" maxFrequency="19950" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry> 
+	<RangeEntry minFrequency="8300" maxFrequency="11300" mode="USB" step="10" color="5500C9C9">Lightning Detection Systems</RangeEntry> 
+	<RangeEntry minFrequency="11300" maxFrequency="14000" mode="USB" step="10" color="5500C9C9">Radionavigation/ Lightning Detection Systems</RangeEntry> 
+	<RangeEntry minFrequency="14000" maxFrequency="19950" mode="USB" step="10" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry> 
 	<RangeEntry minFrequency="19950" maxFrequency="20050" mode="USB" step="10" color="44FF00FF">20KHz Time Signal</RangeEntry> <!-- 20KHz Time Signal-->
-	<RangeEntry minFrequency="20050" maxFrequency="59500" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>
+	<RangeEntry minFrequency="20050" maxFrequency="59500" mode="USB" step="10" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
 	<RangeEntry minFrequency="59500" maxFrequency="60500" mode="AM" step="10" color="44FF00FF">WWVB NIST</RangeEntry>  <!-- 60KHz Time Signal-->	
-	<RangeEntry minFrequency="60500" maxFrequency="135700" mode="USB" step="100" color="55008080">Maritime Mobile/ Maritime Radionavigation</RangeEntry>
+	<RangeEntry minFrequency="60500" maxFrequency="135700" mode="USB" step="100" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
 <!--100KHz-->	
 	<RangeEntry minFrequency="135700" maxFrequency="136000" mode="USB" step="10" color="50FF0000">2200m Ham Band|  Tests, Transatlantic Window </RangeEntry> <!-- Station Tests and transatlantic reception window	-->
 	<RangeEntry minFrequency="136000" maxFrequency="137400" mode="USB" step="10" color="50E9E9E9">2200m Telegraphy</RangeEntry> <!-- Telegraphy	-->
 	<RangeEntry minFrequency="137400" maxFrequency="137600" mode="USB" step="10" color="500000FF">Digital</RangeEntry> <!-- Non-Telegraphy digital modes	-->
 	<RangeEntry minFrequency="137600" maxFrequency="137800" mode="USB" step="10" color="50E9E9E9">Slow Telegraphy   |2200m Ham Band</RangeEntry> <!-- Very slow telegraphy centred on 137.7 kHz	-->
 	
-	<RangeEntry minFrequency="137800" maxFrequency="148500" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry>
+	<RangeEntry minFrequency="137800" maxFrequency="148500" mode="USB" step="100" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
 	<RangeEntry minFrequency="148500" maxFrequency="160000" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>  
 	<RangeEntry minFrequency="160000" maxFrequency="190000" mode="CW" step="100" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>  <!-- See also: MedFER, 1750m is inside Longwave allocation -->
 	<RangeEntry minFrequency="190000" maxFrequency="283500" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>  
-	<RangeEntry minFrequency="283500" maxFrequency="472000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation</RangeEntry> 
+	<RangeEntry minFrequency="283500" maxFrequency="472000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ Medical</RangeEntry> 
 	
 	<RangeEntry minFrequency="472000" maxFrequency="479000" mode="CW" step="100" color="50FF0000">630m Ham Band</RangeEntry>
 	
-	<RangeEntry minFrequency="479000" maxFrequency="525000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation</RangeEntry> 
+	<RangeEntry minFrequency="479000" maxFrequency="525000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ RFID</RangeEntry> 
 	<RangeEntry minFrequency="525000" maxFrequency="535000" mode="AM" step="100" color="505D63FF">Medium Wave (212m)</RangeEntry> <!-- Medium Wave is part of AM Radio to 1606.5MHz-->
 	<RangeEntry minFrequency="535000" maxFrequency="1705000" mode="AM" step="100" color="33FF0000">AM Radio</RangeEntry>  
 <!--1MHz-->
-	<RangeEntry minFrequency="1705000" maxFrequency="1800000" mode="USB" step="100" color="55008080">Maritime Mobile/ Land Mobile</RangeEntry> 
+	<RangeEntry minFrequency="1705000" maxFrequency="1800000" mode="USB" step="100" color="55008080">Maritime Mobile/ Land Mobile/ Radiolocation</RangeEntry> 
 	
 	<RangeEntry minFrequency="1800000" maxFrequency="1810000" mode="LSB" step="100" color="508000FF">160m Ham	Band|  Digital</RangeEntry>  <!-- 1.800 - 2.000MHz	CW -->
 	<RangeEntry minFrequency="1810000" maxFrequency="1843000" mode="CW" step="100" color="50FF0000">160m</RangeEntry>  <!-- 1.810MHz	CW QRP -->
 	<RangeEntry minFrequency="1843000" maxFrequency="1995000" mode="LSB" step="100" color="50FF0000">160m, SSB, SSTV</RangeEntry>  <!-- Added 160m for visability purposes, 1.910MHz SSB QRP, 1.843-2.000MHz	SSB, SSTV and other wideband modes -->
 	<RangeEntry minFrequency="1995000" maxFrequency="2000000" mode="CW" step="100" color="503CCCFF">Experimental, Beacons  |160m Ham Band</RangeEntry>  <!-- 	Experimental, Beacons -->
 	
-	<RangeEntry minFrequency="2000000" maxFrequency="2173500" mode="USB" step="100" color="55008080">Maritime Mobile </RangeEntry>  <!-- Add Marine Simplex Channels in the future -->
+	<RangeEntry minFrequency="2000000" maxFrequency="2025000" mode="USB" step="100" color="55008080">Maritime Mobile/ Radiolocation</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->	
+	<RangeEntry minFrequency="2025000" maxFrequency="2045000" mode="USB" step="100" color="5500C9C9">Oceanographic Buoys</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->
+	<RangeEntry minFrequency="2045000" maxFrequency="2173500" mode="USB" step="100" color="55008080">Maritime Mobile/ Radiolocation</RangeEntry>
 	<RangeEntry minFrequency="2173500" maxFrequency="2190500" mode="USB" step="100" color="50FF0091">Distress and Calling for Maritime and Aeronautical </RangeEntry>
-	<RangeEntry minFrequency="2190500" maxFrequency="2300000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry>
+	<RangeEntry minFrequency="2190500" maxFrequency="2300000" mode="USB" step="100" color="55008080">Maritime Mobile/ Radiolocation</RangeEntry>
 	<RangeEntry minFrequency="2300000" maxFrequency="2495000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 120m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="2495000" maxFrequency="2505000" mode="AM" step="100" color="44FF00FF">WWV NIST</RangeEntry>
 	<RangeEntry minFrequency="2505000" maxFrequency="2850000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
         <RangeEntry minFrequency="2850000" maxFrequency="3155000" mode="AM" step="100" color="40AFFFEE">Transoceanic Flights (Aeronautical Mobile)</RangeEntry>
 	<RangeEntry minFrequency="3155000" maxFrequency="3200000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
 	<RangeEntry minFrequency="3200000" maxFrequency="3329000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>  
-        <RangeEntry minFrequency="3329000" maxFrequency="3331000" mode="AM" step="100" color="44FF00FF">CHU Canada</RangeEntry>  <!-- CHU 3.330MHz-->
+	<RangeEntry minFrequency="3329000" maxFrequency="3331000" mode="AM" step="100" color="44FF00FF">CHU Canada</RangeEntry>  <!-- CHU 3.330MHz-->
 	<RangeEntry minFrequency="3331000" maxFrequency="3400000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="3400000" maxFrequency="3500000" mode="LSB" step="100" color="40AFFFEE">Aeronautical</RangeEntry> 
 	
@@ -231,7 +233,7 @@
 	
 	<RangeEntry minFrequency="18068000" maxFrequency="18100000" mode="USB" step="10" color="50FF0000">17m Ham Band|</RangeEntry>
 	<RangeEntry minFrequency="18100000" maxFrequency="18105000" mode="USB" step="10" color="500000FF">RTTY</RangeEntry>
-        <RangeEntry minFrequency="18105000" maxFrequency="18110000" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry>  
+    <RangeEntry minFrequency="18105000" maxFrequency="18110000" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry>  
 	<RangeEntry minFrequency="18110000" maxFrequency="18168000" mode="USB" step="10" color="50FF0000">|17m Ham Band</RangeEntry> 
 	<RangeEntry minFrequency="18168000" maxFrequency="18900000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime/ Fixed Service</RangeEntry>  <!-- Add Marine 18MHz Channels in the future -->
 	<RangeEntry minFrequency="18900000" maxFrequency="19020000" mode="AM" step="100" color="505D63FF">Shortwave (15m) Broadcast</RangeEntry>
@@ -868,7 +870,7 @@
 	<RangeEntry minFrequency="1699750000" maxFrequency="1700250000" mode="WFM" step="100" color="555CBABA">METEOR M2 Center</RangeEntry>  <!-- METEOR M2: 1700MHz (AHRPT) -->
 	<RangeEntry minFrequency="1700250000" maxFrequency="1701050000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1701050000" maxFrequency="1701550000" mode="WFM" step="100" color="55F07070">Metop-A, Metop-B, FY-3C Center</RangeEntry>  <!-- Metop-A, Metop-B (AHRPT), FY-3C: 1701.3MHz (CHRPT)-->
-        <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+    <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1702250000" maxFrequency="1702750000" mode="WFM" step="100" color="557AFFFF">NOAA-15 Center</RangeEntry>  <!-- NOAA-15: 1702.5MHz (HRPT) -->
 	<RangeEntry minFrequency="1702750000" maxFrequency="1704250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1704250000" maxFrequency="1704750000" mode="WFM" step="100" color="55FFBA2E">FY-3A, FY-3B Center</RangeEntry>  <!-- FY-3A, FY-3B: 1704.5MHz (CHRPT) -->
@@ -939,38 +941,38 @@
 	
 	
 	
-<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
 <!-- 			                                                                                                                                                   -->
-<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)                      -->
-<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),             -->
-<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 Note: Some TV channels are no longer used for TV anymore.                          -->
+<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)              -->
+<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),     -->
+<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 Note: Some TV channels are no longer used for TV anymore.                  -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Ham: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm   (w/ ARRL BPs)           -->
+<!-- 	 Ham: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm   (w/ ARRL BPs)   -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),                   -->
+<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),           -->
 <!-- 			     GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT),               -->
 <!-- 			     GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only),  -->
 <!-- 			     ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D),          -->
 <!-- 			     AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites                                                                                   -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 ISM: 50m (6.7MHz), 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Not ISM but Common Use Part 15), 33cm (902MHz), 13cm (2.5GHz)             -->
+<!-- 	 ISM: 50m (6.7MHz), 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Not ISM but Common Use Part 15), 33cm (902MHz), 13cm (2.5GHz)     -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Time Signals: 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670)                                                                     -->
+<!-- 	 Time Signals: 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670)                                                             -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Aeronautical: ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)		                           -->
+<!-- 	 Aeronautical: ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)		                       -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Marine: 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans,           -->
-<!-- 		 Port Reyes), and Most Distress Frequencies 	                                                                                                           -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	Miscellaneous: CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands,         -->
-<!-- 		       Railroad H.O.T and E.O.T. (Head and End of train Devices)                                                                                           -->
+<!-- 	 Marine: 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans,   -->
+<!-- 		 Port Reyes), and Most Distress Frequencies 	                                                                                                       -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
+<!-- 	Miscellaneous: CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands, -->
+<!-- 		       Railroad H.O.T and E.O.T. (Head and End of train Devices)                                                                                       -->
 <!-- 			                                                                                                                                                   -->
-<!--   All other allocation names are the general use of the allocation.                                                                                                   -->
-<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                          -->
+<!-- 			                                                                                                                                                   -->
+<!-- 			                                                                                                                                                   -->
+<!--   All other allocation names are the general use of the allocation.                                                                                           -->
+<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                  -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->	
@@ -979,9 +981,11 @@
 
 
 	
-<!-- References:                                                                                                                                                   -->
-<!-- FCC Table of All Frequency Allocations (ITU 1, 2, 3 w/ US Fed & Non-Fed): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf                          -->
-<!-- Some Frequencies lookups: https://fccid.io/frequency-explorer.php?lower=100&upper=1000                                                                        -->
+<!-- References:                                                                                                                                                   -->  
+<!-- FCC Table of All Frequency Allocations (ITU 1, 2, 3 w/ US Fed & Non-Fed): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf                          -->  
+<!-- European Table of Frequency Allocations: https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf                                                         -->  
+<!-- IEEE Database of Frequency Allocations for all ITU Countries: http://www.grss-ieee.org/frequency_allocations.html                                             -->  
+<!-- Some Frequencies lookups: https://fccid.io/frequency-explorer.php?lower=100&upper=1000                                                                        -->  
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
@@ -994,8 +998,10 @@
 <!-- Detailed Ham band plan to 440MHz: https://kv5r.com/ham-radio/amateur-radio-frequency-allocations-and-band-plans/                                              -->
 <!-- LowFER, MedFER, HiFER: https://en.wikipedia.org/wiki/LowFER                                                                                                   -->
 <!-- 2200 Meter Band Plan: https://en.wikipedia.org/wiki/2200-meter_band                                                                                           -->
-<!-- ISS Frequencies: https://www.ariss.org/contact-the-iss.html                                                                                                   -->
+<!-- ISS Frequencies: https://www.ariss.org/contact-the-iss.html                                                                                                   -->  
 <!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->  
 <!--                                                +++++ Satellites +++++                                                                                         -->
 <!--                                                                                                                                                               -->
 <!-- GOES-16: https://www.wmo-sat.info/oscar/satellites/view/152                                                                                                   -->
@@ -1060,6 +1066,9 @@
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
+<!--                                                                                                                                                               -->
 <!-- <RangeEntry minFrequency="" maxFrequency="" mode="WFM" step="10" color="">Repeater Outputs</RangeEntry>                                                       -->
 <!-- <RangeEntry minFrequency="" maxFrequency="" mode="WFM" step="100" color=""/>                                                                                  -->
 
@@ -1081,7 +1090,7 @@
 <!--	Maritime - 55008080  (Dark Blue-Green)/ Alt. is - 5500C9C9 (Lighter Blue-Green)                                                                            -->
 <!--	Aeronautical/ Aviation - 505D88FF  (Light Blue)                                                                                                            -->
 <!--                                                                                                                                                               -->
-<!--    Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)			                                                           -->
+<!--    Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)			                                                                       -->
 <!--	Longwave - 505347FF  (Light Blue)                                                                                                                          -->
 <!--	Medium Wave - 505D63FF  (Light Blue)                                                                                                                       -->
 <!--	Shortwave - 505D63FF  (Light Blue)                                                                                                                         -->
@@ -1119,9 +1128,11 @@
 <!--	Fixed Services - 40FF0077  (Pinkish Red)                                                                                                                   -->
 <!--	Cable Antenna Relay Service/ the Local Television Transmission Service - 50FFBC00  (Orange)                                                                -->
 <!--	Broadband Radio Service (BRS) - 50FFBC00  (Orange)                                                                                                         -->
-<!--                                                                                                                                                               -->	
-<!--                                                                                                                                                               -->	
-<!--  Satellites:                                                                                                                                                  -->
+<!--    Lightning Detection Systems - 5500C9C9 (Lighter Blue-Green)                                                                                                -->	
+<!--    Medical/ RFID/ Military Systems - 507676FF  (Whiteish Blue)                                                                                                -->	
+<!--                                                                                                                                                               -->  
+<!--                                                                                                                                                               -->  
+<!--  Satellites:                                                                                                                                                  -->  
 <!--                                                                                                                                                               -->	
 <!--	NOAA - 5500FFFF  (Keep Same)  (Aqua)                                                                                                                       -->
 <!--	NOAA HRPT - 557AFFFF  (Whitish Auqa)                                                                                                                       -->
@@ -1247,23 +1258,23 @@
 
 
 <!-- Comments about this band plan file:                                                                                                                              -->
-<!-- 			                                                                                                                                              -->
+<!-- 			                                                                                                                                                      -->
 <!-- 	This file is not meant to be a perfect representation of the radio spectrum. There are many compromises I made based on my own interests. Take as an example, -->
 <!-- 'aviation and satellites' in the same allocation. There would need to be a decision, either to put this allocation in 'aviation' or 'satellites' category.       -->
 <!-- To me personally, I put it in 'satellites' as to me they are more noteworthy than the aviation aspect. Most of these types of sorting decisions are done at the  -->
 <!-- time of allocation, so I did what felt right at the time. There also isn't a comprehensive list of the spectrum avaliable at the detail needed for this file,    -->
 <!-- which results in inadequate names. Also, the radio spectrum is so crowded in some areas it is next to impossible to not group areas together, but still maintain -->
 <!-- balance between ease of reading and useful information.                                                                                                          -->
-<!-- 			                                                                                                                                              -->
+<!-- 			                                                                                                                                                      -->
 <!-- 	ELF to LF are still a mess because those frequencies are somewhat logarithmic, so the GUI cannot properly represent those allocations. This results in the    -->
 <!-- largest compromise; combining Marine and Aeronautical services together in the ELF to LF range. I would have liked not to, but it was even more unreadable when  -->
 <!-- I tried having them seperated. For most other combined allocations, I assume if you're looking in there you know what you're looking for. The only areas with    -->
 <!-- high levels of detail and not just a blanket allocation are areas that I find interesting. Such as the 137MHz satellite area.                                    -->
-<!-- 			                                                                                                                                              -->
-<!-- 			                                                                                                                                              -->
-<!-- 			                                                                                                                                              -->
-<!-- 			                                                                                                                                              -->
-<!-- 			                                                                                                                                              -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                      -->
 
 
 
