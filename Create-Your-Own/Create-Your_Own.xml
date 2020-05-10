@@ -11,25 +11,37 @@
 
 	
     <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	
 <!--100KHz-->	
 
     <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
 <!--1MHz-->
 
     <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
 <!--10MHz-->	
 
     <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
 <!--100MHz-->	
 	
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	
 <!--1GHz-->
 	
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
 	
