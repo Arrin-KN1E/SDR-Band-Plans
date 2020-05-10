@@ -540,9 +540,10 @@
 <!-- 			                                                                                                                                                   -->
 <!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)                      -->
 <!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),             -->
-<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 Note: Some TV channels are no longer used for TV anymore.                          -->
+<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television (Generalized)                                                                                       -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Ham: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm                           -->
+<!-- 	 Ham: With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m                                                               -->
+<!--          Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm                                                                                              -->
 <!-- 			                                                                                                                                                   -->
 <!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),                   -->
 <!-- 			     GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT),               -->
@@ -553,7 +554,7 @@
 <!-- 	 ISM: 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)                        -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
-<!-- 	 Time Signals: 20KHz Time Signal, WWVB, Standard Frequency and Time Signals (2.5, 5, 10, 15, 20, 25)                                                               -->
+<!-- 	 Time Signals: 20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz                                                                                      -->
 <!-- 			                                                                                                                                                   -->
 <!-- 	 Aeronautical: ADSB 978, ADSB 1090                                                                                           		                           -->
 <!-- 			                                                                                                                                                   -->
@@ -565,7 +566,6 @@
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->
 <!-- 			                                                                                                                                                   -->	
-
 
 
 
