@@ -235,7 +235,7 @@
 	<RangeEntry minFrequency="53900000" maxFrequency="54000000" mode="WFM" step="1000" color="00000000">(Buffer)</RangeEntry>  <!-- Buffer between Ham Band (6m) and TV Ch. 2 -->
 	<RangeEntry minFrequency="54000000" maxFrequency="72000000" mode="WFM" step="1000" color="50FFE55C">Television VHF</RangeEntry>
 
-	<RangeEntry minFrequency="73000000" maxFrequency="74600000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>>
+	<RangeEntry minFrequency="73000000" maxFrequency="74600000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
 	<RangeEntry minFrequency="76000000" maxFrequency="108000000" mode="WFM" step="100" color="4000FF9A">FM Broadcast</RangeEntry>
 <!--100MHz-->	
 	<RangeEntry minFrequency="108000000" maxFrequency="137000000" mode="AM" step="100" color="505D88FF">Air Band</RangeEntry> 
