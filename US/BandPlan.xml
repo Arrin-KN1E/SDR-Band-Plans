@@ -719,20 +719,20 @@
 	<RangeEntry minFrequency="596000000" maxFrequency="602000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.35</RangeEntry>
 	<RangeEntry minFrequency="602000000" maxFrequency="608000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.36</RangeEntry>
 	<RangeEntry minFrequency="608000000" maxFrequency="614000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy (Ch.37)</RangeEntry>  <!-- Radio Astronomy of the Sun -->
-	<RangeEntry minFrequency="614000000" maxFrequency="620000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.38</RangeEntry>
-	<RangeEntry minFrequency="620000000" maxFrequency="626000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.39</RangeEntry>
-	<RangeEntry minFrequency="626000000" maxFrequency="632000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.40</RangeEntry>
-	<RangeEntry minFrequency="632000000" maxFrequency="638000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.41</RangeEntry>
-	<RangeEntry minFrequency="638000000" maxFrequency="644000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.42</RangeEntry>
-	<RangeEntry minFrequency="644000000" maxFrequency="650000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.43</RangeEntry>
-	<RangeEntry minFrequency="650000000" maxFrequency="656000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.44</RangeEntry>
+	<RangeEntry minFrequency="614000000" maxFrequency="620000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.38 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="620000000" maxFrequency="626000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.39 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="626000000" maxFrequency="632000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.40 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="632000000" maxFrequency="638000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.41 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="638000000" maxFrequency="644000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.42 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="644000000" maxFrequency="650000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.43 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="650000000" maxFrequency="656000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.44 and Cellular Services</RangeEntry>
 	<RangeEntry minFrequency="656000000" maxFrequency="662000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.45</RangeEntry>
-	<RangeEntry minFrequency="662000000" maxFrequency="668000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.46</RangeEntry>
-	<RangeEntry minFrequency="668000000" maxFrequency="674000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.47</RangeEntry>
-	<RangeEntry minFrequency="674000000" maxFrequency="680000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.48</RangeEntry>
-	<RangeEntry minFrequency="680000000" maxFrequency="686000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.49</RangeEntry>
-	<RangeEntry minFrequency="686000000" maxFrequency="692000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.50</RangeEntry>
-	<RangeEntry minFrequency="692000000" maxFrequency="698000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.51</RangeEntry>
+	<RangeEntry minFrequency="662000000" maxFrequency="668000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.46 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="668000000" maxFrequency="674000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.47 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="674000000" maxFrequency="680000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.48 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="680000000" maxFrequency="686000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.49 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="686000000" maxFrequency="692000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.50 and Cellular Services</RangeEntry>
+	<RangeEntry minFrequency="692000000" maxFrequency="698000000" mode="WFM" step="1000" color="50FFE146">Shared Ch.51 and Cellular Services</RangeEntry>
 	<RangeEntry minFrequency="698000000" maxFrequency="704000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.52</RangeEntry>
 	<RangeEntry minFrequency="704000000" maxFrequency="710000000" mode="WFM" step="1000" color="50FFE55C">Television Ch.53</RangeEntry> 
 	<RangeEntry minFrequency="710000000" maxFrequency="716000000" mode="WFM" step="1000" color="50FFE600">Cellular Services</RangeEntry>
@@ -1055,7 +1055,7 @@
 <!-- International Distress Frequencies: https://en.wikipedia.org/wiki/International_distress_frequency                                                            -->
 <!-- VHF and UHF RailRoad Frequencies: https://wiki.radioreference.com/index.php/Railroad                                                                          -->
 <!-- HF Marine Info: https://www.hfunderground.com/wiki/index.php/HF_marine                                                                                        -->
-<!--                                                                                                                                                               -->
+<!-- 5G Frequencies Table: https://en.wikipedia.org/wiki/5G_NR_frequency_bands                                                                                     -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
