@@ -427,8 +427,8 @@
 	<RangeEntry minFrequency="145905000" maxFrequency="145950000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
 	<RangeEntry minFrequency="145950000" maxFrequency="145970000" mode="WFM" step="100" color="5500E6FF">AO-91 Downlink</RangeEntry>
 	<RangeEntry minFrequency="145970000" maxFrequency="145980000" mode="WFM" step="100" color="5500E6FF">AO-85 Downlink</RangeEntry>
-	<RangeEntry minFrequency="145980000" maxFrequency="145990000" mode="WFM" step="100" color="5033FF00">AO-85 Downlink and ISS Repeater Uplink</RangeEntry>
-	<RangeEntry minFrequency="145990000" maxFrequency="146000000" mode="WFM" step="100" color="55C4FF00">ISS U/V Repeater Uplink</RangeEntry>
+	<RangeEntry minFrequency="145980000" maxFrequency="145990000" mode="WFM" step="100" color="5033FF00">AO-85 Downlink and ISS V/U Voice Repeater Uplink</RangeEntry>
+	<RangeEntry minFrequency="145990000" maxFrequency="146000000" mode="WFM" step="100" color="55C4FF00">ISS V/U Voice Repeater Uplink</RangeEntry>
 	<RangeEntry minFrequency="146000000" maxFrequency="146370000" mode="WFM" step="100" color="50FFFF00">Repeater Inputs</RangeEntry>  
 	<RangeEntry minFrequency="146370000" maxFrequency="146400000" mode="WFM" step="100" color="40FF0000"/>  <!-- Placeholder -->
 	<RangeEntry minFrequency="146400000" maxFrequency="146515000" mode="WFM" step="100" color="5000FFBF">Simplex</RangeEntry>  
@@ -629,7 +629,7 @@
 	<RangeEntry minFrequency="437510000" maxFrequency="437540000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
 	<RangeEntry minFrequency="437540000" maxFrequency="437560000" mode="WFM" step="100" color="5033FF00">ISS UHF Packet U/D</RangeEntry>
 	<RangeEntry minFrequency="437560000" maxFrequency="437790000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
-	<RangeEntry minFrequency="437790000" maxFrequency="437810000" mode="WFM" step="100" color="5500E6FF">ISS U/V Repeater Downlink</RangeEntry>
+	<RangeEntry minFrequency="437790000" maxFrequency="437810000" mode="WFM" step="100" color="5500E6FF">ISS V/U Voice Repeater Downlink</RangeEntry>
 	<RangeEntry minFrequency="437810000" maxFrequency="438000000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
 	<RangeEntry minFrequency="438000000" maxFrequency="442000000" mode="WFM" step="100" color="50FFFF00">ATV Repeater Inputs</RangeEntry>  
 	<RangeEntry minFrequency="442000000" maxFrequency="444000000" mode="WFM" step="100" color="50FFFF00">ATV Repeater Input and FM Repeater I/O</RangeEntry>  
