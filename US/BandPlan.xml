@@ -817,7 +817,7 @@
 	<RangeEntry minFrequency="1390000000" maxFrequency="1395000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy (1390 - 1395 MHz Band)</RangeEntry>
 	<RangeEntry minFrequency="1395000000" maxFrequency="1400000000" mode="WFM" step="1000" color="507676FF">Wireless Medical Telemetry Service (WMTS)</RangeEntry>
 	<RangeEntry minFrequency="1400000000" maxFrequency="1420404750" mode="WFM" step="100" color="5091A4EE">Earth Exploration-Satellite/ Radio Astronomy</RangeEntry>
-	<RangeEntry minFrequency="1420404750" maxFrequency="1420406750" mode="WFM" step="10" color="40FFFF00">Hygrogen Line</RangeEntry>  <!-- Hygrogen Line 1420.40575 MHz-->
+	<RangeEntry minFrequency="1420404750" maxFrequency="1420406750" mode="WFM" step="10" color="40FFFF00">Hydrogen Line</RangeEntry>  <!-- Hydrogen Line 1420.40575 MHz-->
 	<RangeEntry minFrequency="1420406750" maxFrequency="1427000000" mode="WFM" step="100" color="5091A4EE">Earth Exploration-Satellite/ Radio Astronomy</RangeEntry>	
 	<RangeEntry minFrequency="1427000000" maxFrequency="1432000000" mode="WFM" step="1000" color="5089FF00">Industrial Telemetry or Telecommand</RangeEntry>
 	<RangeEntry minFrequency="1432000000" maxFrequency="1435000000" mode="WFM" step="1000" color="5090EE90">Military 1432 - 1435 MHz Band </RangeEntry>
@@ -862,7 +862,7 @@
 	<RangeEntry minFrequency="1694700000" maxFrequency="1696500000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry> 
 	
 	<!-- NOAA-19: 1698MHz| METEOR M2: 1700| Metop-A, Metop-B, FY-3C: 1701.3| NOAA-15: 1702.5| FY-3A, FY-3B: 1704.5| METEOR M2-2: 1705| NOAA-18, Metop-C: 1707MHz  (All are set to 3MHz bandwidth)-->
-	<!-- Blocks are center frequency area for satellite(s) with that frequency; outside of that are considered shared.-->	
+	<!-- Blocks are center frequency area for satellite(s) with that frequency; outside of that are considered shared. Block size was determined by FY-3A/FY-3B and METEOR M2-2 center frequency seperation. -->	
 	<RangeEntry minFrequency="1696500000" maxFrequency="1697750000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
 	<RangeEntry minFrequency="1697750000" maxFrequency="1698250000" mode="WFM" step="100" color="557AFFFF">NOAA-19 Center</RangeEntry>  <!-- NOAA-19: 1698MHz (HRPT) -->
 	<RangeEntry minFrequency="1698250000" maxFrequency="1699750000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
@@ -998,7 +998,7 @@
 <!-- LowFER, MedFER, HiFER: https://en.wikipedia.org/wiki/LowFER                                                                                                   -->
 <!-- 2200 Meter Band Plan: https://en.wikipedia.org/wiki/2200-meter_band                                                                                           -->
 <!-- ISS Frequencies: https://www.ariss.org/contact-the-iss.html                                                                                                   -->  
-<!--                                                                                                                                                               -->
+<!-- Explanation of Satellite mode designators (e.g. V/U): https://www.pe0sat.vgnet.nl/satellite/sat-information/modes/                                            -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->  
 <!--                                                +++++ Satellites +++++                                                                                         -->
@@ -1078,7 +1078,7 @@
 <!-- Band Plan Color Legend:                                                                                                                                       -->
 <!--  General Colors:                                                                                                                                              -->
 <!--                                                                                                                                                               -->
-<!-- Note: Alt colors are used for differentiating channels.                                                                                                       -->
+<!-- Note: Alt. colors are used for differentiating between channels that are next to each other.                                                                                                       -->
 <!--                                                                                                                                                               -->
 <!--    Mixed - Allow color overlap (At own discretion)  If color overlay is not practical - 44DBFFEC  (Mintish White)                                             -->
 <!--    Distress and Calling (Personal Locator Beacons Service) - 50FF0091  (Pinkish Red)                                                                          -->
@@ -1133,11 +1133,11 @@
 <!--                                                                                                                                                               -->  
 <!--  Satellites:                                                                                                                                                  -->  
 <!--                                                                                                                                                               -->	
-<!--	NOAA - 5500FFFF  (Keep Same)  (Aqua)                                                                                                                       -->
+<!--	NOAA - 5500FFFF  (Aqua)                                                                                                                       -->
 <!--	NOAA HRPT - 557AFFFF  (Whitish Auqa)                                                                                                                       -->
 <!--	NOAA DSB - 44FF00FF  (Magenta)                                                                                                                             -->
 <!--                                                                                                                                                               -->	
-<!--	METEOR - 2200BFFF  (Keep Same)  (Darker Aqua)                                                                                                              -->
+<!--	METEOR - 2200BFFF  (Darker Aqua)                                                                                                              -->
 <!--	METEOR HRPT - 555CBABA  (Dark Aqua)                                                                                                                        -->
 <!--                                                                                                                                                               -->	
 <!--	ORB. - 33FF4400  (Dark Orange)                                                                                                                             -->
@@ -1148,7 +1148,7 @@
 <!--	FY-3n HRPT - 55FFBA2E  (Light Orange)                                                                                                                      -->
 <!--    METOP HRPT - 55F07070  (Light Red)                                                                                                                         -->
 <!--                                                                                                                                                               -->	
-<!--	GPS, GALILEO, GLONASS - (Keep Same)  (Yellow, Blue, Orange)                                                                                                -->
+<!--	GPS, GALILEO, GLONASS -  (Yellow, Blue, Orange)                                                                                                -->
 <!--    Iridium - 33FF672F   (Orange)                                                                                                                              -->
 <!--    Iridium Access Band/ Simplex Channels- 55FF672F   (Orange)                                                                                                 -->
 <!--	Inmarsat - 33FF4400  (Dark Orange)                                                                                                                         -->
