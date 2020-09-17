@@ -10,13 +10,13 @@
 	<RangeEntry minFrequency="0" maxFrequency="8300" mode="CW" step="1" color="40FFFFFF">Unallocated</RangeEntry> <!-- Technically Unallocated but Scientific Research is Possible-->
 	<RangeEntry minFrequency="8300" maxFrequency="11300" mode="CW" step="1" color="5500C9C9">Lightning Detection Systems</RangeEntry>
 	<RangeEntry minFrequency="11300" maxFrequency="14000" mode="CW" step="1" color="5500C9C9">Radionavigation/ Lightning Detection Systems</RangeEntry>
-  <RangeEntry minFrequency="14000" maxFrequency="19650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC) Communications</RangeEntry><!-- Power Line Carrier (PLC) Systems -->
+        <RangeEntry minFrequency="14000" maxFrequency="19650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC) Communications</RangeEntry><!-- Power Line Carrier (PLC) Systems -->
 	<RangeEntry minFrequency="19650" maxFrequency="19950" mode="CW" step="1" color="5580C0C0">NWC (AU)</RangeEntry>  <!-- NWC (AU) 19.8 kHz 300Hz BW (Subs) -->
 	<RangeEntry minFrequency="19950" maxFrequency="20050" mode="AM" step="1" color="44FF00FF">20KHz Time Signal</RangeEntry> <!-- 20KHz Time Signal-->
-  <RangeEntry minFrequency="20050" maxFrequency="21250" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+        <RangeEntry minFrequency="20050" maxFrequency="21250" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
 	<RangeEntry minFrequency="21250" maxFrequency="21550" mode="CW" step="1" color="5580C0C0">NPM (US)</RangeEntry>  <!-- NPM (US) 21.4 kHz (Subs) -->
-  <RangeEntry minFrequency="21550" maxFrequency="24650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
-  <RangeEntry minFrequency="24650" maxFrequency="24950" mode="CW" step="1" color="5580C0C0">NLK (US)(Jim Creek)</RangeEntry>  <!-- Jim Creek (NLK) (US)  24.8 kHz (Subs) -->
+        <RangeEntry minFrequency="21550" maxFrequency="24650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+        <RangeEntry minFrequency="24650" maxFrequency="24950" mode="CW" step="1" color="5580C0C0">NLK (US)(Jim Creek)</RangeEntry>  <!-- Jim Creek (NLK) (US)  24.8 kHz (Subs) -->
 	<RangeEntry minFrequency="24950" maxFrequency="25050" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
 	<RangeEntry minFrequency="25050" maxFrequency="25350" mode="CW" step="1" color="5580C0C0">NML (US)</RangeEntry>  <!-- NML (US) 25.2 kHz (Subs) -->
 	<RangeEntry minFrequency="25350" maxFrequency="26750" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
@@ -41,7 +41,7 @@
 	<RangeEntry minFrequency="76850" maxFrequency="78150" mode="CW" step="1" color="44FF00FF">DCF77 (DE)</RangeEntry>  <!-- DCF77 (DE) 77.5 kHz 1.3 kHz (Time) -->
 	<RangeEntry minFrequency="78150" maxFrequency="80850" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
 	<RangeEntry minFrequency="80850" maxFrequency="81150" mode="CW" step="1" color="5580C0C0">GYN2 GBR (UK)</RangeEntry>  <!-- GYN2 GBR (UK) 81 kHz 300 Hz? BW (Subs) -->
-  <RangeEntry minFrequency="81150" maxFrequency="135700" mode="CW" step="1" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
+        <RangeEntry minFrequency="81150" maxFrequency="135700" mode="CW" step="1" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
 <!--100KHz-->
 	<RangeEntry minFrequency="135700" maxFrequency="136000" mode="USB" step="10" color="50FF0000">2200m Ham Band|  Tests, Transatlantic Window </RangeEntry> <!-- Station Tests and transatlantic reception window	-->
 	<RangeEntry minFrequency="136000" maxFrequency="137400" mode="USB" step="10" color="50E9E9E9">2200m Telegraphy</RangeEntry> <!-- Telegraphy	-->
@@ -52,10 +52,10 @@
 	<RangeEntry minFrequency="148500" maxFrequency="160000" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>
 
 	<RangeEntry minFrequency="160000" maxFrequency="161850" mode="CW" step="100" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>  <!-- See also: MedFER, 1750m is inside Longwave allocation-->
-  <RangeEntry minFrequency="161850" maxFrequency="162150" mode="CW" step="100" color="44FF00FF">TDF (FR)</RangeEntry>  <!-- and TDF (FR) 162 kHz 1 Hz BW (Time) -->
+        <RangeEntry minFrequency="161850" maxFrequency="162150" mode="CW" step="100" color="44FF00FF">TDF (FR)</RangeEntry>  <!-- and TDF (FR) 162 kHz 1 Hz BW (Time) -->
 	<RangeEntry minFrequency="162150" maxFrequency="190000" mode="CW" step="100" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>
 	<RangeEntry minFrequency="190000" maxFrequency="196500" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>
-  <RangeEntry minFrequency="196500" maxFrequency="199500" mode="AM" step="1" color="5580C0C0">BBC Radio 4</RangeEntry>  <!-- UK AM Data System (UK-AMDS) 198 kHz 85 Hz (BBC Radio 4) -->
+        <RangeEntry minFrequency="196500" maxFrequency="199500" mode="AM" step="1" color="5580C0C0">BBC Radio 4</RangeEntry>  <!-- UK AM Data System (UK-AMDS) 198 kHz 85 Hz (BBC Radio 4) -->
 	<RangeEntry minFrequency="199500" maxFrequency="283500" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>
 	<RangeEntry minFrequency="283500" maxFrequency="472000" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC) Communications</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
 	<RangeEntry minFrequency="472000" maxFrequency="479000" mode="CW" step="100" color="50FF0000">630m Ham Band</RangeEntry>
