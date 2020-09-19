@@ -1,100 +1,134 @@
 <?xml version="1.0"?>
-<!--     28 April 2020     Arrin, Callsign: KN1E     International (Basic)  V0.0   0Hz to 2.5GHz (All Allocations) (ARRL BPs till 20m) |   Free to use for those who want to expand their knowledge of the radio spectrum.  -->
-<!--                                                 There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.      -->
-<!--                                                                                                                                                                                                                              -->
-<!--                                                 Quick Author's Note: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice.           -->
-<!--                                                 I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. -->
+<!--     19 September 2020     Arrin, Callsign: KN1E     International (Basic)  V0.1   0Hz to 2.5GHz (All Allocations) (ARRL BPs till 20m) |   Free to use for those who want to expand their knowledge of the radio spectrum. -->
+<!--                                                     There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations. -->
+<!--                                                                                                                                                                                                                          -->
+<!--                                                     Quick Author's Note: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice. -->
+<!--                                                     I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. -->
 
 <ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-	<RangeEntry minFrequency="0" maxFrequency="8300" mode="CW" step="10" color="40FFFFFF">Submarine Communications/ Unallocated</RangeEntry> <!-- Technically Unallocated -->
-	<RangeEntry minFrequency="8300" maxFrequency="11300" mode="USB" step="10" color="5500C9C9">Lightning Detection Systems</RangeEntry> 
-	<RangeEntry minFrequency="11300" maxFrequency="14000" mode="USB" step="10" color="5500C9C9">Radionavigation/ Lightning Detection Systems</RangeEntry> 
-	<RangeEntry minFrequency="14000" maxFrequency="19950" mode="USB" step="10" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry> 
-	<RangeEntry minFrequency="19950" maxFrequency="20050" mode="USB" step="10" color="44FF00FF">20KHz Time Signal</RangeEntry> <!-- 20KHz Time Signal-->
-	<RangeEntry minFrequency="20050" maxFrequency="59500" mode="USB" step="10" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
-	<RangeEntry minFrequency="59500" maxFrequency="60500" mode="AM" step="10" color="44FF00FF">WWVB NIST</RangeEntry>  <!-- 60KHz Time Signal-->	
-	<RangeEntry minFrequency="60500" maxFrequency="135700" mode="USB" step="100" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
-<!--100KHz-->	
+	<RangeEntry minFrequency="0" maxFrequency="8300" mode="CW" step="1" color="40FFFFFF">Unallocated</RangeEntry> <!-- Technically Unallocated but Scientific Research is Possible-->
+	<RangeEntry minFrequency="8300" maxFrequency="14000" mode="CW" step="1" color="5500C9C9">Radionavigation/ Lightning Detection Systems</RangeEntry>
+  <RangeEntry minFrequency="14000" maxFrequency="19650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC) Communications</RangeEntry><!-- Power Line Carrier (PLC) Systems -->
+	<RangeEntry minFrequency="19650" maxFrequency="19950" mode="CW" step="1" color="5580C0C0">NWC (AU)</RangeEntry>  <!-- NWC (AU) 19.8 kHz 300Hz BW (Subs) -->
+	<RangeEntry minFrequency="19950" maxFrequency="20050" mode="AM" step="1" color="44FF00FF">20KHz Time Signal</RangeEntry> <!-- 20KHz Time Signal-->
+  <RangeEntry minFrequency="20050" maxFrequency="21250" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="21250" maxFrequency="21550" mode="CW" step="1" color="5580C0C0">NPM (US)</RangeEntry>  <!-- NPM (US) 21.4 kHz (Subs) -->
+  <RangeEntry minFrequency="21550" maxFrequency="24650" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+  <RangeEntry minFrequency="24650" maxFrequency="24950" mode="CW" step="1" color="5580C0C0">NLK (US)(Jim Creek)</RangeEntry>  <!-- Jim Creek (NLK) (US)  24.8 kHz (Subs) -->
+	<RangeEntry minFrequency="24950" maxFrequency="25050" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="25050" maxFrequency="25350" mode="CW" step="1" color="5580C0C0">NML (US)</RangeEntry>  <!-- NML (US) 25.2 kHz (Subs) -->
+	<RangeEntry minFrequency="25350" maxFrequency="26750" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="26750" maxFrequency="27050" mode="CW" step="1" color="5580C0C0">NOV (US)</RangeEntry>  <!-- NOV (US) 26.9 kHz (Subs) -->
+	<RangeEntry minFrequency="27050" maxFrequency="37850" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="37850" maxFrequency="38150" mode="CW" step="1" color="5580C0C0">SHR (SE)</RangeEntry>  <!-- SHR (SE) 38 kHz (Subs) -->
+	<RangeEntry minFrequency="38150" maxFrequency="39950" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="39950" maxFrequency="40050" mode="CW" step="1" color="44FF00FF">JJY-40 (JP)</RangeEntry>  <!-- JJY-40 (JP) 40 kHz (Time) -->
+	<RangeEntry minFrequency="40050" maxFrequency="40250" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="40250" maxFrequency="40550" mode="CW" step="1" color="5580C0C0">SAS/SRC (SE)</RangeEntry>  <!-- SAS/SRC (SE) 40.4 kHz (Subs) -->
+	<RangeEntry minFrequency="40550" maxFrequency="42350" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="42350" maxFrequency="42650" mode="CW" step="1" color="5580C0C0">SAS2 (SE)</RangeEntry>  <!-- SAS2 (SE) 42.5 kHz (Subs) -->
+	<RangeEntry minFrequency="42650" maxFrequency="44050" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="44050" maxFrequency="44350" mode="CW" step="1" color="5580C0C0">SAS3 (SE)</RangeEntry>  <!-- SAS3 (SE) 44.2 kHz (Subs) -->
+	<RangeEntry minFrequency="44350" maxFrequency="59500" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="59500" maxFrequency="60500" mode="AM" step="1" color="44FF00FF">WWVB NIST</RangeEntry>  <!-- 60KHz Time Signal also JJY-60-->
+	<RangeEntry minFrequency="60500" maxFrequency="66335" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="66335" maxFrequency="66985" mode="CW" step="1" color="44FF00FF">RBU (RU)</RangeEntry>  <!-- RBU (RU) 66.66 kHz 650 Hz (Time) -->
+	<RangeEntry minFrequency="66985" maxFrequency="68350" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="68350" maxFrequency="68650" mode="CW" step="1" color="44FF00FF">BPC (CN)</RangeEntry>  <!-- BPC (CN) 68.5 kHz 1 Hz (Time) -->
+	<RangeEntry minFrequency="68650" maxFrequency="76850" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="76850" maxFrequency="78150" mode="CW" step="1" color="44FF00FF">DCF77 (DE)</RangeEntry>  <!-- DCF77 (DE) 77.5 kHz 1.3 kHz (Time) -->
+	<RangeEntry minFrequency="78150" maxFrequency="80850" mode="CW" step="1" color="40BAFD00">Power Line Carrier (PLC)</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="80850" maxFrequency="81150" mode="CW" step="1" color="5580C0C0">GYN2 GBR (UK)</RangeEntry>  <!-- GYN2 GBR (UK) 81 kHz 300 Hz? BW (Subs) -->
+  <RangeEntry minFrequency="81150" maxFrequency="135700" mode="CW" step="1" color="55008080">Radiolocation</RangeEntry>
+<!--100KHz-->
 	<RangeEntry minFrequency="135700" maxFrequency="136000" mode="USB" step="10" color="50FF0000">2200m Ham Band|  Tests, Transatlantic Window </RangeEntry> <!-- Station Tests and transatlantic reception window	-->
 	<RangeEntry minFrequency="136000" maxFrequency="137400" mode="USB" step="10" color="50E9E9E9">2200m Telegraphy</RangeEntry> <!-- Telegraphy	-->
 	<RangeEntry minFrequency="137400" maxFrequency="137600" mode="USB" step="10" color="500000FF">Digital</RangeEntry> <!-- Non-Telegraphy digital modes	-->
 	<RangeEntry minFrequency="137600" maxFrequency="137800" mode="USB" step="10" color="50E9E9E9">Slow Telegraphy   |2200m Ham Band</RangeEntry> <!-- Very slow telegraphy centred on 137.7 kHz	-->
-	
-	<RangeEntry minFrequency="137800" maxFrequency="148500" mode="USB" step="100" color="507676FF">Medical/ RFID/ Military Systems</RangeEntry>
-	<RangeEntry minFrequency="148500" maxFrequency="160000" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>  
-	<RangeEntry minFrequency="160000" maxFrequency="190000" mode="CW" step="100" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>  <!-- See also: MedFER, 1750m is inside Longwave allocation -->
-	<RangeEntry minFrequency="190000" maxFrequency="283500" mode="AM" step="100" color="505347FF">Long Wave</RangeEntry>  
-	<RangeEntry minFrequency="283500" maxFrequency="472000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ Medical</RangeEntry>
-	
-	<RangeEntry minFrequency="472000" maxFrequency="479000" mode="CW" step="100" color="50FF0000">630m Ham Band</RangeEntry>
-	
-	<RangeEntry minFrequency="479000" maxFrequency="525000" mode="USB" step="100" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ RFID</RangeEntry> 
-	<RangeEntry minFrequency="525000" maxFrequency="535000" mode="AM" step="100" color="505D63FF">Medium Wave (212m)</RangeEntry> <!-- Medium Wave is part of AM Radio to 1606.5MHz-->
-	<RangeEntry minFrequency="535000" maxFrequency="1705000" mode="AM" step="100" color="33FF0000">AM Radio</RangeEntry>  
-<!--1MHz-->
-	<RangeEntry minFrequency="1705000" maxFrequency="1800000" mode="USB" step="100" color="55008080">Maritime Mobile/ Land Mobile/ Radiolocation</RangeEntry> 
-	
-	<RangeEntry minFrequency="1800000" maxFrequency="1810000" mode="LSB" step="100" color="508000FF">160m Ham	Band|  Digital</RangeEntry>  <!-- 1.800 - 2.000MHz	CW -->
-	<RangeEntry minFrequency="1810000" maxFrequency="1843000" mode="CW" step="100" color="50FF0000">160m</RangeEntry>  <!-- 1.810MHz	CW QRP -->
-	<RangeEntry minFrequency="1843000" maxFrequency="1995000" mode="LSB" step="100" color="50FF0000">160m, SSB, SSTV</RangeEntry>  <!-- Added 160m for visability purposes, 1.910MHz SSB QRP, 1.843-2.000MHz	SSB, SSTV and other wideband modes -->
-	<RangeEntry minFrequency="1995000" maxFrequency="2000000" mode="CW" step="100" color="503CCCFF">Experimental, Beacons  |160m Ham Band</RangeEntry>  <!-- 	Experimental, Beacons -->
-	
-	<RangeEntry minFrequency="2000000" maxFrequency="2025000" mode="USB" step="100" color="55008080">Maritime Mobile/ Radiolocation</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->	
-	<RangeEntry minFrequency="2025000" maxFrequency="2045000" mode="USB" step="100" color="5500C9C9">Oceanographic Buoys</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->
-	<RangeEntry minFrequency="2045000" maxFrequency="2173500" mode="USB" step="100" color="55008080">Maritime Mobile/ Radiolocation</RangeEntry>
-	<RangeEntry minFrequency="2173500" maxFrequency="2190500" mode="USB" step="100" color="50FF0091">Distress and Calling for Maritime and Aeronautical </RangeEntry>
-	<RangeEntry minFrequency="2190500" maxFrequency="2300000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry>
-	<RangeEntry minFrequency="2300000" maxFrequency="2495000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 120m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="2495000" maxFrequency="2505000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
-	<RangeEntry minFrequency="2505000" maxFrequency="2850000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
-        <RangeEntry minFrequency="2850000" maxFrequency="3155000" mode="AM" step="100" color="40AFFFEE">Transoceanic Flights (Aeronautical Mobile)</RangeEntry>
-	<RangeEntry minFrequency="3155000" maxFrequency="3200000" mode="USB" step="100" color="55008080">Maritime Mobile</RangeEntry> 
-	<RangeEntry minFrequency="3200000" maxFrequency="3400000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>  
-	<RangeEntry minFrequency="3400000" maxFrequency="3500000" mode="LSB" step="100" color="40AFFFEE">Aeronautical</RangeEntry> 
-	
-	<RangeEntry minFrequency="3500000" maxFrequency="3570000" mode="LSB" step="10" color="50FF0000">80m Ham Band|</RangeEntry>  <!-- Shared to 4MHz with Shortwave -->
-	<RangeEntry minFrequency="3570000" maxFrequency="3600000" mode="LSB" step="10" color="50FFFFFF">RTTY/Data DX</RangeEntry>  <!-- 3.590MHz	RTTY/Data DX -->
-	<RangeEntry minFrequency="3600000" maxFrequency="3790000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
-	<RangeEntry minFrequency="3790000" maxFrequency="3800000" mode="LSB" step="10" color="40FF0000">DX window</RangeEntry>
-	<RangeEntry minFrequency="3800000" maxFrequency="3882000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder,  3.845MHz SSTV -->
-	<RangeEntry minFrequency="3882000" maxFrequency="3888000" mode="AM" step="10" color="5000FF00">AM calling frequency</RangeEntry> 
-	<RangeEntry minFrequency="3888000" maxFrequency="3900000" mode="LSB" step="10" color="50FF0000">80m Ham Band</RangeEntry>  <!-- Placeholder -->
-	<RangeEntry minFrequency="3900000" maxFrequency="4000000" mode="AM" step="100" color="40FF00FF">Shared 80m| and Shortwave (75m) Broadcast</RangeEntry>  <!-- 75m is inside 80m band -->
-	
-	<RangeEntry minFrequency="4000000" maxFrequency="4063500" mode="USB" step="100" color="55008080">(Ship TX) Maritime</RangeEntry>  
-	
-	<RangeEntry minFrequency="4063500" maxFrequency="4066500" mode="USB" step="100" color="55008080">ITU Ch. 401 (Ship TX)</RangeEntry>
-	<RangeEntry minFrequency="4066500" maxFrequency="4069500" mode="USB" step="100" color="5500C9C9">402</RangeEntry>
-	<RangeEntry minFrequency="4069500" maxFrequency="4072500" mode="USB" step="100" color="55008080">403</RangeEntry>
-	<RangeEntry minFrequency="4072500" maxFrequency="4075500" mode="USB" step="100" color="5500C9C9">404</RangeEntry>
-	<RangeEntry minFrequency="4075500" maxFrequency="4078500" mode="USB" step="100" color="55008080">405</RangeEntry>
-	<RangeEntry minFrequency="4078500" maxFrequency="4081500" mode="USB" step="100" color="5500C9C9">406</RangeEntry>
-	<RangeEntry minFrequency="4081500" maxFrequency="4084500" mode="USB" step="100" color="55008080">407</RangeEntry>
-	<RangeEntry minFrequency="4084500" maxFrequency="4087500" mode="USB" step="100" color="5500C9C9">408</RangeEntry>
-	<RangeEntry minFrequency="4087500" maxFrequency="4090500" mode="USB" step="100" color="55008080">409</RangeEntry>
-	<RangeEntry minFrequency="4090500" maxFrequency="4093500" mode="USB" step="100" color="5500C9C9">410</RangeEntry>
-	<RangeEntry minFrequency="4093500" maxFrequency="4096500" mode="USB" step="100" color="55008080">411</RangeEntry>
-	<RangeEntry minFrequency="4096500" maxFrequency="4099500" mode="USB" step="100" color="5500C9C9">412</RangeEntry>	
-	<RangeEntry minFrequency="4099500" maxFrequency="4102500" mode="USB" step="100" color="55008080">413</RangeEntry>
-	<RangeEntry minFrequency="4102500" maxFrequency="4105500" mode="USB" step="100" color="5500C9C9">414</RangeEntry>
-	<RangeEntry minFrequency="4105500" maxFrequency="4108500" mode="USB" step="100" color="55008080">415</RangeEntry>
-	<RangeEntry minFrequency="4108500" maxFrequency="4111500" mode="USB" step="100" color="5500C9C9">416</RangeEntry>	
-	<RangeEntry minFrequency="4111500" maxFrequency="4114500" mode="USB" step="100" color="55008080">417</RangeEntry>
-	<RangeEntry minFrequency="4114500" maxFrequency="4117500" mode="USB" step="100" color="5500C9C9">418</RangeEntry>
-	<RangeEntry minFrequency="4117500" maxFrequency="4120500" mode="USB" step="100" color="55008080">419</RangeEntry>
-	<RangeEntry minFrequency="4120500" maxFrequency="4123500" mode="USB" step="100" color="5500C9C9">420</RangeEntry>
-	<RangeEntry minFrequency="4123500" maxFrequency="4126500" mode="USB" step="100" color="50FF0091">421 (Distress/ Safety)</RangeEntry>
-	<RangeEntry minFrequency="4126500" maxFrequency="4129500" mode="USB" step="100" color="55008080">422</RangeEntry>
-	<RangeEntry minFrequency="4129500" maxFrequency="4132500" mode="USB" step="100" color="5500C9C9">423</RangeEntry>
-	<RangeEntry minFrequency="4132500" maxFrequency="4135500" mode="USB" step="100" color="55008080">424</RangeEntry>
-	<RangeEntry minFrequency="4135500" maxFrequency="4138500" mode="USB" step="100" color="5500C9C9">425</RangeEntry>
-	<RangeEntry minFrequency="4138500" maxFrequency="4141500" mode="USB" step="100" color="55008080">426</RangeEntry>
-	<RangeEntry minFrequency="4141500" maxFrequency="4144500" mode="USB" step="100" color="5500C9C9">427</RangeEntry>
 
-	<RangeEntry minFrequency="4144500" maxFrequency="4348000" mode="USB" step="100" color="55008080">(Ship TX) Maritime</RangeEntry> 	
+	<RangeEntry minFrequency="137800" maxFrequency="148500" mode="USB" step="10" color="55008080">Maritime Mobile Service</RangeEntry>
+	<RangeEntry minFrequency="148500" maxFrequency="160000" mode="AM" step="10" color="505347FF">Long Wave</RangeEntry>
+
+	<RangeEntry minFrequency="160000" maxFrequency="161850" mode="CW" step="10" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>  <!-- See also: MedFER, 1750m is inside Longwave allocation-->
+  <RangeEntry minFrequency="161850" maxFrequency="162150" mode="CW" step="10" color="44FF00FF">TDF (FR)</RangeEntry>  <!-- and TDF (FR) 162 kHz 1 Hz BW (Time) -->
+	<RangeEntry minFrequency="162150" maxFrequency="190000" mode="CW" step="10" color="50FF44AA">1750m (LowFER) and Long Wave</RangeEntry>
+	<RangeEntry minFrequency="190000" maxFrequency="196500" mode="AM" step="10" color="505347FF">Long Wave</RangeEntry>
+  <RangeEntry minFrequency="196500" maxFrequency="199500" mode="AM" step="1" color="5580C0C0">BBC Radio 4</RangeEntry>  <!-- UK AM Data System (UK-AMDS) 198 kHz 85 Hz (BBC Radio 4) -->
+	<RangeEntry minFrequency="199500" maxFrequency="283500" mode="AM" step="10" color="505347FF">Long Wave</RangeEntry>
+	<RangeEntry minFrequency="283500" maxFrequency="472000" mode="CW" step="1" color="55008080">Radionavigation</RangeEntry><!-- Power Line Carrier (PLC) Communications Systems -->
+	<RangeEntry minFrequency="472000" maxFrequency="479000" mode="CW" step="10" color="50FF0000">630m Ham Band</RangeEntry>
+
+	<RangeEntry minFrequency="479000" maxFrequency="525000" mode="USB" step="10" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ RFID</RangeEntry>
+	<RangeEntry minFrequency="525000" maxFrequency="535000" mode="AM" step="10" color="505D63FF">Medium Wave (212m)</RangeEntry> <!-- Medium Wave is part of AM Radio to 1606.5MHz-->
+	<RangeEntry minFrequency="535000" maxFrequency="1705000" mode="AM" step="10" color="33FF0000">AM Radio</RangeEntry>
+<!--1MHz-->
+  <RangeEntry minFrequency="1705000" maxFrequency="1800000" mode="USB" step="10" color="55008080">Radiolocation Beacons</RangeEntry>
+
+  <RangeEntry minFrequency="1800000" maxFrequency="1810000" mode="LSB" step="10" color="508000FF">160m Ham	Band|  Digital</RangeEntry>  <!-- 1.800 - 2.000MHz	CW -->
+  <RangeEntry minFrequency="1810000" maxFrequency="1843000" mode="CW" step="10" color="50FF0000">160m</RangeEntry>  <!-- 1.810MHz	CW QRP -->
+  <RangeEntry minFrequency="1843000" maxFrequency="1995000" mode="LSB" step="10" color="50FF0000">160m, SSB, SSTV</RangeEntry>  <!-- Added 160m for visability purposes, 1.910MHz SSB QRP, 1.843-2.000MHz	SSB, SSTV and other wideband modes -->
+  <RangeEntry minFrequency="1995000" maxFrequency="2000000" mode="CW" step="10" color="503CCCFF">Experimental, Beacons  |160m Ham Band</RangeEntry>  <!-- 	Experimental, Beacons -->
+
+  <RangeEntry minFrequency="2000000" maxFrequency="2025000" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->
+  <RangeEntry minFrequency="2025000" maxFrequency="2045000" mode="USB" step="10" color="5500C9C9">Oceanographic Buoys</RangeEntry>  <!-- Add Marine Simplex Channels in the future -->
+  <RangeEntry minFrequency="2045000" maxFrequency="2173500" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>
+  <RangeEntry minFrequency="2173500" maxFrequency="2190500" mode="USB" step="10" color="50FF0091">Distress and Calling for Maritime and Aeronautical </RangeEntry>
+  <RangeEntry minFrequency="2190500" maxFrequency="2300000" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>
+  <RangeEntry minFrequency="2300000" maxFrequency="2495000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 120m) Broadcast</RangeEntry>
+  <RangeEntry minFrequency="2495000" maxFrequency="2505000" mode="AM" step="10" color="44FF00FF">WWV NIST</RangeEntry>
+  <RangeEntry minFrequency="2505000" maxFrequency="2850000" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>
+  <RangeEntry minFrequency="2850000" maxFrequency="3155000" mode="AM" step="10" color="40AFFFEE">Transoceanic Flights (Aeronautical Mobile)</RangeEntry>
+  <RangeEntry minFrequency="3155000" maxFrequency="3200000" mode="USB" step="10" color="55008080">Maritime Mobile</RangeEntry>
+  <RangeEntry minFrequency="3200000" maxFrequency="3329000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>
+  <RangeEntry minFrequency="3329000" maxFrequency="3331000" mode="AM" step="10" color="44FF00FF">CHU Canada</RangeEntry>  <!-- CHU 3.330MHz-->
+  <RangeEntry minFrequency="3331000" maxFrequency="3400000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 90m) Broadcast</RangeEntry>
+  <RangeEntry minFrequency="3400000" maxFrequency="3500000" mode="LSB" step="10" color="40AFFFEE">Aeronautical</RangeEntry>
+
+  <RangeEntry minFrequency="3500000" maxFrequency="3570000" mode="LSB" step="10" color="50FF0000">80m Ham Band|</RangeEntry>  <!-- Shared to 4MHz with Shortwave -->
+  <RangeEntry minFrequency="3570000" maxFrequency="3600000" mode="LSB" step="10" color="50FFFFFF">RTTY/Data DX</RangeEntry>  <!-- 3.590MHz	RTTY/Data DX -->
+  <RangeEntry minFrequency="3600000" maxFrequency="3754500" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
+  <RangeEntry minFrequency="3754500" maxFrequency="3757500" mode="CW" step="1" color="50DD1111">The Pip (Night)</RangeEntry>  <!-- The Pip 3756 kHz during  night -->
+  <RangeEntry minFrequency="3757500" maxFrequency="3790000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
+  <RangeEntry minFrequency="3790000" maxFrequency="3800000" mode="LSB" step="10" color="40FF0000">DX window</RangeEntry>
+  <RangeEntry minFrequency="3800000" maxFrequency="3882000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder,  3.845MHz SSTV -->
+  <RangeEntry minFrequency="3882000" maxFrequency="3888000" mode="AM" step="10" color="5000FF00">AM calling frequency</RangeEntry>
+  <RangeEntry minFrequency="3888000" maxFrequency="3900000" mode="LSB" step="10" color="50FF0000">80m Ham Band</RangeEntry>  <!-- Placeholder -->
+  <RangeEntry minFrequency="3900000" maxFrequency="4000000" mode="AM" step="10" color="40FF00FF">Shared 80m| and Shortwave (75m) Broadcast</RangeEntry>  <!-- 75m is inside 80m band -->
+
+  <RangeEntry minFrequency="4000000" maxFrequency="4063500" mode="USB" step="10" color="55008080">(Ship TX) Maritime</RangeEntry>
+
+  <RangeEntry minFrequency="4063500" maxFrequency="4066500" mode="USB" step="10" color="55008080">ITU Ch. 401 (Ship TX)</RangeEntry>
+  <RangeEntry minFrequency="4066500" maxFrequency="4069500" mode="USB" step="10" color="5500C9C9">402</RangeEntry>
+  <RangeEntry minFrequency="4069500" maxFrequency="4072500" mode="USB" step="10" color="55008080">403</RangeEntry>
+  <RangeEntry minFrequency="4072500" maxFrequency="4075500" mode="USB" step="10" color="5500C9C9">404</RangeEntry>
+  <RangeEntry minFrequency="4075500" maxFrequency="4078500" mode="USB" step="10" color="55008080">405</RangeEntry>
+  <RangeEntry minFrequency="4078500" maxFrequency="4081500" mode="USB" step="10" color="5500C9C9">406</RangeEntry>
+  <RangeEntry minFrequency="4081500" maxFrequency="4084500" mode="USB" step="10" color="55008080">407</RangeEntry>
+  <RangeEntry minFrequency="4084500" maxFrequency="4087500" mode="USB" step="10" color="5500C9C9">408</RangeEntry>
+  <RangeEntry minFrequency="4087500" maxFrequency="4090500" mode="USB" step="10" color="55008080">409</RangeEntry>
+  <RangeEntry minFrequency="4090500" maxFrequency="4093500" mode="USB" step="10" color="5500C9C9">410</RangeEntry>
+  <RangeEntry minFrequency="4093500" maxFrequency="4096500" mode="USB" step="10" color="55008080">411</RangeEntry>
+  <RangeEntry minFrequency="4096500" maxFrequency="4099500" mode="USB" step="10" color="5500C9C9">412</RangeEntry>
+  <RangeEntry minFrequency="4099500" maxFrequency="4102500" mode="USB" step="10" color="55008080">413</RangeEntry>
+  <RangeEntry minFrequency="4102500" maxFrequency="4105500" mode="USB" step="10" color="5500C9C9">414</RangeEntry>
+  <RangeEntry minFrequency="4105500" maxFrequency="4108500" mode="USB" step="10" color="55008080">415</RangeEntry>
+  <RangeEntry minFrequency="4108500" maxFrequency="4111500" mode="USB" step="10" color="5500C9C9">416</RangeEntry>
+  <RangeEntry minFrequency="4111500" maxFrequency="4114500" mode="USB" step="10" color="55008080">417</RangeEntry>
+  <RangeEntry minFrequency="4114500" maxFrequency="4117500" mode="USB" step="10" color="5500C9C9">418</RangeEntry>
+  <RangeEntry minFrequency="4117500" maxFrequency="4120500" mode="USB" step="10" color="55008080">419</RangeEntry>
+  <RangeEntry minFrequency="4120500" maxFrequency="4123500" mode="USB" step="10" color="5500C9C9">420</RangeEntry>
+  <RangeEntry minFrequency="4123500" maxFrequency="4126500" mode="USB" step="10" color="50FF0091">421 (Distress/ Safety)</RangeEntry>
+  <RangeEntry minFrequency="4126500" maxFrequency="4129500" mode="USB" step="10" color="55008080">422</RangeEntry>
+  <RangeEntry minFrequency="4129500" maxFrequency="4132500" mode="USB" step="10" color="5500C9C9">423</RangeEntry>
+  <RangeEntry minFrequency="4132500" maxFrequency="4135500" mode="USB" step="10" color="55008080">424</RangeEntry>
+  <RangeEntry minFrequency="4135500" maxFrequency="4138500" mode="USB" step="10" color="5500C9C9">425</RangeEntry>
+  <RangeEntry minFrequency="4138500" maxFrequency="4141500" mode="USB" step="10" color="55008080">426</RangeEntry>
+  <RangeEntry minFrequency="4141500" maxFrequency="4144500" mode="USB" step="10" color="5500C9C9">427</RangeEntry>
+
+	<RangeEntry minFrequency="4144500" maxFrequency="4348000" mode="USB" step="100" color="55008080">(Ship TX) Maritime</RangeEntry>
 	<RangeEntry minFrequency="4348000" maxFrequency="4349500" mode="USB" step="100" color="55008080">(Coast TX) Maritime</RangeEntry>
-	
+
 	<RangeEntry minFrequency="4349500" maxFrequency="4352500" mode="USB" step="100" color="5500C9C9">ITU Ch. 428 (Coast TX)</RangeEntry>
 	<RangeEntry minFrequency="4352500" maxFrequency="4355500" mode="USB" step="100" color="55008080">429</RangeEntry>
 	<RangeEntry minFrequency="4355500" maxFrequency="4358500" mode="USB" step="100" color="55008080">401</RangeEntry>
@@ -108,11 +142,11 @@
 	<RangeEntry minFrequency="4379500" maxFrequency="4382500" mode="USB" step="100" color="55008080">409</RangeEntry>
 	<RangeEntry minFrequency="4382500" maxFrequency="4385500" mode="USB" step="100" color="5500C9C9">410</RangeEntry>
 	<RangeEntry minFrequency="4385500" maxFrequency="4388500" mode="USB" step="100" color="55008080">411</RangeEntry>
-	<RangeEntry minFrequency="4388500" maxFrequency="4391500" mode="USB" step="100" color="5500C9C9">412</RangeEntry>	
+	<RangeEntry minFrequency="4388500" maxFrequency="4391500" mode="USB" step="100" color="5500C9C9">412</RangeEntry>
 	<RangeEntry minFrequency="4391500" maxFrequency="4394500" mode="USB" step="100" color="55008080">413</RangeEntry>
 	<RangeEntry minFrequency="4394500" maxFrequency="4397500" mode="USB" step="100" color="5500C9C9">414</RangeEntry>
 	<RangeEntry minFrequency="4397500" maxFrequency="4400500" mode="USB" step="100" color="55008080">415</RangeEntry>
-	<RangeEntry minFrequency="4400500" maxFrequency="4403500" mode="USB" step="100" color="5500C9C9">416</RangeEntry>	
+	<RangeEntry minFrequency="4400500" maxFrequency="4403500" mode="USB" step="100" color="5500C9C9">416</RangeEntry>
 	<RangeEntry minFrequency="4403500" maxFrequency="4406500" mode="USB" step="100" color="55008080">417</RangeEntry>
 	<RangeEntry minFrequency="4406500" maxFrequency="4409500" mode="USB" step="100" color="5500C9C9">418</RangeEntry>
 	<RangeEntry minFrequency="4409500" maxFrequency="4412500" mode="USB" step="100" color="55008080">419</RangeEntry>
@@ -124,122 +158,161 @@
 	<RangeEntry minFrequency="4427500" maxFrequency="4430500" mode="USB" step="100" color="55008080">425</RangeEntry>
 	<RangeEntry minFrequency="4430500" maxFrequency="4433500" mode="USB" step="100" color="5500C9C9">426</RangeEntry>
 	<RangeEntry minFrequency="4433500" maxFrequency="4436500" mode="USB" step="100" color="55008080">427</RangeEntry>
-	
-	<RangeEntry minFrequency="4436500" maxFrequency="4750000" mode="USB" step="100" color="55008080">(Coast TX) Maritime</RangeEntry>
-	
-	<RangeEntry minFrequency="4750000" maxFrequency="4995000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>  
-	<RangeEntry minFrequency="4995000" maxFrequency="5005000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>  
-	<RangeEntry minFrequency="5005000" maxFrequency="5060000" mode="AM" step="100" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry> 
-	<RangeEntry minFrequency="5060000" maxFrequency="5330500" mode="USB" step="100" color="55008080">Maritime Mobile/ Private Land Mobile</RangeEntry>
-	
-	
-	<RangeEntry minFrequency="5406400" maxFrequency="5900000" mode="USB" step="100" color="505D88FF">Aeronautical and Maritime</RangeEntry>  
-	<RangeEntry minFrequency="5900000" maxFrequency="6200000" mode="AM" step="100" color="505D63FF">Shortwave (49m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="6200000" maxFrequency="6214750" mode="USB" step="100" color="55008080">(Ship TX) Maritime</RangeEntry>  <!-- Add Marine 6MHz Channels in the future --> 
-	<RangeEntry minFrequency="6213750" maxFrequency="6216250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
-	<RangeEntry minFrequency="6216250" maxFrequency="6342500" mode="USB" step="100" color="55008080">(Ship TX) Maritime</RangeEntry>
-	<RangeEntry minFrequency="6342500" maxFrequency="6765000" mode="LSB" step="100" color="505D88FF">(Transoceanic Flights) Aeronautical and (Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 6MHz Channels in the future -->
-	<RangeEntry minFrequency="6765000" maxFrequency="7000000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>  
-	
-	<RangeEntry minFrequency="7000000" maxFrequency="7080000" mode="LSB" step="10" color="50FF0000">40m Ham Band|  </RangeEntry> 
+
+	<RangeEntry minFrequency="4436500" maxFrequency="4623500" mode="USB" step="10" color="55008080">(Coast TX) Maritime</RangeEntry>
+	<RangeEntry minFrequency="4623500" maxFrequency="4626500" mode="CW" step="1" color="50DD1111">UVB-76 (Lower)</RangeEntry>  <!-- UVB-76 4625kHz -->
+	<RangeEntry minFrequency="4626500" maxFrequency="4750000" mode="USB" step="10" color="55008080">(Coast TX) Maritime</RangeEntry>
+
+	<RangeEntry minFrequency="4750000" maxFrequency="4808500" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>
+	<RangeEntry minFrequency="4808500" maxFrequency="4811500" mode="CW" step="1" color="50DD1111">UVB-76 (Upper)</RangeEntry>  <!-- UVB-76 4810kHz -->
+	<RangeEntry minFrequency="4811500" maxFrequency="4995000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>
+
+	<RangeEntry minFrequency="4995000" maxFrequency="5005000" mode="AM" step="10" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>  <!-- NIST 5MHz-->
+	<RangeEntry minFrequency="5005000" maxFrequency="5060000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>
+	<RangeEntry minFrequency="5060000" maxFrequency="5330500" mode="USB" step="10" color="55008080">Maritime Mobile/ Private Land Mobile</RangeEntry>  <!--  Alaska 5167.5 kHz (assigned frequency 5168.9 kHz) is for emergency communications, calling and listening can be done on frequency too.  -->
+
+
+  <RangeEntry minFrequency="5330500" maxFrequency="5333400" mode="USB" step="10" color="500000FF">60m Ham Band| Ch. 1</RangeEntry>
+	<RangeEntry minFrequency="5333400" maxFrequency="5346500" mode="USB" step="10" color="55008080"/>
+	<RangeEntry minFrequency="5346500" maxFrequency="5349400" mode="USB" step="10" color="500000FF">Ch. 2 (60m)</RangeEntry>
+	<RangeEntry minFrequency="5349400" maxFrequency="5357000" mode="USB" step="10" color="55008080"/>
+  <RangeEntry minFrequency="5357000" maxFrequency="5359900" mode="USB" step="10" color="500000FF">Ch. 3 (60m)</RangeEntry>
+	<RangeEntry minFrequency="5359900" maxFrequency="5371500" mode="USB" step="10" color="55008080"/>
+  <RangeEntry minFrequency="5371500" maxFrequency="5374400" mode="USB" step="10" color="500000FF">Ch. 4 (60m)</RangeEntry>
+	<RangeEntry minFrequency="5374400" maxFrequency="5403500" mode="USB" step="10" color="55008080"/>
+	<RangeEntry minFrequency="5403500" maxFrequency="5406400" mode="USB" step="10" color="500000FF">Ch. 5 | 60m Ham Band</RangeEntry>
+
+
+	<RangeEntry minFrequency="5406400" maxFrequency="5446500" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
+	<RangeEntry minFrequency="5446500" maxFrequency="5449500" mode="CW" step="1" color="50DD1111">The Pip (Day)</RangeEntry>  <!-- The Pip 5448 kHz by day -->
+	<RangeEntry minFrequency="5449500" maxFrequency="5900000" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
+	<RangeEntry minFrequency="5900000" maxFrequency="6200000" mode="AM" step="10" color="505D63FF">Shortwave (49m) Broadcast</RangeEntry>
+	<RangeEntry minFrequency="6200000" maxFrequency="6214750" mode="USB" step="10" color="55008080">(Ship TX) Maritime</RangeEntry>  <!-- Add Marine 6MHz Channels in the future -->
+	<RangeEntry minFrequency="6213750" maxFrequency="6216250" mode="USB" step="10" color="50FF0091">Distress</RangeEntry>
+	<RangeEntry minFrequency="6216250" maxFrequency="6342500" mode="USB" step="10" color="55008080">(Ship TX) Maritime</RangeEntry>
+	<RangeEntry minFrequency="6342500" maxFrequency="6765000" mode="LSB" step="10" color="505D88FF">(Transoceanic Flights) Aeronautical and (Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 6MHz Channels in the future -->
+	<RangeEntry minFrequency="6765000" maxFrequency="6795000" mode="WFM" step="10" color="44006179">ISM Band (50m)</RangeEntry>  <!-- ISM bands are listed in areas they do not take priority, except 433 ISM as it is popular| 13MHz ISM is 22m Band  -->
+	<RangeEntry minFrequency="6795000" maxFrequency="7000000" mode="USB" step="10" color="55008080">Long Distance Communications</RangeEntry>  <!-- Also used for Disaster Communications -->
+
+	<RangeEntry minFrequency="7000000" maxFrequency="7080000" mode="LSB" step="10" color="50FF0000">40m Ham Band|  </RangeEntry>
 	<RangeEntry minFrequency="7080000" maxFrequency="7169000" mode="LSB" step="10" color="500089FF">RTTY/Data</RangeEntry>
 	<RangeEntry minFrequency="7169000" maxFrequency="7173000" mode="LSB" step="10" color="50FF004D">SSTV</RangeEntry>
 	<RangeEntry minFrequency="7173000" maxFrequency="7200000" mode="LSB" step="10" color="50FF0000">40m</RangeEntry>  <!-- 7.2-7.3MHz is shared with shortwave -->
-	
+
 	<RangeEntry minFrequency="7200000" maxFrequency="7300000" mode="AM" step="100" color="50AD63FF">Shared 40m and Shortwave (41m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="7300000" maxFrequency="7450000" mode="AM" step="100" color="505D63FF">Shortwave (41m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="7450000" maxFrequency="7850000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>  
+	<RangeEntry minFrequency="7450000" maxFrequency="7850000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
 	<RangeEntry minFrequency="7850000" maxFrequency="8289750" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 8MHz Channels in the future -->
-	<RangeEntry minFrequency="8289750" maxFrequency="8292250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry> 
-	<RangeEntry minFrequency="8292250" maxFrequency="8680000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry> 
-	<RangeEntry minFrequency="8680000" maxFrequency="9108000" mode="USB" step="100" color="505D88FF">(Transoceanic Flights) Aeronautical and (Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 8MHz Channels in the future --> 
+	<RangeEntry minFrequency="8289750" maxFrequency="8292250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
+	<RangeEntry minFrequency="8292250" maxFrequency="8680000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>
+	<RangeEntry minFrequency="8680000" maxFrequency="9108000" mode="USB" step="100" color="505D88FF">(Transoceanic Flights) Aeronautical and (Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 8MHz Channels in the future -->
 	<RangeEntry minFrequency="9108000" maxFrequency="9400000" mode="USB" step="100" color="55008080">Maritime Mobile/ Private Land Mobile</RangeEntry>
 	<RangeEntry minFrequency="9400000" maxFrequency="9900000" mode="AM" step="100" color="505D63FF">Shortwave (31m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="9900000" maxFrequency="9995000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
 	<RangeEntry minFrequency="9995000" maxFrequency="10005000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
-<!--10MHz-->	
-	<RangeEntry minFrequency="10005000" maxFrequency="10100000" mode="USB" step="100" color="40AFFFEE">Aeronautical</RangeEntry>  
-	
-	<RangeEntry minFrequency="10100000" maxFrequency="10130000" mode="USB" step="10" color="50FF0000">30m Ham Band|  </RangeEntry>
-        <RangeEntry minFrequency="10130000" maxFrequency="10140000" mode="USB" step="10" color="5000FF00">RTTY</RangeEntry>  
-	<RangeEntry minFrequency="10140000" maxFrequency="10150000" mode="USB" step="10" color="5000B3FF">Packet  |30m Ham Band</RangeEntry>  
+<!--10MHz-->
+	<RangeEntry minFrequency="10005000" maxFrequency="10100000" mode="USB" step="100" color="40AFFFEE">Aeronautical</RangeEntry>
 
-	<RangeEntry minFrequency="10150000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Private Land Mobile/ Aeronautical Mobile</RangeEntry>
+	<RangeEntry minFrequency="10100000" maxFrequency="10130000" mode="USB" step="10" color="50FF0000">30m Ham Band|  </RangeEntry>
+  <RangeEntry minFrequency="10130000" maxFrequency="10140000" mode="USB" step="10" color="5000FF00">RTTY</RangeEntry>
+	<RangeEntry minFrequency="10140000" maxFrequency="10150000" mode="USB" step="10" color="5000B3FF">Packet  |30m Ham Band</RangeEntry>
+
+	<RangeEntry minFrequency="10150000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Aeronautical</RangeEntry>
 	<RangeEntry minFrequency="11600000" maxFrequency="12100000" mode="AM" step="100" color="505D63FF">Shortwave (25m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="12100000" maxFrequency="12288750" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 12MHz Channels in the future -->
-	<RangeEntry minFrequency="12288750" maxFrequency="12291250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry> 
+	<RangeEntry minFrequency="12288750" maxFrequency="12291250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
 	<RangeEntry minFrequency="12291250" maxFrequency="12787900" mode="AM" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>
 	<RangeEntry minFrequency="12791900" maxFrequency="13360000" mode="USB" step="100" color="505D88FF">(Transoceanic Flights) Aeronautical and (Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 12MHz Channels in the future -->
 	<RangeEntry minFrequency="13360000" maxFrequency="13410000" mode="AM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
-	<RangeEntry minFrequency="13410000" maxFrequency="13553000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  
+	<RangeEntry minFrequency="13410000" maxFrequency="13553000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>
 	<RangeEntry minFrequency="13553000" maxFrequency="13567000" mode="CW" step="10" color="50FF0000">22m (HiFER) Band and 22m ISM</RangeEntry>  <!-- See also: MedFER in Reference below| This is also an ISM Band-->
 	<RangeEntry minFrequency="13567000" maxFrequency="13570000" mode="CW" step="10" color="44006179">22m ISM Band</RangeEntry>
 	<RangeEntry minFrequency="13570000" maxFrequency="13870000" mode="AM" step="100" color="505D63FF">Shortwave (22m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="13870000" maxFrequency="14000000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
+	<RangeEntry minFrequency="13870000" maxFrequency="14000000" mode="USB" step="100" color="55008080">Propagation Testing</RangeEntry>
 
 	<RangeEntry minFrequency="14000000" maxFrequency="14070000" mode="USB" step="10" color="50FF0000">20m Ham Band|</RangeEntry>
 	<RangeEntry minFrequency="14070000" maxFrequency="14095000" mode="USB" step="10" color="500000FF">RTTY</RangeEntry>
-        <RangeEntry minFrequency="14095000" maxFrequency="14099500" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry>  
+  <RangeEntry minFrequency="14095000" maxFrequency="14099500" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry>
 	<RangeEntry minFrequency="14099500" maxFrequency="14100500" mode="USB" step="10" color="50ACFFEC">NCDXF Beacons</RangeEntry>
-        <RangeEntry minFrequency="14100500" maxFrequency="14112000" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry> 	
+  <RangeEntry minFrequency="14100500" maxFrequency="14112000" mode="USB" step="10" color="5000B3FF">Packet</RangeEntry>
 	<RangeEntry minFrequency="14112000" maxFrequency="14228000" mode="USB" step="10" color="50FF0000">20m</RangeEntry>  <!-- Placeholder -->
-        <RangeEntry minFrequency="14228000" maxFrequency="14232000" mode="USB" step="10" color="50FF004D">SSTV</RangeEntry> 	
+  <RangeEntry minFrequency="14228000" maxFrequency="14232000" mode="USB" step="10" color="50FF004D">SSTV</RangeEntry>
 	<RangeEntry minFrequency="14232000" maxFrequency="14284000" mode="USB" step="10" color="50FF0000">20m</RangeEntry>  <!-- Placeholder -->
-        <RangeEntry minFrequency="14284000" maxFrequency="14288000" mode="USB" step="10" color="5000FF00">AM calling frequency</RangeEntry> 	
+  <RangeEntry minFrequency="14284000" maxFrequency="14288000" mode="USB" step="10" color="5000FF00">AM calling frequency</RangeEntry>
 	<RangeEntry minFrequency="14288000" maxFrequency="14350000" mode="USB" step="10" color="50FF0000">|20m Ham Band</RangeEntry>    <!-- Placeholder -->
-	
+
 	<RangeEntry minFrequency="14350000" maxFrequency="14995000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
 	<RangeEntry minFrequency="14995000" maxFrequency="15005000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
-	<RangeEntry minFrequency="15005000" maxFrequency="15100000" mode="USB" step="100" color="40AFFFEE">(Transoceanic Flights) Aeronautical Mobile</RangeEntry> 
+	<RangeEntry minFrequency="15005000" maxFrequency="15100000" mode="USB" step="100" color="40AFFFEE">(Transoceanic Flights) Aeronautical Mobile</RangeEntry>
 	<RangeEntry minFrequency="15100000" maxFrequency="15800000" mode="AM" step="100" color="505D63FF">Shortwave (19m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="15800000" maxFrequency="16418750" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 16MHz Channels in the future -->
-	<RangeEntry minFrequency="16418750" maxFrequency="16421250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry> 
-	<RangeEntry minFrequency="16421250" maxFrequency="17480000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry> 
+	<RangeEntry minFrequency="16418750" maxFrequency="16421250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
+	<RangeEntry minFrequency="16421250" maxFrequency="17480000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>
 	<RangeEntry minFrequency="17480000" maxFrequency="17900000" mode="AM" step="100" color="505D63FF">Shortwave (16m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="17900000" maxFrequency="18068000" mode="USB" step="100" color="40AFFFEE">(Transoceanic Flights) Aeronautical</RangeEntry>  
-	
+	<RangeEntry minFrequency="17900000" maxFrequency="18068000" mode="USB" step="100" color="40AFFFEE">(Transoceanic Flights) Aeronautical</RangeEntry>
+
 	<RangeEntry minFrequency="18068000" maxFrequency="18168000" mode="USB" step="10" color="50FF0000">17m Ham Band</RangeEntry>
-	
+
 	<RangeEntry minFrequency="18168000" maxFrequency="18900000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime/ Fixed Service</RangeEntry>  <!-- Add Marine 18MHz Channels in the future -->
 	<RangeEntry minFrequency="18900000" maxFrequency="19020000" mode="AM" step="100" color="505D63FF">Shortwave (15m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="19020000" maxFrequency="19995000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 18MHz Channels in the future -->
 	<RangeEntry minFrequency="19995000" maxFrequency="20005000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
 	<RangeEntry minFrequency="20005000" maxFrequency="21000000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
-	
+
 	<RangeEntry minFrequency="21000000" maxFrequency="21450000" mode="USB" step="10" color="50FF0000">15m Ham Band</RangeEntry>
-	
+
 	<RangeEntry minFrequency="21450000" maxFrequency="21850000" mode="AM" step="100" color="505D63FF">Shortwave (13m) Broadcast</RangeEntry>
-	<RangeEntry minFrequency="21850000" maxFrequency="22000000" mode="USB" step="100" color="505D88FF">Aeronautical Mobile</RangeEntry>  
+	<RangeEntry minFrequency="21850000" maxFrequency="22000000" mode="USB" step="100" color="505D88FF">Aeronautical Mobile</RangeEntry>
 	<RangeEntry minFrequency="22000000" maxFrequency="24890000" mode="USB" step="100" color="505D88FF">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 22MHz Channels in the future -->
 
 	<RangeEntry minFrequency="24890000" maxFrequency="24990000" mode="USB" step="10" color="50FF0000">12m Ham Band</RangeEntry>
-	
-	<RangeEntry minFrequency="24990000" maxFrequency="24995000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>  
+
+	<RangeEntry minFrequency="24990000" maxFrequency="24995000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
 	<RangeEntry minFrequency="24995000" maxFrequency="25005000" mode="AM" step="100" color="44FF00FF">Standard Frequency and Time Signal</RangeEntry>
-	
-	<RangeEntry minFrequency="25005000" maxFrequency="25550000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>  
-	<RangeEntry minFrequency="25550000" maxFrequency="25670000" mode="USB" step="100" color="40FFFF00">Radio Astronomy</RangeEntry> 
+
+	<RangeEntry minFrequency="25005000" maxFrequency="25550000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
+	<RangeEntry minFrequency="25550000" maxFrequency="25670000" mode="USB" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
 	<RangeEntry minFrequency="25670000" maxFrequency="26100000" mode="AM" step="100" color="505D63FF">Shortwave (11m) Broadcast</RangeEntry>
 	<RangeEntry minFrequency="26100000" maxFrequency="26957000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
 	<RangeEntry minFrequency="26957000" maxFrequency="27283000" mode="AM" step="100" color="44006179">10m ISM</RangeEntry>
-	<RangeEntry minFrequency="27283000" maxFrequency="28000000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
-	
+	<RangeEntry minFrequency="27283000" maxFrequency="27410000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
+	<RangeEntry minFrequency="27410000" maxFrequency="28000000" mode="USB" step="100" color="50738FFF">Meteorological Aids</RangeEntry>
+
 	<RangeEntry minFrequency="28000000" maxFrequency="29700000" mode="CW" step="10" color="50FF0000">10m Ham Band</RangeEntry>
-	
+
 	<RangeEntry minFrequency="29700000" maxFrequency="40660000" mode="AM" step="100" color="55008080">Fixed Mobile/ Maritime</RangeEntry>
 	<RangeEntry minFrequency="40660000" maxFrequency="40700000" mode="AM" step="100" color="44006179">8m ISM</RangeEntry>
 	<RangeEntry minFrequency="40700000" maxFrequency="50000000" mode="AM" step="100" color="55008080">Fixed Mobile/ Maritime</RangeEntry>
-	
-	<RangeEntry minFrequency="50000000" maxFrequency="54000000" mode="CW" step="10" color="50FF0000">6m Ham Band</RangeEntry>  
-	
-	<RangeEntry minFrequency="53900000" maxFrequency="54000000" mode="WFM" step="1000" color="00000000">(Buffer)</RangeEntry>  <!-- Buffer between Ham Band (6m) and TV Ch. 2 -->
-	<RangeEntry minFrequency="54000000" maxFrequency="72000000" mode="WFM" step="1000" color="50FFE55C">Television VHF</RangeEntry>
+
+	<RangeEntry minFrequency="50000000" maxFrequency="54000000" mode="CW" step="10" color="50FF0000">6m Ham Band</RangeEntry>
+
+	<RangeEntry minFrequency="54000000" maxFrequency="72000000" mode="WFM" step="1000" color="55008080">Radiolocation/ Television VHF</RangeEntry>
 
 	<RangeEntry minFrequency="73000000" maxFrequency="74600000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
-	<RangeEntry minFrequency="76000000" maxFrequency="108000000" mode="WFM" step="100" color="4000FF9A">FM Broadcast</RangeEntry>
-<!--100MHz-->	
-	<RangeEntry minFrequency="108000000" maxFrequency="137000000" mode="AM" step="100" color="505D88FF">Air Band</RangeEntry> 
-	
+
+	<RangeEntry minFrequency="76000000" maxFrequency="88000000" mode="WFM" step="100" color="55008080">Radiolocation/ FM Broadcast</RangeEntry>
+	<RangeEntry minFrequency="88000000" maxFrequency="108000000" mode="WFM" step="100" color="4000FF9A">FM Broadcast</RangeEntry>
+<!--100MHz-->
+  <RangeEntry minFrequency="108000000" maxFrequency="118000000" mode="AM" step="100" color="505D88FF">Air Band VOR/ILS</RangeEntry>  <!-- VOR stands for VHF Omnidirectional Range, ILS stands for Instrument Landing System  -->
+  <RangeEntry minFrequency="118000000" maxFrequency="121490000" mode="AM" step="100" color="505D88FF">Air Band Voice</RangeEntry>
+  <RangeEntry minFrequency="121490000" maxFrequency="121510000" mode="AM" step="100" color="50FF0091">Civilian Aircraft Distress/ Emergency</RangeEntry>
+  <RangeEntry minFrequency="121510000" maxFrequency="131545000" mode="AM" step="100" color="505D88FF">Air Band Voice</RangeEntry>
+  <RangeEntry minFrequency="131545000" maxFrequency="131555000" mode="AM" step="100" color="400000FF">ACARS</RangeEntry>  <!-- ACARS 131.550 -->
+  <RangeEntry minFrequency="131555000" maxFrequency="136637500" mode="AM" step="100" color="505D88FF">Air Band Voice</RangeEntry>
+  <RangeEntry minFrequency="136637500" maxFrequency="136662500" mode="RAW" step="10" color="400000FF">VDL-M2 (US)</RangeEntry>  <!-- 136.650 USA (ARINC) VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136662500" maxFrequency="136687500" mode="AM" step="100" color="505D88FF"/>  <!-- Air Band Voice -->
+  <RangeEntry minFrequency="136687500" maxFrequency="136712500" mode="RAW" step="10" color="400000FF">VDL-M2 (US)</RangeEntry>  <!-- 136.700 USA (ARINC) VHF Data Link - Mode 2 -->
+	<RangeEntry minFrequency="136712500" maxFrequency="136737500" mode="RAW" step="10" color="400000FF">VDL-M2 (EU)</RangeEntry>  <!-- 136.725 Europe (ARINC) VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136737500" maxFrequency="136762500" mode="AM" step="100" color="505D88FF"/>  <!-- Air Band Voice -->
+  <RangeEntry minFrequency="136762500" maxFrequency="136787500" mode="RAW" step="10" color="400000FF">VDL-M2 (EU)</RangeEntry>  <!-- 136.775 Europe (SITA) VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136787500" maxFrequency="136812500" mode="RAW" step="10" color="400000FF">VDL-M2 (US)</RangeEntry>   <!-- 136.800 USA (SITA) VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136812500" maxFrequency="136837500" mode="RAW" step="10" color="400000FF">VDL-M2 (EU)</RangeEntry>  <!-- 136.825 Europe (ARINC) VHF Data Link - Mode 2 -->
+	<RangeEntry minFrequency="136837500" maxFrequency="136862500" mode="AM" step="100" color="505D88FF"/>  <!-- Air Band Voice -->
+  <RangeEntry minFrequency="136862500" maxFrequency="136887500" mode="RAW" step="10" color="400000FF">VDL-M2 (EU)</RangeEntry>  <!-- 136.875 Europe (SITA) VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136887500" maxFrequency="136962500" mode="AM" step="100" color="505D88FF"/>  <!-- Air Band Voice -->
+  <RangeEntry minFrequency="136962500" maxFrequency="136987500" mode="RAW" step="10" color="400000FF">Worldwide VDL-M2</RangeEntry>	 <!-- 136.975 Worldwide (SITA & ARINC) ICAO VHF Data Link VHF Data Link - Mode 2 -->
+  <RangeEntry minFrequency="136987500" maxFrequency="137000000" mode="WFM" step="100" color="505D88FF"/>  <!-- Air Band Voice -->
+
 	<RangeEntry minFrequency="137040000" maxFrequency="137080000" mode="WFM" step="10" color="2200BFFF">| METEOR</RangeEntry>
 	<RangeEntry minFrequency="137080000" maxFrequency="137120000" mode="WFM" step="10" color="5500FFFF">NOAA-19</RangeEntry>
 	<RangeEntry minFrequency="137120000" maxFrequency="137160000" mode="WFM" step="10" color="2200BFFF">METEOR | </RangeEntry>
@@ -252,90 +325,90 @@
 	<RangeEntry minFrequency="137535000" maxFrequency="137585000" mode="WFM" step="10" color="55FF8000">Orbcomm Gateway</RangeEntry>
 	<RangeEntry minFrequency="137650000" maxFrequency="137750000" mode="WFM" step="10" color="33FF4400">ORB. Seg. 3</RangeEntry>
 	<RangeEntry minFrequency="137787500" maxFrequency="137812500" mode="WFM" step="10" color="33FF4400">ORB. Seg. 4</RangeEntry>
-	
-	<RangeEntry minFrequency="144000000" maxFrequency="144480000" mode="WFM" step="100" color="50FF0000">2m Ham Band</RangeEntry>  
+
+	<RangeEntry minFrequency="144000000" maxFrequency="144480000" mode="WFM" step="100" color="50FF0000">2m Ham Band</RangeEntry>
 	<RangeEntry minFrequency="144480000" maxFrequency="144500000" mode="WFM" step="100" color="50FFFF00">ISS Voice Uplink</RangeEntry>  <!-- For ITU Region 2&3, ITU Region 3: 145.20 -->
-	<RangeEntry minFrequency="144500000" maxFrequency="145790000" mode="WFM" step="100" color="503CCCFF">2m</RangeEntry>  
+	<RangeEntry minFrequency="144500000" maxFrequency="145790000" mode="WFM" step="100" color="503CCCFF">2m</RangeEntry>
 	<RangeEntry minFrequency="145790000" maxFrequency="145810000" mode="WFM" step="100" color="5500BCFF">ISS Voice/ SSTV Downlink</RangeEntry>
-        <RangeEntry minFrequency="145810000" maxFrequency="145815000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry> 
+  <RangeEntry minFrequency="145810000" maxFrequency="145815000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
 	<RangeEntry minFrequency="145815000" maxFrequency="145835000" mode="WFM" step="100" color="50FFFFFF">ISS VHF Packet U/D</RangeEntry>
-	<RangeEntry minFrequency="145835000" maxFrequency="145845000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry> 
+	<RangeEntry minFrequency="145835000" maxFrequency="145845000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
 	<RangeEntry minFrequency="145845000" maxFrequency="145855000" mode="WFM" step="100" color="50FFFF00">SO-50 Uplink</RangeEntry>
-	<RangeEntry minFrequency="145855000" maxFrequency="145870000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry> 
-	<RangeEntry minFrequency="145870000" maxFrequency="145890000" mode="WFM" step="100" color="5500E6FF">AO-92 Downlink</RangeEntry> 
-	<RangeEntry minFrequency="145890000" maxFrequency="145895000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry> 
+	<RangeEntry minFrequency="145855000" maxFrequency="145870000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
+	<RangeEntry minFrequency="145870000" maxFrequency="145890000" mode="WFM" step="100" color="5500E6FF">AO-92 Downlink</RangeEntry>
+	<RangeEntry minFrequency="145890000" maxFrequency="145895000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
 	<RangeEntry minFrequency="145895000" maxFrequency="145905000" mode="WFM" step="100" color="5500E6FF">PO-101 Downlink</RangeEntry>
 	<RangeEntry minFrequency="145905000" maxFrequency="145950000" mode="WFM" step="100" color="5033FF00">Satellites</RangeEntry>
 	<RangeEntry minFrequency="145950000" maxFrequency="145970000" mode="WFM" step="100" color="5500E6FF">AO-91 Downlink</RangeEntry>
 	<RangeEntry minFrequency="145970000" maxFrequency="145980000" mode="WFM" step="100" color="5500E6FF">AO-85 Downlink</RangeEntry>
 	<RangeEntry minFrequency="145980000" maxFrequency="145990000" mode="WFM" step="100" color="5033FF00">AO-85 Downlink and ISS Repeater Uplink</RangeEntry>
 	<RangeEntry minFrequency="145990000" maxFrequency="146000000" mode="WFM" step="100" color="55C4FF00">ISS U/V Repeater Uplink</RangeEntry>
-	<RangeEntry minFrequency="146000000" maxFrequency="148000000" mode="WFM" step="100" color="50FF0000">2m Ham Band </RangeEntry>  <!-- Repeater inputs -->	
-	
-	<RangeEntry minFrequency="148000000" maxFrequency="150000000" mode="WFM" step="100" color="40FFCD00">Orbcomm Uplink</RangeEntry>	
+	<RangeEntry minFrequency="146000000" maxFrequency="148000000" mode="WFM" step="100" color="50FF0000">2m Ham Band </RangeEntry>  <!-- Repeater inputs -->
+
+	<RangeEntry minFrequency="148000000" maxFrequency="150000000" mode="WFM" step="100" color="40FFCD00">Orbcomm Uplink</RangeEntry>
 	<RangeEntry minFrequency="150000000" maxFrequency="155987500" mode="WFM" step="100" color="5500C9C9">Fixed Mobile</RangeEntry>
-	<!-- _BUG_     Marine VHF is the most popular Marine band so it was expanded. (File crashes when commented out channels are added. Don't know what the issue is. Only works if first allocations is at least 200KHz long. After it is exactly 45 small allocations, maybe that is the max of consecutive small allocations.  Data handling issue? -->
-        <RangeEntry minFrequency="155987500" maxFrequency="156187500" mode="WFM" step="100" color="5500C9C9">Marine VHF Ch. 0, 60, 1, 61, 2, 62, 3, 63 (Ship Stations)</RangeEntry>  
-<!--    <RangeEntry minFrequency="156012500" maxFrequency="156037500‬" mode="NFM" step="100" color="55008080">60</RangeEntry>   -->
-<!-- 	<RangeEntry minFrequency="156037500‬" maxFrequency="156062500" mode="WFM" step="100" color="5500C9C9">1</RangeEntry>  -->
-<!-- 	<RangeEntry minFrequency="156062500" maxFrequency="1560875‬00" mode="WFM" step="100" color="55008080">61</RangeEntry>  -->
-<!-- 	<RangeEntry minFrequency="1560875‬00" maxFrequency="156112500‬" mode="WFM" step="100" color="5500C9C9">2</RangeEntry>  -->
-<!-- 	<RangeEntry minFrequency="156112500‬" maxFrequency="156137500" mode="WFM" step="100" color="55008080">62</RangeEntry>  -->
-<!-- 	<RangeEntry minFrequency="156137500" maxFrequency="156162500‬" mode="WFM" step="100" color="5500C9C9">3</RangeEntry>  -->
-<!-- 	<RangeEntry minFrequency="156162500‬" maxFrequency="156187500" mode="WFM" step="100" color="55008080">63</RangeEntry>  -->
-	<RangeEntry minFrequency="156187500" maxFrequency="156212500" mode="WFM" step="100" color="5500C9C9">4</RangeEntry>  <!-- Stable Point -->
- 	<RangeEntry minFrequency="156212500" maxFrequency="156237500" mode="WFM" step="100" color="55008080">64</RangeEntry>  
-	<RangeEntry minFrequency="156237500" maxFrequency="156262500" mode="WFM" step="100" color="5500C9C9">5</RangeEntry>  
- 	<RangeEntry minFrequency="156262500" maxFrequency="156287500" mode="WFM" step="100" color="55008080">65</RangeEntry>  
+
+	<RangeEntry minFrequency="155987500" maxFrequency="156012500" mode="WFM" step="100" color="5500C9C9">0</RangeEntry>
+	<RangeEntry minFrequency="156012500" maxFrequency="156037500" mode="WFM" step="100" color="55008080">60</RangeEntry>
+	<RangeEntry minFrequency="156037500" maxFrequency="156062500" mode="WFM" step="100" color="5500C9C9">1</RangeEntry>
+	<RangeEntry minFrequency="156062500" maxFrequency="156087500" mode="WFM" step="100" color="55008080">61</RangeEntry>
+	<RangeEntry minFrequency="156087500" maxFrequency="156112500" mode="WFM" step="100" color="5500C9C9">2</RangeEntry>
+  <RangeEntry minFrequency="156112500" maxFrequency="156137500" mode="WFM" step="100" color="55008080">62</RangeEntry>
+  <RangeEntry minFrequency="156137500" maxFrequency="156162500" mode="WFM" step="100" color="5500C9C9">3</RangeEntry>
+  <RangeEntry minFrequency="156162500" maxFrequency="156187500" mode="WFM" step="100" color="55008080">63</RangeEntry>
+	<RangeEntry minFrequency="156187500" maxFrequency="156212500" mode="WFM" step="100" color="5500C9C9">4</RangeEntry>  <!-- Stable Point of Previous Bug-->
+ 	<RangeEntry minFrequency="156212500" maxFrequency="156237500" mode="WFM" step="100" color="55008080">64</RangeEntry>
+	<RangeEntry minFrequency="156237500" maxFrequency="156262500" mode="WFM" step="100" color="5500C9C9">5</RangeEntry>
+ 	<RangeEntry minFrequency="156262500" maxFrequency="156287500" mode="WFM" step="100" color="55008080">65</RangeEntry>
  	<RangeEntry minFrequency="156287500" maxFrequency="156312500" mode="WFM" step="100" color="5500C9C9">6 (Splx)</RangeEntry>   <!-- Simplex Frequency -->
- 	<RangeEntry minFrequency="156312500" maxFrequency="156337500" mode="WFM" step="100" color="55008080">66</RangeEntry>  
- 	<RangeEntry minFrequency="156337500" maxFrequency="156362500" mode="WFM" step="100" color="5500C9C9">7</RangeEntry>   
- 	<RangeEntry minFrequency="156362500" maxFrequency="156387500" mode="WFM" step="100" color="55008080">67 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156387500" maxFrequency="156412500" mode="WFM" step="100" color="5500C9C9">8 (Splx)</RangeEntry>   <!-- Simplex Frequency -->   
- 	<RangeEntry minFrequency="156412500" maxFrequency="156437500" mode="WFM" step="100" color="55008080">68 (Splx)</RangeEntry>  <!-- Simplex Frequency -->   
- 	<RangeEntry minFrequency="156437500" maxFrequency="156462500" mode="WFM" step="100" color="5500C9C9">9 (Splx)</RangeEntry>   <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156462500" maxFrequency="156487500" mode="WFM" step="100" color="55008080">69 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156487500" maxFrequency="156512500" mode="WFM" step="100" color="5500C9C9">10 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156512500" maxFrequency="156537500" mode="WFM" step="100" color="55008080">70 (Splx)</RangeEntry>  <!-- Simplex Frequency --> 
- 	<RangeEntry minFrequency="156537500" maxFrequency="156562500" mode="WFM" step="100" color="5500C9C9">11 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156562500" maxFrequency="156587500" mode="WFM" step="100" color="55008080">71 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156587500" maxFrequency="156612500" mode="WFM" step="100" color="5500C9C9">12 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156612500" maxFrequency="156637500" mode="WFM" step="100" color="55008080">72 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156637500" maxFrequency="156662500" mode="WFM" step="100" color="5500C9C9">13 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156662500" maxFrequency="156687500" mode="WFM" step="100" color="55008080">73 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156687500" maxFrequency="156712500" mode="WFM" step="100" color="5500C9C9">14 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156712500" maxFrequency="156737500" mode="WFM" step="100" color="55008080">74 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
-	<RangeEntry minFrequency="156737500" maxFrequency="156762500" mode="WFM" step="100" color="5500C9C9">15 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
-	<RangeEntry minFrequency="156762500" maxFrequency="156787500" mode="WFM" step="100" color="55008080">75 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
+ 	<RangeEntry minFrequency="156312500" maxFrequency="156337500" mode="WFM" step="100" color="55008080">66</RangeEntry>
+ 	<RangeEntry minFrequency="156337500" maxFrequency="156362500" mode="WFM" step="100" color="5500C9C9">7</RangeEntry>
+ 	<RangeEntry minFrequency="156362500" maxFrequency="156387500" mode="WFM" step="100" color="55008080">67 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156387500" maxFrequency="156412500" mode="WFM" step="100" color="5500C9C9">8 (Splx)</RangeEntry>   <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156412500" maxFrequency="156437500" mode="WFM" step="100" color="55008080">68 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156437500" maxFrequency="156462500" mode="WFM" step="100" color="5500C9C9">9 (Splx)</RangeEntry>   <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156462500" maxFrequency="156487500" mode="WFM" step="100" color="55008080">69 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156487500" maxFrequency="156512500" mode="WFM" step="100" color="5500C9C9">10 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156512500" maxFrequency="156537500" mode="WFM" step="100" color="55008080">70 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156537500" maxFrequency="156562500" mode="WFM" step="100" color="5500C9C9">11 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156562500" maxFrequency="156587500" mode="WFM" step="100" color="55008080">71 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156587500" maxFrequency="156612500" mode="WFM" step="100" color="5500C9C9">12 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156612500" maxFrequency="156637500" mode="WFM" step="100" color="55008080">72 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156637500" maxFrequency="156662500" mode="WFM" step="100" color="5500C9C9">13 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156662500" maxFrequency="156687500" mode="WFM" step="100" color="55008080">73 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156687500" maxFrequency="156712500" mode="WFM" step="100" color="5500C9C9">14 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156712500" maxFrequency="156737500" mode="WFM" step="100" color="55008080">74 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+	<RangeEntry minFrequency="156737500" maxFrequency="156762500" mode="WFM" step="100" color="5500C9C9">15 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+	<RangeEntry minFrequency="156762500" maxFrequency="156787500" mode="WFM" step="100" color="55008080">75 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
 	<RangeEntry minFrequency="156787500" maxFrequency="156812500" mode="WFM" step="100" color="50FF0091">International Distress (Ch. 16)</RangeEntry>   <!-- Simplex Frequency -->
-        <RangeEntry minFrequency="156812500" maxFrequency="156837500" mode="WFM" step="100" color="55008080">76 (Splx)</RangeEntry>  <!-- Simplex Frequency --> 
-	<RangeEntry minFrequency="156837500" maxFrequency="156862500" mode="WFM" step="100" color="5500C9C9">17 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156862500" maxFrequency="156887500" mode="WFM" step="100" color="55008080">77 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="156887500" maxFrequency="156912500" mode="WFM" step="100" color="5500C9C9">18</RangeEntry>  
- 	<RangeEntry minFrequency="156912500" maxFrequency="156937500" mode="WFM" step="100" color="55008080">78</RangeEntry>  
- 	<RangeEntry minFrequency="156937500" maxFrequency="156962500" mode="WFM" step="100" color="5500C9C9">19</RangeEntry>  
- 	<RangeEntry minFrequency="156962500" maxFrequency="156987500" mode="WFM" step="100" color="55008080">79</RangeEntry>  
-	<RangeEntry minFrequency="156987500" maxFrequency="157012500" mode="WFM" step="100" color="5500C9C9">20</RangeEntry>  
-	<RangeEntry minFrequency="157012500" maxFrequency="157037500" mode="WFM" step="100" color="55008080">80</RangeEntry>  
- 	<RangeEntry minFrequency="157037500" maxFrequency="157062500" mode="WFM" step="100" color="5500C9C9">21</RangeEntry>  
- 	<RangeEntry minFrequency="157062500" maxFrequency="157087500" mode="WFM" step="100" color="55008080">81</RangeEntry>  
- 	<RangeEntry minFrequency="157087500" maxFrequency="157112500" mode="WFM" step="100" color="5500C9C9">22</RangeEntry>  
- 	<RangeEntry minFrequency="157112500" maxFrequency="157137500" mode="WFM" step="100" color="55008080">82</RangeEntry>  
-	<RangeEntry minFrequency="157137500" maxFrequency="157162500" mode="WFM" step="100" color="5500C9C9">23</RangeEntry>  
- 	<RangeEntry minFrequency="157162500" maxFrequency="157187500" mode="WFM" step="100" color="55008080">83</RangeEntry>  
- 	<RangeEntry minFrequency="157187500" maxFrequency="157212500" mode="WFM" step="100" color="5500C9C9">24</RangeEntry>  
- 	<RangeEntry minFrequency="157212500" maxFrequency="157237500" mode="WFM" step="100" color="55008080">84</RangeEntry>  
- 	<RangeEntry minFrequency="157237500" maxFrequency="157262500" mode="WFM" step="100" color="5500C9C9">25</RangeEntry>  
- 	<RangeEntry minFrequency="157262500" maxFrequency="157287500" mode="WFM" step="100" color="55008080">85</RangeEntry>  
- 	<RangeEntry minFrequency="157287500" maxFrequency="157312500" mode="WFM" step="100" color="5500C9C9">26</RangeEntry>  
- 	<RangeEntry minFrequency="157312500" maxFrequency="157337500" mode="WFM" step="100" color="55008080">86</RangeEntry>  
- 	<RangeEntry minFrequency="157337500" maxFrequency="157362500" mode="WFM" step="100" color="5500C9C9">27</RangeEntry>  
- 	<RangeEntry minFrequency="157362500" maxFrequency="157387500" mode="WFM" step="100" color="55008080">87 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
- 	<RangeEntry minFrequency="157387500" maxFrequency="157412500" mode="WFM" step="100" color="5500C9C9">28</RangeEntry>  
- 	<RangeEntry minFrequency="157412500" maxFrequency="157437500" mode="WFM" step="100" color="55008080">88 (Splx)</RangeEntry>  <!-- Simplex Frequency -->  
-	
-	<RangeEntry minFrequency="157437500" maxFrequency="160587500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>	
-	
+  <RangeEntry minFrequency="156812500" maxFrequency="156837500" mode="WFM" step="100" color="55008080">76 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+	<RangeEntry minFrequency="156837500" maxFrequency="156862500" mode="WFM" step="100" color="5500C9C9">17 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156862500" maxFrequency="156887500" mode="WFM" step="100" color="55008080">77 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="156887500" maxFrequency="156912500" mode="WFM" step="100" color="5500C9C9">18</RangeEntry>
+ 	<RangeEntry minFrequency="156912500" maxFrequency="156937500" mode="WFM" step="100" color="55008080">78</RangeEntry>
+ 	<RangeEntry minFrequency="156937500" maxFrequency="156962500" mode="WFM" step="100" color="5500C9C9">19</RangeEntry>
+ 	<RangeEntry minFrequency="156962500" maxFrequency="156987500" mode="WFM" step="100" color="55008080">79</RangeEntry>
+	<RangeEntry minFrequency="156987500" maxFrequency="157012500" mode="WFM" step="100" color="5500C9C9">20</RangeEntry>
+	<RangeEntry minFrequency="157012500" maxFrequency="157037500" mode="WFM" step="100" color="55008080">80</RangeEntry>
+ 	<RangeEntry minFrequency="157037500" maxFrequency="157062500" mode="WFM" step="100" color="5500C9C9">21</RangeEntry>
+ 	<RangeEntry minFrequency="157062500" maxFrequency="157087500" mode="WFM" step="100" color="55008080">81</RangeEntry>
+ 	<RangeEntry minFrequency="157087500" maxFrequency="157112500" mode="WFM" step="100" color="5500C9C9">22</RangeEntry>
+ 	<RangeEntry minFrequency="157112500" maxFrequency="157137500" mode="WFM" step="100" color="55008080">82</RangeEntry>
+	<RangeEntry minFrequency="157137500" maxFrequency="157162500" mode="WFM" step="100" color="5500C9C9">23</RangeEntry>
+ 	<RangeEntry minFrequency="157162500" maxFrequency="157187500" mode="WFM" step="100" color="55008080">83</RangeEntry>
+ 	<RangeEntry minFrequency="157187500" maxFrequency="157212500" mode="WFM" step="100" color="5500C9C9">24</RangeEntry>
+ 	<RangeEntry minFrequency="157212500" maxFrequency="157237500" mode="WFM" step="100" color="55008080">84</RangeEntry>
+ 	<RangeEntry minFrequency="157237500" maxFrequency="157262500" mode="WFM" step="100" color="5500C9C9">25</RangeEntry>
+ 	<RangeEntry minFrequency="157262500" maxFrequency="157287500" mode="WFM" step="100" color="55008080">85</RangeEntry>
+ 	<RangeEntry minFrequency="157287500" maxFrequency="157312500" mode="WFM" step="100" color="5500C9C9">26</RangeEntry>
+ 	<RangeEntry minFrequency="157312500" maxFrequency="157337500" mode="WFM" step="100" color="55008080">86</RangeEntry>
+ 	<RangeEntry minFrequency="157337500" maxFrequency="157362500" mode="WFM" step="100" color="5500C9C9">27</RangeEntry>
+ 	<RangeEntry minFrequency="157362500" maxFrequency="157387500" mode="WFM" step="100" color="55008080">87 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+ 	<RangeEntry minFrequency="157387500" maxFrequency="157412500" mode="WFM" step="100" color="5500C9C9">28</RangeEntry>
+ 	<RangeEntry minFrequency="157412500" maxFrequency="157437500" mode="WFM" step="100" color="55008080">88 (Splx)</RangeEntry>  <!-- Simplex Frequency -->
+
+	<RangeEntry minFrequency="157437500" maxFrequency="160587500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>
+
 	<RangeEntry minFrequency="160587500" maxFrequency="160612500" mode="WFM" step="100" color="5500C9C9">Marine VHF Ch. 0 (Coast Stations)</RangeEntry>  <!-- Simplex Channels: 6, 8, 9, 10, 11, 12, 13, 14, 15, 16 ,17 ,M1/37A ,67 ,68 ,69 ,70 ,71 ,72 ,73 ,74 ,75 ,76 ,77 ,87 ,88 -->
 	<RangeEntry minFrequency="160612500" maxFrequency="160637500" mode="WFM" step="100" color="55008080">60</RangeEntry>
 	<RangeEntry minFrequency="160637500" maxFrequency="160662500" mode="WFM" step="100" color="5500C9C9">1</RangeEntry>
@@ -344,13 +417,13 @@
 	<RangeEntry minFrequency="160712500" maxFrequency="160737500" mode="WFM" step="100" color="55008080">62</RangeEntry>
 	<RangeEntry minFrequency="160737500" maxFrequency="160762500" mode="WFM" step="100" color="5500C9C9">3</RangeEntry>
 	<RangeEntry minFrequency="160762500" maxFrequency="160787500" mode="WFM" step="100" color="55008080">63</RangeEntry>
-	<RangeEntry minFrequency="160787500" maxFrequency="160812500" mode="WFM" step="100" color="5500C9C9">4</RangeEntry>	
+	<RangeEntry minFrequency="160787500" maxFrequency="160812500" mode="WFM" step="100" color="5500C9C9">4</RangeEntry>
 	<RangeEntry minFrequency="160812500" maxFrequency="160837500" mode="WFM" step="100" color="55008080">64</RangeEntry>
 	<RangeEntry minFrequency="160837500" maxFrequency="160862500" mode="WFM" step="100" color="5500C9C9">5</RangeEntry>
 	<RangeEntry minFrequency="160862500" maxFrequency="160887500" mode="WFM" step="100" color="55008080">65</RangeEntry>
- 	<RangeEntry minFrequency="160887500" maxFrequency="160912500" mode="WFM" step="100" color="5500C9C9">Marine</RangeEntry>  
+ 	<RangeEntry minFrequency="160887500" maxFrequency="160912500" mode="WFM" step="100" color="5500C9C9">Marine</RangeEntry>
 	<RangeEntry minFrequency="160912500" maxFrequency="160937500" mode="WFM" step="100" color="55008080">66</RangeEntry>
-	<RangeEntry minFrequency="160937500" maxFrequency="160962500" mode="WFM" step="100" color="5500C9C9">7</RangeEntry>	
+	<RangeEntry minFrequency="160937500" maxFrequency="160962500" mode="WFM" step="100" color="5500C9C9">7</RangeEntry>
 	<RangeEntry minFrequency="161487500" maxFrequency="161512500" mode="WFM" step="100" color="55008080">18</RangeEntry>
 	<RangeEntry minFrequency="161512500" maxFrequency="161537500" mode="WFM" step="100" color="5500C9C9">78</RangeEntry>
 	<RangeEntry minFrequency="161537500" maxFrequency="161562500" mode="WFM" step="100" color="55008080">19</RangeEntry>
@@ -364,29 +437,31 @@
 	<RangeEntry minFrequency="161737500" maxFrequency="161762500" mode="WFM" step="100" color="55008080">23</RangeEntry>
 	<RangeEntry minFrequency="161762500" maxFrequency="161787500" mode="WFM" step="100" color="5500C9C9">83</RangeEntry>
 	<RangeEntry minFrequency="161787500" maxFrequency="161812500" mode="WFM" step="100" color="55008080">24</RangeEntry>
-	<RangeEntry minFrequency="161812500" maxFrequency="161837500" mode="WFM" step="100" color="5500C9C9">84</RangeEntry>	
+	<RangeEntry minFrequency="161812500" maxFrequency="161837500" mode="WFM" step="100" color="5500C9C9">84</RangeEntry>
 	<RangeEntry minFrequency="161837500" maxFrequency="161862500" mode="WFM" step="100" color="55008080">25</RangeEntry>
 	<RangeEntry minFrequency="161862500" maxFrequency="161887500" mode="WFM" step="100" color="5500C9C9">85</RangeEntry>
 	<RangeEntry minFrequency="161887500" maxFrequency="161912500" mode="WFM" step="100" color="55008080">26</RangeEntry>
 	<RangeEntry minFrequency="161912500" maxFrequency="161937500" mode="WFM" step="100" color="5500C9C9">86</RangeEntry>
 	<RangeEntry minFrequency="161937500" maxFrequency="161962500" mode="WFM" step="100" color="55008080">27</RangeEntry>
-	<RangeEntry minFrequency="161962500" maxFrequency="161987500" mode="WFM" step="100" color="5500C9C9">87B</RangeEntry>	
+	<RangeEntry minFrequency="161962500" maxFrequency="161987500" mode="WFM" step="100" color="5500C9C9">87B</RangeEntry>
 	<RangeEntry minFrequency="161987500" maxFrequency="162012500" mode="WFM" step="100" color="55008080">88B/ 28</RangeEntry>
-        <RangeEntry minFrequency="162012500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>	
+  <RangeEntry minFrequency="162012500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>
 	<RangeEntry minFrequency="162137500" maxFrequency="162162500" mode="WFM" step="100" color="55008080">31</RangeEntry>
-	
+
 	<RangeEntry minFrequency="162162500" maxFrequency="174000000" mode="WFM" step="100" color="55008080">Fixed Mobile/ Marine</RangeEntry>
-	
+
 	<RangeEntry minFrequency="174000000" maxFrequency="216000000" mode="WFM" step="100" color="50FFE55C">Television VHF</RangeEntry>
+  <RangeEntry minFrequency="216000000" maxFrequency="223000000" mode="WFM" step="100" color="55008080">Radiolocation/ Television VHF</RangeEntry>
+
 	<RangeEntry minFrequency="400050000" maxFrequency="400150000" mode="WFM" step="100" color="50DE91EE">Standard Frequency and Time Signal-Satellite Service</RangeEntry>
 	<RangeEntry minFrequency="400150000" maxFrequency="401000000" mode="WFM" step="100" color="40FFCD00">(NVNG)/ Mobile Satellite Service (MSS)</RangeEntry>
 	<RangeEntry minFrequency="401000000" maxFrequency="403000000" mode="WFM" step="100" color="4000FFFF">Earth Exploration Satellite</RangeEntry>
 	<RangeEntry minFrequency="406000000" maxFrequency="406100000" mode="WFM" step="100" color="50FF0091">Distress Beacons (S and RSAT| NOAAs 15, 18, 19)</RangeEntry>  <!-- Personal Locator Beacons Service -->
-	<RangeEntry minFrequency="406100000" maxFrequency="410000000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>  
-	
-	<RangeEntry minFrequency="430000000" maxFrequency="433050000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>  
-	<RangeEntry minFrequency="433050000" maxFrequency="434790000" mode="WFM" step="100" color="44006179">Shared 70cm Ham and 70cm ISM</RangeEntry> 
-	<RangeEntry minFrequency="434790000" maxFrequency="435172000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry> 
+	<RangeEntry minFrequency="406100000" maxFrequency="410000000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
+
+	<RangeEntry minFrequency="430000000" maxFrequency="433050000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>
+	<RangeEntry minFrequency="433050000" maxFrequency="434790000" mode="WFM" step="100" color="44006179">Shared 70cm Ham and 70cm ISM</RangeEntry>
+	<RangeEntry minFrequency="434790000" maxFrequency="435172000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>
 	<RangeEntry minFrequency="435172000" maxFrequency="435192000" mode="WFM" step="100" color="50FFFF00">AO-85 Uplink</RangeEntry>
 	<RangeEntry minFrequency="435192000" maxFrequency="435240000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
 	<RangeEntry minFrequency="435240000" maxFrequency="435260000" mode="WFM" step="100" color="50FFFF00">AO-91 Uplink</RangeEntry>
@@ -401,16 +476,16 @@
 	<RangeEntry minFrequency="437560000" maxFrequency="437790000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
 	<RangeEntry minFrequency="437790000" maxFrequency="437810000" mode="WFM" step="100" color="5500E6FF">ISS U/V Repeater Downlink</RangeEntry>
 	<RangeEntry minFrequency="437810000" maxFrequency="438000000" mode="WFM" step="100" color="5033FF00">Satellite</RangeEntry>
-	<RangeEntry minFrequency="438000000" maxFrequency="440000000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>  
- 
+	<RangeEntry minFrequency="438000000" maxFrequency="440000000" mode="WFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>
+
 	<RangeEntry minFrequency="465986500" maxFrequency="465988500" mode="WFM" step="100" color="5091A4EE">Metops' DCP configuration control</RangeEntry>
 
 	<RangeEntry minFrequency="470000000" maxFrequency="608000000" mode="WFM" step="1000" color="50FFE55C">Television UHF</RangeEntry>
 	<RangeEntry minFrequency="608000000" maxFrequency="614000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy (Ch.37)</RangeEntry>  <!-- Radio Astronomy of the Sun -->
-	<RangeEntry minFrequency="614000000" maxFrequency="806000000" mode="WFM" step="1000" color="50FFE55C">Television UHF</RangeEntry>  
+	<RangeEntry minFrequency="614000000" maxFrequency="806000000" mode="WFM" step="1000" color="50FFE55C">Television UHF</RangeEntry>
 
 	<RangeEntry minFrequency="902000000" maxFrequency="928000000" mode="WFM" step="100" color="44006179">33cm ISM</RangeEntry>
-	
+
 	<RangeEntry minFrequency="960000000" maxFrequency="977300000" mode="WFM" step="100" color="505D88FF">Aviation</RangeEntry>
 	<RangeEntry minFrequency="977300000" maxFrequency="978700000" mode="WFM" step="100" color="400000FF">ADSB 978</RangeEntry>
 	<RangeEntry minFrequency="978700000" maxFrequency="1089950000" mode="WFM" step="100" color="505D88FF">Aviation</RangeEntry>
@@ -420,31 +495,31 @@
 	<RangeEntry minFrequency="1164000000" maxFrequency="1189000000" mode="WFM" step="1000" color="50FFFF00">GPS L5 and GALILEO E5a</RangeEntry>      <!-- GPS takes priority. -->
 	<RangeEntry minFrequency="1189000000" maxFrequency="1214000000" mode="WFM" step="1000" color="50FF44FF">GALILEO E5a and GLONASS G3</RangeEntry>  <!-- GPS, GLONASS, and GALILEO only Listed, because of so much overlap between listed and other unlisted systems -->
 	<RangeEntry minFrequency="1214000000" maxFrequency="1215000000" mode="WFM" step="1000" color="4089FF00">Radionavigation Satellite Service</RangeEntry>
-	<RangeEntry minFrequency="1215000000" maxFrequency="1237000000" mode="WFM" step="1000" color="50FFFF00">GPS L2</RangeEntry> 
+	<RangeEntry minFrequency="1215000000" maxFrequency="1237000000" mode="WFM" step="1000" color="50FFFF00">GPS L2</RangeEntry>
 	<RangeEntry minFrequency="1237000000" maxFrequency="1239600000" mode="WFM" step="1000" color="50FFFF00">GPS L2 and GLONASS G2</RangeEntry>
 	<RangeEntry minFrequency="1239600000" maxFrequency="1240000000" mode="WFM" step="1000" color="50FF4400">GLONASS G2</RangeEntry>  <!-- Is inside 23cm Ham band to 1.254MHz, GALILEO E6 is in the Ham Bands 1260MHz to 1300MHz -->
-	
+
 	<RangeEntry minFrequency="1240000000" maxFrequency="1267346500" mode="WFM" step="100" color="50FF0000">23cm Ham Band</RangeEntry>
-	<RangeEntry minFrequency="1267346500" maxFrequency="1267371500" mode="WFM" step="100" color="50FFFF00">AO-92 Uplink</RangeEntry> 
-	<RangeEntry minFrequency="1267371500" maxFrequency="1295800000" mode="WFM" step="100" color="50FF0000">23cm Ham Band</RangeEntry>	
+	<RangeEntry minFrequency="1267346500" maxFrequency="1267371500" mode="WFM" step="100" color="50FFFF00">AO-92 Uplink</RangeEntry>
+	<RangeEntry minFrequency="1267371500" maxFrequency="1295800000" mode="WFM" step="100" color="50FF0000">23cm Ham Band</RangeEntry>
 	<RangeEntry minFrequency="1295800000" maxFrequency="1296080000" mode="WFM" step="100" color="5086FFFC">EME</RangeEntry>
 	<RangeEntry minFrequency="1296080000" maxFrequency="1300000000" mode="WFM" step="100" color="50FF0000">23cm Ham Band</RangeEntry>
-	
+
 	<RangeEntry minFrequency="1390000000" maxFrequency="1395000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy (1390 - 1395 MHz Band)</RangeEntry>
 	<RangeEntry minFrequency="1400000000" maxFrequency="1420404750" mode="WFM" step="100" color="5091A4EE">Earth Exploration-Satellite/ Radio Astronomy</RangeEntry>
 	<RangeEntry minFrequency="1420404750" maxFrequency="1420406750" mode="WFM" step="10" color="40FFFF00">Hygrogen Line</RangeEntry>  <!-- Hygrogen Line 1420.40575 MHz-->
-	<RangeEntry minFrequency="1420406750" maxFrequency="1427000000" mode="WFM" step="100" color="5091A4EE">Earth Exploration-Satellite/ Radio Astronomy</RangeEntry>	
+	<RangeEntry minFrequency="1420406750" maxFrequency="1427000000" mode="WFM" step="100" color="5091A4EE">Earth Exploration-Satellite/ Radio Astronomy</RangeEntry>
 	<RangeEntry minFrequency="1525000000" maxFrequency="1544000000" mode="WFM" step="1000" color="33FF4400">Inmarsat Satellites</RangeEntry>  <!-- Revisit Inmarsat add channels?-->
-	<RangeEntry minFrequency="1544000000" maxFrequency="1545000000" mode="WFM" step="1000" color="5000BFFF">GALILEO SAR Downlink</RangeEntry> 
+	<RangeEntry minFrequency="1544000000" maxFrequency="1545000000" mode="WFM" step="1000" color="5000BFFF">GALILEO SAR Downlink</RangeEntry>
 	<RangeEntry minFrequency="1545000000" maxFrequency="1559000000" mode="WFM" step="1000" color="33FF4400">Inmarsat Satellites</RangeEntry>
 	<RangeEntry minFrequency="1559000000" maxFrequency="1563000000" mode="WFM" step="1000" color="500000AA">GALILEO E1</RangeEntry>
-	<RangeEntry minFrequency="1563000000" maxFrequency="1587000000" mode="WFM" step="1000" color="50FFFF00">GPS L1 and GALILEO E1</RangeEntry>  
+	<RangeEntry minFrequency="1563000000" maxFrequency="1587000000" mode="WFM" step="1000" color="50FFFF00">GPS L1 and GALILEO E1</RangeEntry>
 	<RangeEntry minFrequency="1587000000" maxFrequency="1591000000" mode="WFM" step="1000" color="500000AA">GALILEO E1</RangeEntry>
 	<RangeEntry minFrequency="1591000000" maxFrequency="1593000000" mode="WFM" step="1000" color="4089FF00">Radionavigation Satellite Service</RangeEntry>
 	<RangeEntry minFrequency="1593000000" maxFrequency="1610000000" mode="WFM" step="1000" color="50FF4400">GLONASS G1</RangeEntry>
 	<RangeEntry minFrequency="1610000000" maxFrequency="1610600000" mode="WFM" step="1000" color="40FFCD00">Aviation Service, and the Mobile Satellite Service (MSS)</RangeEntry>
-	<RangeEntry minFrequency="1610600000" maxFrequency="1616000000" mode="WFM" step="1000" color="40FFCD00">Mobile Satellite Service (MSS)</RangeEntry>  	
-	
+	<RangeEntry minFrequency="1610600000" maxFrequency="1616000000" mode="WFM" step="1000" color="40FFCD00">Mobile Satellite Service (MSS)</RangeEntry>
+
 	<!-- Iridium Satellites Channels  There are 240 main channels between 1616 MHz and 1626 MHz. Those are spaced 41.667 KHz from each other. The ones listed here are in 40KHz blocks -->
 	<RangeEntry minFrequency="1616000000" maxFrequency="1626000833" mode="WFM" step="100" color="33FF672F">Iridium Satellites</RangeEntry>
 	<RangeEntry minFrequency="1626000833" maxFrequency="1626040833" mode="WFM" step="100" color="55FF672F">Ch.1 Guard Channel (Iridium)</RangeEntry>
@@ -461,46 +536,46 @@
 	<RangeEntry minFrequency="1626459167" maxFrequency="1626499167" mode="WFM" step="100" color="55FF672F">12 Guard Channel |Iridium</RangeEntry>
 	<RangeEntry minFrequency="1626500000" maxFrequency="1660500000" mode="WFM" step="1000" color="33FF4400">Inmarsat Satellites</RangeEntry>  <!-- Revisit Inmarsat add channels?-->
 	<RangeEntry minFrequency="1660500000" maxFrequency="1668400000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy</RangeEntry>
-	<RangeEntry minFrequency="1668400000" maxFrequency="1670000000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Radio Astronomy Radio Services</RangeEntry>
-	<RangeEntry minFrequency="1670000000" maxFrequency="1675000000" mode="WFM" step="1000" color="50738FFF">Government Use Meteorological-Satellite Service</RangeEntry>
-	<RangeEntry minFrequency="1675000000" maxFrequency="1679750000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry>  
-	
+	<RangeEntry minFrequency="1668400000" maxFrequency="1670000000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Radio Astronomy</RangeEntry>
+	<RangeEntry minFrequency="1670000000" maxFrequency="1675000000" mode="WFM" step="1000" color="50738FFF">Government Use Meteorological-Satellite</RangeEntry>
+	<RangeEntry minFrequency="1675000000" maxFrequency="1679750000" mode="WFM" step="1000" color="50738FFF">Meteorological Satellite</RangeEntry>
+
 	<RangeEntry minFrequency="1679750000" maxFrequency="1680050000" mode="WFM" step="100" color="5500FFFF">GOES DCP (US Domestic)</RangeEntry>  <!-- DCPR  DCP report relay (US domestic) -->
 	<RangeEntry minFrequency="1680050000" maxFrequency="1680350000" mode="WFM" step="100" color="5500FFFF">GOES DCP (International)</RangeEntry>  <!-- DCPR  DCP report relay (International) -->
-	<RangeEntry minFrequency="1680350000" maxFrequency="1680600000" mode="WFM" step="100" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry>  
+	<RangeEntry minFrequency="1680350000" maxFrequency="1680600000" mode="WFM" step="100" color="50738FFF">Meteorological Satellite</RangeEntry>
 	<RangeEntry minFrequency="1680600000" maxFrequency="1692600000" mode="WFM" step="100" color="5500FFFF">GOES-16 and GOES-17 GRB</RangeEntry>  <!-- 1686.6 MHz  GOES-13 to GOES-15 use similar frequencies, not added since they are not in use -->
-	<RangeEntry minFrequency="1692600000" maxFrequency="1693500000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry> 
+	<RangeEntry minFrequency="1692600000" maxFrequency="1693500000" mode="WFM" step="1000" color="50738FFF">Meteorological Satellite</RangeEntry>
 	<RangeEntry minFrequency="1693500000" maxFrequency="1694700000" mode="WFM" step="100" color="5500FFFF">GOES-16 and GOES-17 HRIT</RangeEntry>  <!-- 1694.1 MHz  -->
-	<RangeEntry minFrequency="1694700000" maxFrequency="1696500000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry> 
-	
+	<RangeEntry minFrequency="1694700000" maxFrequency="1696500000" mode="WFM" step="1000" color="50738FFF">Meteorological Satellite</RangeEntry>
+
 	<!-- NOAA-19: 1698MHz| METEOR M2: 1700| Metop-A, Metop-B, FY-3C: 1701.3| NOAA-15: 1702.5| FY-3A, FY-3B: 1704.5| METEOR M2-2: 1705| NOAA-18, Metop-C: 1707MHz  (All are set to 3MHz bandwidth)-->
-	<!-- Blocks are center frequency area for satellite(s) with that frequency; outside of that are considered shared.-->	
-	<RangeEntry minFrequency="1696500000" maxFrequency="1697750000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+	<!-- Blocks are center frequency area for satellite(s) with that frequency; outside of that are considered shared.-->
+	<RangeEntry minFrequency="1696500000" maxFrequency="1697750000" mode="WFM" step="100" color="AA000000">HRPT Shared</RangeEntry>
 	<RangeEntry minFrequency="1697750000" maxFrequency="1698250000" mode="WFM" step="100" color="557AFFFF">NOAA-19 Center</RangeEntry>  <!-- NOAA-19: 1698MHz (HRPT) -->
-	<RangeEntry minFrequency="1698250000" maxFrequency="1699750000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+	<RangeEntry minFrequency="1698250000" maxFrequency="1699750000" mode="WFM" step="100" color="AA000000">Shared</RangeEntry>
 	<RangeEntry minFrequency="1699750000" maxFrequency="1700250000" mode="WFM" step="100" color="555CBABA">METEOR M2 Center</RangeEntry>  <!-- METEOR M2: 1700MHz (AHRPT) -->
-	<RangeEntry minFrequency="1700250000" maxFrequency="1701050000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+	<RangeEntry minFrequency="1700250000" maxFrequency="1701050000" mode="WFM" step="100" color="AA000000">Shared</RangeEntry>
 	<RangeEntry minFrequency="1701050000" maxFrequency="1701550000" mode="WFM" step="100" color="55F07070">Metop-A, Metop-B, FY-3C Center</RangeEntry>  <!-- Metop-A, Metop-B (AHRPT), FY-3C: 1701.3MHz (CHRPT)-->
-        <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+  <RangeEntry minFrequency="1701550000" maxFrequency="1702250000" mode="WFM" step="100" color="AA000000">Shared</RangeEntry>
 	<RangeEntry minFrequency="1702250000" maxFrequency="1702750000" mode="WFM" step="100" color="557AFFFF">NOAA-15 Center</RangeEntry>  <!-- NOAA-15: 1702.5MHz (HRPT) -->
-	<RangeEntry minFrequency="1702750000" maxFrequency="1704250000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+	<RangeEntry minFrequency="1702750000" maxFrequency="1704250000" mode="WFM" step="100" color="AA000000">Shared</RangeEntry>
 	<RangeEntry minFrequency="1704250000" maxFrequency="1704750000" mode="WFM" step="100" color="55FFBA2E">FY-3A, FY-3B Center</RangeEntry>  <!-- FY-3A, FY-3B: 1704.5MHz (CHRPT) -->
 	<RangeEntry minFrequency="1704750000" maxFrequency="1705250000" mode="WFM" step="100" color="555CBABA">METEOR M2-2 Center</RangeEntry>  <!-- METEOR M2-2: 1705MHz (AHRPT) -->
-	<RangeEntry minFrequency="1705250000" maxFrequency="1706750000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
+	<RangeEntry minFrequency="1705250000" maxFrequency="1706750000" mode="WFM" step="100" color="AA000000">Shared</RangeEntry>
 	<RangeEntry minFrequency="1706750000" maxFrequency="1707250000" mode="WFM" step="100" color="557AFFFF">NOAA-18, Metop-C Center</RangeEntry>  <!-- NOAA-18 (HRPT), Metop-C: 1707MHz (AHRPT) -->
-	<RangeEntry minFrequency="1707250000" maxFrequency="1708500000" mode="WFM" step="100" color="44DBFFEC">HRPT Shared Area</RangeEntry>
-	
-	
-	<RangeEntry minFrequency="1708500000" maxFrequency="1710000000" mode="WFM" step="1000" color="50738FFF">Meteorological Aids and Meteorological-Satellite Services</RangeEntry>											
+	<RangeEntry minFrequency="1707250000" maxFrequency="1708500000" mode="WFM" step="100" color="AA000000">HRPT Shared</RangeEntry>
+
+
+	<RangeEntry minFrequency="1708500000" maxFrequency="1710000000" mode="WFM" step="1000" color="50738FFF">Meteorological Satellite</RangeEntry>
 	<RangeEntry minFrequency="2025000000" maxFrequency="2110000000" mode="WFM" step="1000" color="5091A4EE">Earth-to-Space and Space-to-Space Communications</RangeEntry>
-        <RangeEntry minFrequency="2290000000" maxFrequency="2300000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy</RangeEntry>  
-	
+  <RangeEntry minFrequency="2290000000" maxFrequency="2300000000" mode="WFM" step="1000" color="40FFFF00">Radio Astronomy</RangeEntry>
+
 	<RangeEntry minFrequency="2300000000" maxFrequency="2310000000" mode="WFM" step="100" color="50FF0000">13cm Ham Band (Lower)</RangeEntry>
 	<RangeEntry minFrequency="2320000000" maxFrequency="2332500000" mode="WFM" step="1000" color="5000ABFF">Satellite Digital Audio Radio Service (SDARS)</RangeEntry>
 	<RangeEntry minFrequency="2332500000" maxFrequency="2345000000" mode="WFM" step="1000" color="40004DFF">SiriusXM Satellites</RangeEntry>
 	<RangeEntry minFrequency="2345000000" maxFrequency="2360000000" mode="WFM" step="1000" color="505D88FF">Aviation Service and the Wireless Communications Service (WCS)</RangeEntry>
-	<RangeEntry minFrequency="2360000000" maxFrequency="2390000000" mode="WFM" step="1000" color="505D88FF">Aviation</RangeEntry>  
-	
+	<RangeEntry minFrequency="2360000000" maxFrequency="2390000000" mode="WFM" step="1000" color="505D88FF">Aviation</RangeEntry>
+
 	<RangeEntry minFrequency="2390000000" maxFrequency="2393750000" mode="WFM" step="100" color="50FF0000">13cm Ham Band (Upper)|  Analog and Digital</RangeEntry>  <!-- Gap in 13cm Band -->
 	<RangeEntry minFrequency="2393750000" maxFrequency="2394750000" mode="WFM" step="100" color="503CCCFF">Experimental</RangeEntry>
 	<RangeEntry minFrequency="2394750000" maxFrequency="2400000000" mode="WFM" step="100" color="50FF0000">Analog and Digital</RangeEntry>
@@ -517,64 +592,77 @@
 	<RangeEntry minFrequency="2441900000" maxFrequency="2442100000" mode="WFM" step="100" color="AA000000"/>  <!-- WiFi Ch. 7-->
 	<RangeEntry minFrequency="2446900000" maxFrequency="2447100000" mode="WFM" step="100" color="AA000000"/>  <!-- WiFi Ch. 8-->
 	<RangeEntry minFrequency="2450000000" maxFrequency="2451900000" mode="WFM" step="100" color="44006179">WiFi shared with ISM Band (13cm)</RangeEntry>
-	<RangeEntry minFrequency="2451900000" maxFrequency="2452100000" mode="WFM" step="100" color="50000000">WiFi Ch. 9</RangeEntry>  
+	<RangeEntry minFrequency="2451900000" maxFrequency="2452100000" mode="WFM" step="100" color="50000000">WiFi Ch. 9</RangeEntry>
 	<RangeEntry minFrequency="2452100000" maxFrequency="2456900000" mode="WFM" step="100" color="44006179">WiFi shared with ISM Band (13cm)</RangeEntry>
-	<RangeEntry minFrequency="2456900000" maxFrequency="2457100000" mode="WFM" step="100" color="50000000">WiFi Ch. 10</RangeEntry>  
+	<RangeEntry minFrequency="2456900000" maxFrequency="2457100000" mode="WFM" step="100" color="50000000">WiFi Ch. 10</RangeEntry>
 	<RangeEntry minFrequency="2457100000" maxFrequency="2461900000" mode="WFM" step="100" color="44006179">WiFi shared with ISM Band (13cm)</RangeEntry>
 	<RangeEntry minFrequency="2461900000" maxFrequency="2462100000" mode="WFM" step="100" color="50000000">WiFi Ch. 11</RangeEntry>  <!-- Last Commonly Used US WiFi Channel-->
 	<RangeEntry minFrequency="2462100000" maxFrequency="2473000000" mode="WFM" step="100" color="44006179">WiFi shared with ISM Band (13cm)</RangeEntry>  <!-- 2.4GHz to 2.45GHz is inside 13cm Ham Band| 2.4GHz wifi 2.401-2.473GHz -->
-	<RangeEntry minFrequency="2473000000" maxFrequency="2500000000" mode="WFM" step="100" color="44006179">ISM Band (13cm)</RangeEntry>  
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
-<!-- 			                                                                                                                                                   -->
-<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)                      -->
-<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),             -->
-<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television (Generalized)                                                                                       -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 Ham: With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m                                                               -->
-<!--          Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm                                                                                              -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),                   -->
-<!-- 			     GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT),               -->
-<!-- 			     GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only),  -->
-<!-- 			     ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D),          -->
-<!-- 			     AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites                                                                                   -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 ISM: 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)                        -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 Time Signals: 20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz                                                                                      -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 Aeronautical: ADSB 978, ADSB 1090                                                                                           		                           -->
-<!-- 			                                                                                                                                                   -->
-<!-- 	 Marine: Distress (2, 4, 6, 8, 12, 16, 156 (VHF) MHz) (Marine 4MHz and Marine VHF are expanded)                                                                    -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->
-<!--   All other allocation names are the general use of the allocation.                                                                                                   -->
-<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                          -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->	
+	<RangeEntry minFrequency="2473000000" maxFrequency="2500000000" mode="WFM" step="100" color="44006179">ISM Band (13cm)</RangeEntry>
 
 
 
-	
-<!-- References:                                                                                                                                                   -->  
-<!-- FCC Table of All Frequency Allocations (ITU 1, 2, 3 w/ US Fed & Non-Fed): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf                          -->  
-<!-- European Table of Frequency Allocations: https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf                                                         -->  
-<!-- IEEE Database of Frequency Allocations for all ITU Countries: http://www.grss-ieee.org/frequency_allocations.html                                             -->  
-<!-- Some Frequencies lookups: https://fccid.io/frequency-explorer.php?lower=100&upper=1000                                                                        -->  
+
+
+
+
+
+
+
+
+
+<!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+<!-- 			                                                                                                                                                                       -->
+<!--     Broadcast: AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m)                            -->
+<!--     Shortwave (Tropical Band 60m), Shortwave (49m), Shortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m),                   -->
+<!-- 	 Shortwave (15m), Shortwave (13m), Shortwave (11m), Television (Generalized)                                                                                               -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 	 Commercial Stations: BBC Radio 4 (198 kHz)                                                                                                                              -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 		 Number Station/ Secret Stations: UVB-76 (4625KHz and 4810KHz), The Pip (5448 KHz [Day]/ 3756 KHz[Night])                                                                -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 Ham: With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m                                                                       -->
+<!--          Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm                                                                                                    -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 Satellites: NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT, CDA, Telemetry, Command), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink),  -->
+<!-- 			     GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT),                                   -->
+<!-- 			     GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only),                      -->
+<!-- 			     ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D),                              -->
+<!-- 			     AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites, Milstar, NOAA-20/ JPSS (TDRSS, Telemetry, Command), SNPP (TDRSS, Telemetry, Command)                 -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 ISM: 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)                                -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 Time Signals: 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670), JJY-40 (40 KHz)(Japan), RBU (66.66 KHz)(Russia), BPC (68.5 KHz)(China),    -->
+<!--                 DCF77 (77.5 kHz)(Germany), TDF (162 kHz)(France)                                                                                                            -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 Aeronautical: ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)      		                                   -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 	 Marine: 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes),      -->
+<!-- 	      	(AIS), and Most Distress Frequencies                              	                                                                                               -->
+<!-- 	 Submarine Communications: NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), NML (25.2 KHz)(US), NOV (26.9 KHz)(US),                          -->
+<!--                             SHR (38 KHz)(Sweden), SAS/SRC (40.4 kHz)(Sweden), SAS2 (42.5 kHz)(Sweden), SAS3 (44.2 kHz)(Sweden), GYN2 GBR (81 kHz)(UK)                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!--   All other allocation names are the general use of the allocation.                                                                                                         -->
+<!--   Or, some specific frequencies might forgotten or part of another General allocation (e.g. APRS is Ham 2m).                                                                -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+<!-- 			                                                                                                                                                                       -->
+
+
+
+
+<!-- References:                                                                                                                                                   -->
+<!-- FCC Table of All Frequency Allocations (ITU 1, 2, 3 w/ US Fed & Non-Fed): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf                          -->
+<!-- European Table of Frequency Allocations: https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf                                                         -->
+<!-- IEEE Database of Frequency Allocations for all ITU Countries: http://www.grss-ieee.org/frequency_allocations.html                                             -->
+<!-- Some Frequencies lookups: https://fccid.io/frequency-explorer.php?lower=100&upper=1000                                                                        -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
@@ -587,10 +675,10 @@
 <!-- Detailed Ham band plan to 440MHz: https://kv5r.com/ham-radio/amateur-radio-frequency-allocations-and-band-plans/                                              -->
 <!-- LowFER, MedFER, HiFER: https://en.wikipedia.org/wiki/LowFER                                                                                                   -->
 <!-- 2200 Meter Band Plan: https://en.wikipedia.org/wiki/2200-meter_band                                                                                           -->
-<!-- ISS Frequencies: https://www.ariss.org/contact-the-iss.html                                                                                                   -->  
+<!-- ISS Frequencies: https://www.ariss.org/contact-the-iss.html                                                                                                   -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
-<!--                                                                                                                                                               -->  
+<!--                                                                                                                                                               -->
 <!--                                                +++++ Satellites +++++                                                                                         -->
 <!--                                                                                                                                                               -->
 <!-- GOES-16: https://www.wmo-sat.info/oscar/satellites/view/152                                                                                                   -->
@@ -620,7 +708,7 @@
 <!-- Shortwave Reference: https://en.wikipedia.org/wiki/Shortwave_radio                                                                                            -->
 <!-- International Shortwave Stations: https://www.ccrane.com/expert-advice/all/1/article/14                                                                       -->
 <!-- Shortwave Bands: https://en.wikipedia.org/wiki/Shortwave_bands                                                                                                -->
-<!-- Other Good Shortwave Info: https://kv5r.com/ham-radio/shortwave-frequencies/                                                                                  --> 
+<!-- Other Good Shortwave Info: https://kv5r.com/ham-radio/shortwave-frequencies/                                                                                  -->
 <!-- Television Broadcast Frequencies: http://otadtv.com/frequency/index.html                                                                                      -->
 <!-- Military Frequencies: http://mt-fedfiles.blogspot.com/p/blog-page.html                                                                                        -->
 <!-- Common Military Frequencies: https://www.radioreference.com/apps/db/?aid=7734                                                                                 -->
@@ -645,6 +733,18 @@
 <!-- International Distress Frequencies: https://en.wikipedia.org/wiki/International_distress_frequency                                                            -->
 <!-- VHF and UHF RailRoad Frequencies: https://wiki.radioreference.com/index.php/Railroad                                                                          -->
 <!-- HF Marine Info: https://www.hfunderground.com/wiki/index.php/HF_marine                                                                                        -->
+<!-- VHF Data Links - Mode 2: https://www.sigidwiki.com/wiki/VHF_Data_Link_-_Mode_2_(VDL-M2)                                                                       -->
+<!-- AIS: https://www.sigidwiki.com/wiki/Automatic_Identification_System_(AIS)                                                                                     -->
+<!-- EMWIN: https://web.archive.org/web/20171023020802/http://www.nws.noaa.gov/emwin/retrans.htm                                                                   -->
+<!-- Cellular Services: https://www.wpsantennas.com/cellular-frequency-information.aspx                                                                            -->
+<!-- GSM Frequencies: https://en.wikipedia.org/wiki/GSM_frequency_bands                                                                                            -->
+<!-- LTE Frequencies: https://www.everythingrf.com/community/lte-frequency-bands                                                                                   -->
+<!-- 3G Frequencies: https://en.wikipedia.org/wiki/UMTS_frequency_bands                                                                                            -->
+<!-- 4G Frequencies: https://www.signalbooster.com/pages/what-are-the-cellular-frequencies-of-cell-phone-carriers-in-usa-canada#:~:text=3G%20%3A%20850%20MHz%2C%20Band%205,%2C%20Band%204%20(LTE).  -->
+<!-- 5G Frequencies Table: https://en.wikipedia.org/wiki/5G_NR_frequency_bands                                                                                     -->
+<!-- 5G Frequencies 2: https://www.cablefree.net/wirelesstechnology/4glte/5g-frequency-bands-lte/                                                                  -->
+<!-- 2G, 3G, 4G Frequency Bands in the US: https://www.arrow.com/en/research-and-events/articles/what-frequency-spectrum-will-5g-technology-use-and-how-does-this-compare-to-4g#:~:text=4G%20LTE%20technologies%20brought%20it,2.3%20GHz%2C%20and%202.5%20GHz.  -->
+<!-- Power Line Carrier (PLC) Communications Systems: https://en.wikipedia.org/wiki/Power-line_communication                                                       -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
@@ -665,84 +765,96 @@
 
 
 
-<!-- Band Plan Color Legend:                                                                                                                                       -->
-<!--  General Colors:                                                                                                                                              -->
-<!--                                                                                                                                                               -->
-<!-- Note: Alt colors are used for differentiating channels.                                                                                                       -->
-<!--                                                                                                                                                               -->
-<!--    Mixed - Allow color overlap (At own discretion)  If color overlay is not practical - 44DBFFEC  (Mintish White)                                             -->
-<!--    Distress and Calling (Personal Locator Beacons Service) - 50FF0091  (Pinkish Red)                                                                          -->
-<!--    (Buffer) - 00000000  (Empty)                                                                                                                               -->
-<!--                                                                                                                                                               -->
+<!-- Band Plan Color Legend:                                                                                                                                     -->
+<!--  General Colors:                                                                                                                                            -->
+<!--                                                                                                                                                             -->
+<!-- Note: Alt. colors are used for differentiating between channels that are next to each other.                                                                -->
+<!--                                                                                                                                                             -->
+<!--    Mixed - Allow color overlap (At own discretion)  If color overlay is not practical - 44DBFFEC  (Mintish White)                                           -->
+<!--    Distress and Calling (Personal Locator Beacons Service) - 50FF0091  (Pinkish Red)                                                                        -->
+<!--    (Buffer) - 00000000  (Empty)                                                                                                                             -->
+<!--                                                                                                                                                             -->
 <!--	Satellites: 5500FFFF  (Aqua)                                                                                                                               -->
 <!--	Navigation (Radiolocation, Radionavigation): 5500FF7F  (Light Green)  (Non-GPS type)                                                                       -->
 <!--	Maritime - 55008080  (Dark Blue-Green)/ Alt. is - 5500C9C9 (Lighter Blue-Green)                                                                            -->
 <!--	Aeronautical/ Aviation - 505D88FF  (Light Blue)                                                                                                            -->
-<!--                                                                                                                                                               -->
-<!--    Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)			                                                           -->
+<!--	Submarine Stations - 5580C0C0  (Darker Blue-Green)                                                                                                         -->
+<!--  Number Station/ Secret - 50DD1111 (Dark Red)                                                                                                               -->
+<!--  Named Broadcast Stations - 5580C0C0  (Darker Blue-Green)                                                                                                   -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--  Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)                                                                                 -->
+<!--  Power Line Carrier (PLC) Systems - 40BAFD00  (Slight Green Yellow)                                                                                         -->
 <!--	Longwave - 505347FF  (Light Blue)                                                                                                                          -->
 <!--	Medium Wave - 505D63FF  (Light Blue)                                                                                                                       -->
 <!--	Shortwave - 505D63FF  (Light Blue)                                                                                                                         -->
-<!--   	AM Radio - 33FF0000  (Light Red)                                                                                                                           -->
-<!--  	FM Radio - 4000FF9A  (Mint)                                                                                                                                -->
+<!--  AM Radio - 33FF0000  (Light Red)                                                                                                                           -->
+<!--  FM Radio - 4000FF9A  (Mint)                                                                                                                                -->
 <!--	TV - 50FFE55C  (Tan)                                                                                                                                       -->
 <!--	Cellular Services (3G/4G/LTE) - 50FFE600  (Gold)/ Advanced Wireless Service - 50FFEE4A  (Light Yellow)                                                     -->
 <!--	Air Band Voice (VOR/ILS) - 505D88FF  (Light Blue)                                                                                                          -->
 <!--	ADSB - 400000FF  (Light Blue)/ ACARS - 400000FF  (Light Blue)                                                                                              -->
 <!--	GMRS, FRS, MURS - 40BAFD00  (Slight Green Yellow) Alt is - 40BBE100 (Darker Green Yellow)                                                                  -->
-<!--	Timing Standards (WWV,B/ CHU) - 44FF00FF  (Magenta)                                                                                                        -->
+<!--	Timing Standards (WWV,(B)/ CHU) - 44FF00FF  (Magenta)                                                                                                      -->
 <!--	WEFAX - 5500FF91   (Greener Mint)                                                                                                                          -->
 <!--	ISM Bands - 44006179  (Dark marine Blue)                                                                                                                   -->
-<!--    Common Use Part 15 Bands: 44006179   (Dark marine Blue)                                                                                                    -->
+<!--  Common Use Part 15 Bands: 44006179   (Dark marine Blue)                                                                                                    -->
 <!--	Radio Astronomy - 40FFFF00  (Yellow)                                                                                                                       -->
-<!--	NOAA Radio - 5000CED1 (Stay Same)  (Dark Cyan)                                                                                                             -->
+<!--	NOAA Radio and EMWIN - 5000CED1  (Dark Cyan)                                                                                                               -->
 <!--	CB - 77FF7777 (Whitish Red), Alt is 77FF5858 (Darker Whitish Red), R/C is 77ADFF7D (Whitish Green)                                                         -->
-<!--                                                                                                                                                               -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
 <!--	Military Air - 5090EE90  (Light Green)  (Military Default)                                                                                                 -->
 <!--	Military Sat - 50C2F542  (Greenish Yellow)                                                                                                                 -->
+<!--  Military Satellites (Named) - 50C2F5AA (Whitish Green-Yellow)                                                                                              -->
 <!--	Military 1432 - 1435 MHz Band - 5090EE90   (Same as Military Air)  (Light Green)  (Military Default)                                                       -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
 <!--	Industrial/Business - 5089FF00  (Yellow Green)                                                                                                             -->
-<!--    RailRoad - 50FFD500 (Yellow-Orange)                                                                                                                        -->	
-<!--    H.O.T./E.O.T. - 5091FF00 (Yellow-Green)                                                                                                                    -->
+<!--  RailRoad - 50FFD500 (Yellow-Orange)                                                                                                                        -->
+<!--  H.O.T./E.O.T. - 5091FF00 (Yellow-Green)                                                                                                                    -->
+<!--  Telemetry (General) - 5091FF00 (Yellow-Green)                                                                                                              -->
 <!--	Multiple Address Service (MAS) - 50FF9A00  (Dark Orange)                                                                                                   -->
 <!--	Paging and Radiotelephone - 50FFCE83  (Whitish Orange)                                                                                                     -->
 <!--	Personal Communications - 401A00FF  (Dark Blue)                                                                                                            -->
 <!--	Band Services - 40FF0077  (Pinkish Red)                                                                                                                    -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
 <!--	Government and Public Service - 5000FF89  (Greener Mint)                                                                                                   -->
 <!--	Radar - 5004B704  (Dark Green)                                                                                                                             -->
 <!--	Police / Fire / Ambulance / Business - 50D00098  (Dark Magenta)                                                                                            -->
-<!--	Medical Device Radiocommunication Service - 507676FF  (Whiteish Blue)                                                                                      -->
+<!--	Medical Device Radiocommunication Service/ Telemetry - 507676FF  (Whiteish Blue)               \                                                           -->
 <!--	Fixed Services - 40FF0077  (Pinkish Red)                                                                                                                   -->
 <!--	Cable Antenna Relay Service/ the Local Television Transmission Service - 50FFBC00  (Orange)                                                                -->
 <!--	Broadband Radio Service (BRS) - 50FFBC00  (Orange)                                                                                                         -->
-<!--    Lightning Detection Systems - 5500C9C9 (Lighter Blue-Green)                                                                                                -->	
-<!--    Medical/ RFID/ Military Systems - 507676FF  (Whiteish Blue)                                                                                                -->	
-<!--                                                                                                                                                               -->  
-<!--                                                                                                                                                               -->  
-<!--  Satellites:                                                                                                                                                  -->  
-<!--                                                                                                                                                               -->	
-<!--	NOAA - 5500FFFF  (Keep Same)  (Aqua)                                                                                                                       -->
+<!--  Lightning Detection Systems - 5500C9C9 (Lighter Blue-Green)                                                                                                -->
+<!--  Medical/ RFID/ Military Systems - 507676FF  (Whiteish Blue)                                                                                                -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--  Satellites:                                                                                                                                                -->
+<!--                                                                                                                                                             -->
+<!--	NOAA - 5500FFFF  (Aqua)                                                                                                                                    -->
+<!--  NOAA Command - 2200BFFF  (Darker Aqua)                                                                                                                     -->
 <!--	NOAA HRPT - 557AFFFF  (Whitish Auqa)                                                                                                                       -->
 <!--	NOAA DSB - 44FF00FF  (Magenta)                                                                                                                             -->
-<!--                                                                                                                                                               -->	
-<!--	METEOR - 2200BFFF  (Keep Same)  (Darker Aqua)                                                                                                              -->
+<!--                                                                                                                                                             -->
+<!--	METEOR - 2200BFFF  (Darker Aqua)                                                                                                                           -->
 <!--	METEOR HRPT - 555CBABA  (Dark Aqua)                                                                                                                        -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
 <!--	ORB. - 33FF4400  (Dark Orange)                                                                                                                             -->
 <!--	ORB. Gateway - 55FF8000  (Light Orange)                                                                                                                    -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
 <!--	GOES - 5500FFFF  (Aqua)                                                                                                                                    -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
 <!--	FY-3n HRPT - 55FFBA2E  (Light Orange)                                                                                                                      -->
-<!--    METOP HRPT - 55F07070  (Light Red)                                                                                                                         -->
-<!--                                                                                                                                                               -->	
-<!--	GPS, GALILEO, GLONASS - (Keep Same)  (Yellow, Blue, Orange)                                                                                                -->
-<!--    Iridium - 33FF672F   (Orange)                                                                                                                              -->
-<!--    Iridium Access Band/ Simplex Channels- 55FF672F   (Orange)                                                                                                 -->
+<!--  METOP HRPT - 55F07070  (Light Red)                                                                                                                         -->
+<!--                                                                                                                                                             -->
+<!--	GPS, GALILEO, GLONASS -  (Yellow, Blue, Orange)                                                                                                            -->
+<!--  Iridium - 33FF672F   (Orange)                                                                                                                              -->
+<!--  Iridium Access Band/ Simplex Channels- 55FF672F   (Orange)                                                                                                 -->
 <!--	Inmarsat - 33FF4400  (Dark Orange)                                                                                                                         -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
 <!--	DCS/ DCP or Satellite Uplinking - 55C4FF00  (Gold)                                                                                                         -->
 <!--	DCS/ DCP control or Satellite Control - 5091A4EE  (Whitish Blue)                                                                                           -->
 <!--	Space-to-Space Communications/ General Space Communications - 553AFFFF  (Slightly White Aqua)                                                              -->
@@ -754,9 +866,11 @@
 <!--	Meteorological Aids and Meteorological-Satellite Services - 50738FFF  (Light Blue)                                                                         -->
 <!--	Satellite Digital Audio Radio Service (SDARS) - 5000ABFF  (Sky Blue)                                                                                       -->
 <!--	SiriusXM Satellites - 40004DFF (Dark Blue)                                                                                                                 -->
-<!--                                                                                                                                                               --> 
-<!--  Ham:                                                                                                                                                         -->
-<!--                                                                                                                                                               -->	
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--  Ham:                                                                                                                                                       -->
+<!--                                                                                                                                                             -->
 <!--	Default/ Placeholders - 40FF0000 (Red)                                                                                                                     -->
 <!--	Satellite Downlinks - 5500E6FF  (Cyan)                                                                                                                     -->
 <!--	Satellite Uplinks - 50FFFF00  (Yellow)                                                                                                                     -->
@@ -774,9 +888,9 @@
 <!--	Phone - 40FF0000  (Red)                                                                                                                                    -->
 <!--	Repeaters Inputs - 50FFFF00  (Yellow)                                                                                                                      -->
 <!--	Repeaters Outputs - 5089FF00  (Yellow-Green)                                                                                                               -->
-<!--    Repeater I/O - 508000FF  (Purple)                                                                                                                          -->
+<!--  Repeater I/O - 508000FF  (Purple)                                                                                                                          -->
 <!--	FM Simplex - 503CFF00  (Green)                                                                                                                             -->
-<!--    Simplex - 503CFF00  (Green)                                                                                                                                -->
+<!--  Simplex - 503CFF00  (Green)                                                                                                                                -->
 <!--	APRS - 5000FFBF  (Light Mint)                                                                                                                              -->
 <!--	Beacons - 50ACFFEC  (White Mint)                                                                                                                           -->
 <!--	Linear Translator Inputs - 50FF004D  (Pinkish Red)                                                                                                         -->
@@ -789,11 +903,11 @@
 <!--	Analog/Digital - 40FF00BC  (Pink)                                                                                                                          -->
 <!--	Mixed Mode - 40FF00BC  (Pink)                                                                                                                              -->
 <!--	Broadband Modes  - 40FF0000  (Red)                                                                                                                         -->
-<!--                                                                                                                                                               -->
-<!--                                                                                                                                                               -->
-<!--                                                                                                                                                               -->
-<!--                                                                                                                                                               -->
-<!--                                                                                                                                                               -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
+<!--                                                                                                                                                             -->
 
 
 
@@ -813,7 +927,7 @@
 <!--                                                                                                                                        -->
 <!-- "color" is the transparency and color of the banner, or YRGB (Y = transparency). The values are in the standard hexadecimal format of  -->
 <!-- two Hex (nibble) values together to form a byte. So, Y(transparency) and 24-bit(RGB) color. If Y = 00 the banner will be fully         -->
-<!-- transparent, if Y = 80 (half) it will be transparent and if another banner is there the colors will mix. However, the colors wont      -->
+<!-- transparent, if Y = 80 (half) it will be transparent and if another banner is there the colors will mix. However, the colors won't     -->
 <!-- be quite the same as you would see from something like a color picker because it will mix with the black, blue, yellow of the          -->
 <!-- background colors too.  If Y = FF it is solid banner.                                                                                  -->
 <!--                                                                                                                                        -->
@@ -835,9 +949,9 @@
 <!-- it must end with a "/>" unlike an ending that has a title, which ends with ">Title</RangeEntry>".                                      -->
 <!-- If a color banner is added (banner without text) it can show there is a change winthin the band without cluttering the screen with a   -->
 <!-- lot of words. If just changing a mode or step setting is what is desired then setting a banner to 100% transparent will work by not    -->
-<!-- showing up but still changing settings (i.e. color="00xxxxxx"). If it's fully transparent it does not matter what color it is.         --> 
+<!-- showing up but still changing settings (i.e. color="00xxxxxx"). If it's fully transparent it does not matter what color it is.         -->
 <!--                                                                                                                                        -->
-<!-- HTML Color Picker: https://www.rapidtables.com/web/color/html-color-codes.html                                                         -->
+<!-- An HTML Color Picker: https://www.rapidtables.com/web/color/html-color-codes.html                                                      -->
 <!--                                                                                                                                        -->
 <!--                                                                                                                                        -->
 
@@ -847,13 +961,13 @@
 
 
 <!-- Comments about this band plan file:                                                                                                                   -->
-<!-- 			                                                                                                                                   -->
+<!-- 			                                                                                                                                                 -->
 <!-- Hmmm, this looks like my International band-plan. Not great, not terrible...                                                                          -->
-<!-- 			                                                                                                                                   -->
+<!-- 			                                                                                                                                                 -->
 <!-- I know this is not going to be the best plan for international SDRsharp users, but I wanted to offer something as to not just leave them without.     -->
 <!-- This plan is a quickly edited version of the US plan so there are going to be mistakes and it's going to basically be a simpiler form of the US plan. -->
-<!-- 			                                                                                                                                   -->
-<!-- 			                                                                                                                                   -->
+<!-- 			                                                                                                                                                 -->
+<!-- 			                                                                                                                                                 -->
 
 
 
@@ -878,7 +992,7 @@
 <!--  hexadecimal values, or as a colorname http://www.w3schools.com/colors/colors_names.asp    -->
 <!--  Using a colorname forces Y to be FF.  Colornames are not case sensitive.                  -->
 <!--                                                                                            -->
-<!--  Step will set the Step Size in the Radio section to the desired value for each band       -->     
+<!--  Step will set the Step Size in the Radio section to the desired value for each band       -->
 <!--  so that Snap to Grid works properly.  This is an optional value.                          -->
 <!--                                                                                            -->
 <!--  Mode can be preset to WFM, NFM, AM, USB, LSB, CW or AM.                                   -->

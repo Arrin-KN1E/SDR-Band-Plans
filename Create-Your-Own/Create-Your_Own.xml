@@ -1,66 +1,66 @@
 <?xml version="1.0"?>
-<!--                     This is an unembellished file for you to make your own bandplan! Edit and use what settings/ colors/ format you want. You dont even have to use the top credits section, but please at least state region/ bandplan purpose for clarity and ease of use. Just remember to rename to Bandplan.xml if you want it to work without a user having to rename it!      -->
+<!--                     This is an unembellished file for you to make your own bandplan! Edit and use what settings/ colors/ format you want. You dont even have to use the top credits section, but please at least state your region/ bandplan purpose for clarity and ease of use. Just remember to make sure this file is named 'Bandplan.xml' if you want it to work without a user (possibly your future self) having to rename it!  -->
 
 
-<!--     (Date of initial Creation)     (Creator [if you want to be credited])     (For what region/ country/ use) (Version of region/...etc. e.g. basic, full, no color, etc. )  (Version number, not different enough to be on it's own but needs distinction [not necessary])   (Frequency Range)  (Add a remark if you want e.g. Free to use for those who want to expand their knowledge of the radio spectrum.)  -->
-<!--                                                                               (What do you have besides the allocations? e.g. There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.) -->
+<!--     (Date of initial Creation)     (Creator [if you want to be credited])     (For what region/ country/ use) (Version of region/...etc. e.g. basic, full, no color, etc. )  (Version number, not different enough to be on it's own but needs distinction [not necessary])   (Frequency Range)  (Add a remark if you want [e.g. Free to use for those who want to expand their knowledge of the radio spectrum.])  -->
+<!--                                                                               (What do you have besides the allocations? [e.g. There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.]) -->
 <!--                                                                                                                                                                                                                         -->
 
 
 <ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-	
-    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
-	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
-	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
-	
-<!--100KHz-->	
 
-    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+  <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+
+<!--100KHz-->
+
+  <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
 <!--1MHz-->
 
-    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+  <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
-<!--10MHz-->	
+<!--10MHz-->
 
-    <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
+  <RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
-<!--100MHz-->	
-	
+<!--100MHz-->
+
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
-	
+
 <!--1GHz-->
-	
+
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 	<RangeEntry minFrequency="" maxFrequency="" mode="" step="" color=""></RangeEntry>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
 <!-- Contents:     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
-<!-- 			                                                                                                                                                   -->
-<!-- 			                                                                                                                                                   -->	
+<!-- 			                                                                                                                                                         -->
+<!-- 			                                                                                                                                                         -->
 
 
 
 
-	
+
 <!-- References:                                                                                                                                                   -->
 <!--                                                                                                                                                               -->
 <!--                                                                                                                                                               -->
@@ -95,7 +95,7 @@
 <!--                                                                                                                                        -->
 <!-- "color" is the transparency and color of the banner, or YRGB (Y = transparency). The values are in the standard hexadecimal format of  -->
 <!-- two Hex (nibble) values together to form a byte. So, Y(transparency) and 24-bit(RGB) color. If Y = 00 the banner will be fully         -->
-<!-- transparent, if Y = 80 (half) it will be transparent and if another banner is there the colors will mix. However, the colors wont      -->
+<!-- transparent, if Y = 80 (half) it will be transparent and if another banner is there the colors will mix. However, the colors won't     -->
 <!-- be quite the same as you would see from something like a color picker because it will mix with the black, blue, yellow of the          -->
 <!-- background colors too.  If Y = FF it is solid banner.                                                                                  -->
 <!--                                                                                                                                        -->
@@ -117,9 +117,9 @@
 <!-- it must end with a "/>" unlike an ending that has a title, which ends with ">Title</RangeEntry>".                                      -->
 <!-- If a color banner is added (banner without text) it can show there is a change winthin the band without cluttering the screen with a   -->
 <!-- lot of words. If just changing a mode or step setting is what is desired then setting a banner to 100% transparent will work by not    -->
-<!-- showing up but still changing settings (i.e. color="00xxxxxx"). If it's fully transparent it does not matter what color it is.         --> 
+<!-- showing up but still changing settings (i.e. color="00xxxxxx"). If it's fully transparent it does not matter what color it is.         -->
 <!--                                                                                                                                        -->
-<!-- HTML Color Picker: https://www.rapidtables.com/web/color/html-color-codes.html                                                         -->
+<!-- An HTML Color Picker: https://www.rapidtables.com/web/color/html-color-codes.html                                                       -->
 <!--                                                                                                                                        -->
 <!--                                                                                                                                        -->
 
@@ -129,9 +129,9 @@
 
 
 <!-- Comments about this band plan file:                                                                                                                              -->
-<!-- 			                                                                                                                                                      -->
-<!-- 			                                                                                                                                                      -->
-<!-- 			                                                                                                                                                      -->
+<!-- 			                                                                                                                                                            -->
+<!-- 			                                                                                                                                                            -->
+<!-- 			                                                                                                                                                            -->
 
 
 
