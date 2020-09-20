@@ -443,10 +443,11 @@
 	<RangeEntry minFrequency="161887500" maxFrequency="161912500" mode="WFM" step="100" color="55008080">26</RangeEntry>
 	<RangeEntry minFrequency="161912500" maxFrequency="161937500" mode="WFM" step="100" color="5500C9C9">86</RangeEntry>
 	<RangeEntry minFrequency="161937500" maxFrequency="161962500" mode="WFM" step="100" color="55008080">27</RangeEntry>
-	<RangeEntry minFrequency="161962500" maxFrequency="161987500" mode="WFM" step="100" color="5500C9C9">87B</RangeEntry>
+	<RangeEntry minFrequency="161962500" maxFrequency="161987500" mode="WFM" step="100" color="5500C9C9">AIS Ch. A (87B) </RangeEntry>
 	<RangeEntry minFrequency="161987500" maxFrequency="162012500" mode="WFM" step="100" color="55008080">88B/ 28</RangeEntry>
-  <RangeEntry minFrequency="162012500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>
-	<RangeEntry minFrequency="162137500" maxFrequency="162162500" mode="WFM" step="100" color="55008080">31</RangeEntry>
+  <RangeEntry minFrequency="162012500" maxFrequency="162037500" mode="WFM" step="100" color="5500C9C9">AIS Ch. B</RangeEntry>
+  <RangeEntry minFrequency="162037500" maxFrequency="162137500" mode="WFM" step="100" color="55008080">Marine</RangeEntry>
+	<RangeEntry minFrequency="162137500" maxFrequency="162162500" mode="WFM" step="100" color="5500C9C9">31</RangeEntry>
 
 	<RangeEntry minFrequency="162162500" maxFrequency="174000000" mode="WFM" step="100" color="55008080">Fixed Mobile/ Marine</RangeEntry>
 
