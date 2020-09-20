@@ -176,7 +176,7 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 ## What Was Added in Latest Update
 
-This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the only named allocations they will likely share are satellites, VLF/ LF frequencies, and a few possibly popular stations.    
+This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the internation version does not include Milstar, EMWIN VHF Repeaters, 220MHz Command/ Telemetry, and WEFAX Stations out of the following list:   
 
 *SNPP: TDRSS, Telemetry, Command (2067.27 MHz, 2247.5 MHz )  
 NOAAs-15, 18, 19: CDA, Telemetry, Command (2247.5 MHz ,2026 MHz, 2247.5 MHz)   
