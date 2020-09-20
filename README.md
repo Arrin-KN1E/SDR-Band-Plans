@@ -1,27 +1,82 @@
-# Band plans for SDRsharp
+# Bandplans for SDRsharp
+These are custom bandplan files for SDR#. They are an update on the default bandplans by being more detailed. Bandplans are meant to be an aid for signal identification. 
 
-These are expanded band plan files for SDR#. They are an update on the default bandplans, which are meant to be an aid for signal identification.
 
-## Download Links
+## Useful Links/ Downloads
+1. [FCC Online Table of Frequency Allocations (Federal and Nonfederal, and ITU Regions 1, 2, & 3) PDF](https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf)  
+1. [FCC ID.io - A more User-Friendly Version of the 'FCC Table of Frequency Allocations' PDF](https://fccid.io/frequency-explorer.php?lower=100&upper=1000)  
+1. [European Table of Frequency Allocations PDF](https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf)  
+1. [IEEE Database of Frequency Allocations for all ITU Countries (A Bandplan Alt. for Non-US End Users)](http://www.grss-ieee.org/frequency_allocations.html)  
+1. [inSSIDer - A Program for Viewing 2.4GHz and 5.8GHz Wifi Channels (Does not use an SDR)](https://www.metageek.com/products/inssider/) 
 
-[FCC Online Table of Frequency Allocations (Federal and Nonfederal, and ITU Regions 1, 2, & 3) PDF](https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf)  
-[IEEE Database of Frequency Allocations for all ITU Countries (A Bandplan Alt. for Non-US End Users)](http://www.grss-ieee.org/frequency_allocations.html)  
-[European Table of Frequency Allocations PDF](https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf)  
-[FCC ID.io - A more User-Friendly Version of the 'FCC Table of Frequency Allocations' PDF](https://fccid.io/frequency-explorer.php?lower=100&upper=1000)  
-[inSSIDer - A Program for Viewing 2.4GHz and 5.8GHz Wifi Channels (Does not use an SDR)](https://www.metageek.com/products/inssider/) 
 
-#### Preview the Bandplans
+## Table of Contents
+1. [Introduction](#introduction)
+1. [Preview the Bandplans](#preview-the-bandplans)
+   1. [Pictures](#preview-the-bandplans)
+   1. [Videos](#videos-of-the-bandplans)
+   1. [The Raw XMLs](#raw-xml)
+1. [Contents of US Bandplan]()
+1. [Contents of International Bandplan]()
+1. [Installation](#installation)
+1. [How You Can Contribute]()
+
+
+## Introduction
+Hello everyone! Quick backstory, a while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan from then on, so here it is! 
+
+I've made the US Bandplan (where I live) the most detailed, since US allocations are what I'm most familiar with. More detail on what it contains in the 'Contents' section.
+
+The International Bandplan is a more general version for anyone else in the world. It also might contain allocations that are not correct in your country, so if you want to make sure, you could use the 'Useful Links/ Downloads' resources to try and confirm. The bandplan does not contain allocations in some spots since different regions might have numerous wildly different allocations. It is still an upgrade from the default SDRsharp bandplan though. More detail on what it contains in the 'Contents' section.
+
+This project is also an opportunity for people to make bandplans for their own areas. Those bandplans could then be added to this repository to make a number of bandplans avaliable to everyone in the SDR community and expand the usefulness of this project.  
+
+Also, a few things to keep in mind!  
+- Make sure to use the 'Useful Links/ Downloads' resources if your trying to confidently identify a signal.  
+- Watch out for interference, harmonics, and be aware of the limitations of your SDR (e.g. Signals can appear to be at a frequency they really are not [for various technical reasons]).  
+- Since bandplans are meant to be an aid in helping identify an unknown signal I tried to make them as detailed as possible without making them cluttered, so some signals might be from a secondary allocation user that couldn't be listed.  
+- When using the bandplan you may need to zoom in a lot to read the allocation name, since a named allocation is the same width as the signals bandwidth.   
+
+
+
+## Preview-the-Bandplans
+
+**Showing the 137MHz Area**
+<img src="https://i.imgur.com/0LMlxku.png" width="3000"/>
+**Showing the 145MHz Satellites** (Sorry for the interference)
+<img src="https://i.imgur.com/aKaGL6U.png" width="3000"/>  
+**Showing the 4.3MHz Area** (My HamitUp was being used elsewhere, sorry.)(WEFAX is only in US version.)
+<img src="https://i.imgur.com/tKfb0Yb.png" width="3000"/>
+
+### Videos-of-the-Bandplans
+If you want to a different view of the plans I have some old videos showing the initial bandplan release, Just keep in mind a lot has been updated since then:
+
+- [Here is the US plan in SDR#](https://youtu.be/Azj1fn24qsA)
+- [Here is a scroll through the US code](https://www.youtube.com/watch?v=T091WzRwMAQ)
+- [International plan in SDR#](https://youtu.be/u709OSG_Abg)
+- [Video of the code too](https://youtu.be/Rhgy7woPk50)
+
+Note: Updated videos will be made in the future when I know I've added all of the public interest allocations!
+
+
+### Raw-XML
 [US BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)  
 [International BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/International/BandPlan.xml)  
-[Create Your Own Bandplan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml)  
+[Create Your Own Bandplan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml) 
 
-## Installing
-It's as easy as dropping it in the SDR# folder. Just make sure to have a backup of the old default bandplan in case something doesn't work! For anyone that needs to see it, [here](https://youtu.be/0OqyOx87hJk) is a super simple video on how to install an XML file.
 
-## Backstory
-Hello everyone! A while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan for where I live (the US) that could then be used as a framework so people in other countries or regions could change the allocations to their needs. With enough country and regional bandplans we could possibly have a community of bandplans that users could choose from. So, this is my attempt at starting that project. I've made the US bandplan, and as to not leave non-US users without something I threw together a basic International bandplan. I didn't know where the best place to have all other community made plans stored at would be (Github? idk), so I'll let the community/mods decide on that. But, I should get to the plans.
+## Installation
 
-If you want to see videos of them and get motion sick at the same time [here is the US plan in SDR#](https://youtu.be/Azj1fn24qsA), and [here is a scroll through the code](https://www.youtube.com/watch?v=T091WzRwMAQ).  I also have the [International plan in SDR#](https://youtu.be/u709OSG_Abg),and of course a [video of the code too](https://youtu.be/Rhgy7woPk50). The videos have no audio! They are for previewing purposes only! So, they're nothing special.
+**It's as easy as dropping it in the SDR# folder.**  
+
+<img src="https://i.imgur.com/RrgZ5Ki.png" width="3000"/>
+
+Click on the Green 'Code button', download the ZIP file, extract it, navigate to the file you want, then drag and drop it in.  
+Just make sure to have a backup of the old default bandplan in case something doesn't work! 
+
+
+
+
 
 I should start off by saying I'm not a programmer and I did this by myself. So, there are going to be mistakes and I don't know everything about every allocation so there might be a setting wrong here and there. So, I greatly apologize for any mistakes in any of the plans. Now, to get start getting into the technical details!
 
