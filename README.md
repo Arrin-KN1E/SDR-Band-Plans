@@ -204,7 +204,7 @@ NOAA-20: TDRSS, Telemetry, Command  (2067.27 MHz, 2247.5 MHz )*
 *WEFAX US: Honolulu (9982.5 KHz, 11090KHz, 16135 KHz, Kodiak (2054KHz, 4298KHz, 8459KHz, 12412.5KHz)
 WEFAX Canada: Halifax (122.5khZ, 4271KHz, 6496.4KHz, 10536KHz, 13510KHz)(Not Active but Added), Iqaluit (3253KHz, 7710KHz), Resolute (3253KHz, 7710KHz), Sydney -Nova Scotia (4416KHz, 6915.1KHz), Inuvik (4292KHz, 8456KHz)*
 
-And Some General Superficial Improvements
+And some general superficial improvements.
 
 
 ## Conclusion  
