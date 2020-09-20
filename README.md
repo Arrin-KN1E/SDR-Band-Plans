@@ -8,7 +8,7 @@ If you just want to know how to install it, [click here](#installation).
 1. [FCC Online Table of Frequency Allocations (Federal and Nonfederal, and ITU Regions 1, 2, & 3) PDF](https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf)  
 1. [FCC ID.io - A more User-Friendly Version of the 'FCC Table of Frequency Allocations' PDF](https://fccid.io/frequency-explorer.php?lower=100&upper=1000)  
 1. [European Table of Frequency Allocations PDF](https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf)  
-1. [IEEE Database of Frequency Allocations for all ITU Countries (A Bandplan Alt. for Non-US End Users)](http://www.grss-ieee.org/frequency_allocations.html)  
+1. [IEEE Database of Frequency Allocations for all ITU Countries](http://www.grss-ieee.org/frequency_allocations.html)  
 1. [inSSIDer - A Program for Viewing 2.4GHz and 5.8GHz Wifi Channels (Does not use an SDR)](https://www.metageek.com/products/inssider/) 
 
 
@@ -173,14 +173,13 @@ The files also contain a list of contents, reference, color legend, explanation 
 The purpose of the efforts here are to give SDR users the ability to identify signals and bands with greater ease than before. With a basic layout file provided ('Create your own Bandplan') it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
 It has a simple layout with nothing more than a basic structure that the writer can adhere to if they desire. Luckily XML is a simple language that can be easily learned by those even with little skill in programming.  
 
-The best way to contribute is on GitHub! 
 
 ## What Was Added in Latest Update
 
 This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the only named allocations they will likely share are satellites, VLF/ LF frequencies, and a few possibly popular stations.    
 
-*SNPP: TDRSS, Telemetry, Command (2067.27 MHz, 2247.5 MHz )
-NOAAs-15, 18, 19: CDA, Telemetry, Command (2247.5 MHz ,2026 MHz, 2247.5 MHz) 
+*SNPP: TDRSS, Telemetry, Command (2067.27 MHz, 2247.5 MHz )  
+NOAAs-15, 18, 19: CDA, Telemetry, Command (2247.5 MHz ,2026 MHz, 2247.5 MHz)   
 NOAA-20: TDRSS, Telemetry, Command  (2067.27 MHz, 2247.5 MHz )*
 
 *136MHz Aeronautical Data Links: 136.650 - 136.8MHz and 136.975*
