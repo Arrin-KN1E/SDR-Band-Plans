@@ -86,7 +86,7 @@ Note: Updated videos will be made in the future when I know I've added all of th
 
 <img src="https://i.imgur.com/RrgZ5Ki.png" width="3000"/>
 
-Click on the Green 'Code button', download the ZIP file, extract it, navigate to the file you want, then drag and drop it in.  
+[**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDRsharpbandplans/archive/master.zip), extract it, navigate to the file you want, then drag and drop it in.  
 Just make sure to have a backup of the old default bandplan in case something doesn't work! 
 
 
