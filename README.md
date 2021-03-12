@@ -1,7 +1,7 @@
 # Bandplans for SDRsharp
-These are custom bandplan files for SDR#. They are an update on the default bandplans by being more detailed. Bandplans are meant to be an aid for signal identification.  
+These are custom bandplans for SDR#. They are more detailed than the default bandplans; therefore, should be of greater aid for signal identification.  
 
-If you just want to know how to install it, [click here](#installation).
+If you just want to know how to install it: [click here](#installation).
 
 
 ### Useful Links/ Downloads
@@ -9,7 +9,9 @@ If you just want to know how to install it, [click here](#installation).
 1. [FCC ID.io - A more User-Friendly Version of the 'FCC Table of Frequency Allocations' PDF](https://fccid.io/frequency-explorer.php?lower=100&upper=1000)  
 1. [European Table of Frequency Allocations PDF](https://www.ecodocdb.dk/download/2ca5fcbd-4090/ERCREP025.pdf)  
 1. [IEEE Database of Frequency Allocations for all ITU Countries](http://www.grss-ieee.org/frequency_allocations.html)  
-1. [inSSIDer - A Program for Viewing 2.4GHz and 5.8GHz Wifi Channels (Does not use an SDR)](https://www.metageek.com/products/inssider/) 
+1. [Signal ID Wiki - Ubiquitous, but missing many niche allocations. Still might be worth checking.](https://www.sigidwiki.com/wiki/Database)
+1. [You can use an ATSC pilot carrier to calibrate your SDR. Using 'ATSC pilot' from these tables.](https://www.sigidwiki.com/wiki/ATSC_Broadcast#Frequencies)
+1. [inSSIDer - A Program for Viewing 2.4GHz and 5.8GHz Wifi Channels (Uses your WiFi card, not SDR#.)](https://www.metageek.com/products/inssider/)
 
 
 ## Table of Contents  <!--                           Don't use capitals or spaces in the link section                    -->
@@ -38,13 +40,13 @@ If you just want to know how to install it, [click here](#installation).
 
 
 ## Introduction
-Hello everyone! Quick backstory, a while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan from then on, so here it is! 
+Hello everyone! Quick backstory, a while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan from then on, so here it is!
 
 I've made the US Bandplan (where I live) the most detailed, since US allocations are what I'm most familiar with. More detail on what it contains in the 'Contents' section.
 
 The International Bandplan is a more general version for anyone else in the world. It also might contain allocations that are not correct in your country, so if you want to make sure, you could use the 'Useful Links/ Downloads' resources to try and confirm. The bandplan does not contain allocations in some spots since different regions might have numerous wildly different allocations. It is still an upgrade from the default SDRsharp bandplan though. More detail on what it contains in the 'Contents' section.
 
-This project is also an opportunity for people to make bandplans for their own areas. Those bandplans could then be added to this repository to make a number of bandplans avaliable to everyone in the SDR community and expand the usefulness of this project.  
+This project is also an opportunity for people to make bandplans for their own areas. Those created bandplans could then be added to this repository to make a number of bandplans available to everyone in the SDR community and expand the usefulness of this project.  
 
 Also, a few things to keep in mind!  
 - Make sure to use the 'Useful Links/ Downloads' resources if your trying to confidently identify a signal.  
@@ -77,7 +79,7 @@ Note: Updated videos will be made in the future when I know I've added all of th
 ### Raw XML
 [US BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)  
 [International BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/International/BandPlan.xml)  
-[Create Your Own Bandplan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml) 
+[Create Your Own Bandplan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml)
 
 
 ## Installation
@@ -86,8 +88,8 @@ Note: Updated videos will be made in the future when I know I've added all of th
 
 <img src="https://i.imgur.com/RrgZ5Ki.png" width="3000"/>
 
-[**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDRsharpbandplans/archive/master.zip), extract it, navigate to the file you want, then drag and drop it in.  
-Just make sure to have a backup of the old default bandplan in case something doesn't work! 
+[**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDRsharpbandplans/archive/master.zip), extract it, navigate to the file you want (US or International), then drag and drop it in.  
+Just make sure to have a backup of the old default bandplan in case something doesn't work!
 
 
 ## US Band Plan Contents
@@ -96,7 +98,7 @@ Just make sure to have a backup of the old default bandplan in case something do
 ### Broadcast
 AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 *Note: Some TV channels are no longer used for TV anymore.  
 
-### Commercial Stations: 
+### Commercial Stations:
 BBC Radio 4 (198 kHz)                                                                
 
 ### Secret Stations
@@ -104,7 +106,7 @@ UVB-76 (4625KHz and 4810KHz), The Pip (5448 KHz [Day]/ 3756 KHz[Night])
 
 
 ### Ham
-2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm   (w/ ARRL BPs) 
+2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm   (w/ ARRL BPs)
 
 ### Satellites
 NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT, CDA, Telemetry, Command), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites, Milstar, NOAA-20/ JPSS (TDRSS, Telemetry, Command), SNPP (TDRSS, Telemetry, Command)  
@@ -147,16 +149,16 @@ With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22
 Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm   
 
 ### Satellites
-NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, 
-Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), 
-Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), 
+NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A,
+Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging),
+Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D),
 SiriusXM Satellites  
 
 ### ISM
 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)   
 
 ### Time Signals
-20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz 
+20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz
 
 ### Aeronautical
 ADSB 978, ADSB 1090
@@ -170,13 +172,13 @@ The files also contain a list of contents, reference, color legend, explanation 
 
 
 ## Create Your Own Bandplan
-The purpose of the efforts here are to give SDR users the ability to identify signals and bands with greater ease than before. With a basic layout file provided ('Create your own Bandplan') it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
+The purpose of the efforts here are to aid SDR users in the ability to identify signals and bands with greater ease than before. With a basic layout file provided ('Create your own Bandplan') it gives users anywhere the ability to assign a bandplan to their regional or personal needs, which can then be shared with the greater SDR community if desired.
 It has a simple layout with nothing more than a basic structure that the writer can adhere to if they desire. Luckily XML is a simple language that can be easily learned by those even with little skill in programming.  
 
 
-## What Was Added in Latest Update
+## What Was Added in Latest Updates
 
-This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the internation version does not include Milstar, EMWIN VHF Repeaters, 220MHz Command/ Telemetry, and WEFAX Stations out of the following list:   
+This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the international version does not include Milstar, EMWIN VHF Repeaters, 220MHz Command/ Telemetry, and WEFAX Stations out of the following list:   
 
 *SNPP: TDRSS, Telemetry, Command (2067.27 MHz, 2247.5 MHz )  
 NOAAs-15, 18, 19: CDA, Telemetry, Command (2247.5 MHz ,2026 MHz, 2247.5 MHz)   
@@ -201,7 +203,7 @@ NOAA-20: TDRSS, Telemetry, Command  (2067.27 MHz, 2247.5 MHz )*
 *Number Stations/ Secret Stations: UVB-76 (4625KHz and 4810KHz), The Pip (5448 kHz [day]
 3756 kHz [night])*
 
-*WEFAX US: Honolulu (9982.5 KHz, 11090KHz, 16135 KHz, Kodiak (2054KHz, 4298KHz, 8459KHz, 12412.5KHz)
+*WEFAX US: Honolulu (9982.5 KHz, 11090KHz, 16135 KHz), Kodiak (2054KHz, 4298KHz, 8459KHz, 12412.5KHz)
 WEFAX Canada: Halifax (122.5khZ, 4271KHz, 6496.4KHz, 10536KHz, 13510KHz)(Not Active but Added), Iqaluit (3253KHz, 7710KHz), Resolute (3253KHz, 7710KHz), Sydney -Nova Scotia (4416KHz, 6915.1KHz), Inuvik (4292KHz, 8456KHz)*
 
 And some general superficial improvements.
