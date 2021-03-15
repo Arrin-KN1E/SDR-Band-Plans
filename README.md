@@ -22,7 +22,6 @@ If you just want to know how to install it: [click here](#installation).
    1. [The Raw XMLs](#raw-xml)
 1. [US Bandplan Contents](#us-band-plan-contents)
    1. [Broadcast](#broadcast)
-   1. [Commercial Stations](#commercial-stations)
    1. [Secret Stations](#secret-stations)
    1. [Ham](#ham)
    1. [Satellites](#satellites)
