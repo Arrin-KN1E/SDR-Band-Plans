@@ -96,10 +96,7 @@ Just make sure to have a backup of the old default bandplan in case something do
 **The US plan contains, among many other things not listed:**
 
 ### Broadcast
-AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 *Note: Some TV channels are no longer used for TV anymore.  
-
-### Commercial Stations:
-BBC Radio 4 (198 kHz)                                                                
+AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 *Note: Some TV channels are no longer used for TV anymore.                                                               
 
 ### Secret Stations
 UVB-76 (4625KHz and 4810KHz), The Pip (5448 KHz [Day]/ 3756 KHz[Night])   
@@ -197,8 +194,6 @@ NOAA-20: TDRSS, Telemetry, Command  (2067.27 MHz, 2247.5 MHz )*
 *Time Stations: JJY-40 (40 KHz)(Japan), RBU (66.66 KHz)(Russia), BPC (68.5 KHz)(China), DCF77 (77.5 kHz)(Germany), TDF (162 kHz)(France)*
 
  *Submarine Communications: NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), NML (25.2 KHz)(US), NOV (26.9 KHz)(US), SHR (38 KHz)(Sweden), SAS/SRC (40.4 kHz)(Sweden), SAS2 (42.5 kHz)(Sweden), SAS3 (44.2 kHz)(Sweden), GYN2 GBR (81 kHz)(UK)*
-
-*Commercial Broadcast Stations: BBC Radio 4 (198 kHz)*
 
 *Number Stations/ Secret Stations: UVB-76 (4625KHz and 4810KHz), The Pip (5448 kHz [day]
 3756 kHz [night])*
