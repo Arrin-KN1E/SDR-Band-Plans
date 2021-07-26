@@ -1485,10 +1485,10 @@
 	<RangeEntry minFrequency="458000000" maxFrequency="459000000" mode="NFM" step="100" color="505D88FF">General Aviation Air-Ground/ Industrial/Business</RangeEntry>
 	<RangeEntry minFrequency="459000000" maxFrequency="459330000" mode="NFM" step="10" color="50FFCE83">Paging</RangeEntry>
 	<RangeEntry minFrequency="459330000" maxFrequency="460000000" mode="NFM" step="100" color="5500C9C9">Marine/ Medical</RangeEntry>
-	<RangeEntry minFrequency="460000000" maxFrequency="467556250" mode="NFM" step="100" color="507676FF">Medical Telemetry</RangeEntry>
+	<RangeEntry minFrequency="460000000" maxFrequency="462543750" mode="NFM" step="100" color="507676FF">Medical Telemetry</RangeEntry>
 	<!-- FRS is inside GMRS, but only FRS is in numbered channels. GMRS and FRS channels are mixed together -->
-	<RangeEntry minFrequency="467556250" maxFrequency="462543750" mode="NFM" step="100" color="40BBE100">GMRS and FRS Ch. 15</RangeEntry>  <!-- 462.5500 MHz -->
-	<RangeEntry minFrequency="462543750" maxFrequency="462568750" mode="NFM" step="100" color="40BAFD00">1</RangeEntry>    <!-- 462.5625 MHz -->
+	<RangeEntry minFrequency="462543750" maxFrequency="462556250" mode="NFM" step="100" color="40BBE100">GMRS and FRS Ch. 15</RangeEntry>  <!-- 462.5500 MHz -->
+	<RangeEntry minFrequency="462556250" maxFrequency="462568750" mode="NFM" step="100" color="40BAFD00">1</RangeEntry>    <!-- 462.5625 MHz -->
 	<RangeEntry minFrequency="462568750" maxFrequency="462581250" mode="NFM" step="100" color="40BBE100">16 </RangeEntry>  <!-- 462.5750 MHz (White Dot) -->
 	<RangeEntry minFrequency="462581250" maxFrequency="462593750" mode="NFM" step="100" color="40BAFD00">2</RangeEntry>    <!-- 462.5875 MHz -->
 	<RangeEntry minFrequency="462593750" maxFrequency="462606250" mode="NFM" step="100" color="40BBE100">17</RangeEntry>   <!-- 462.6000 MHz -->
