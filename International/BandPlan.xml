@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!--     27 January 2020     Arrin, Callsign: KN1E     International (Basic)  V0.1   0Hz to 2.5GHz (All Allocations) (ARRL BPs till 20m) |   Free to use for those who want to expand their knowledge of the radio spectrum.
-                                                     There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.
+                                                       There is a list of contents, reference, color legend, explanation on how you can customize this file, and my comments about this file, after all of the allocations.
 
-                                                     Quick Author's Note: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice.
-                                                     I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. 
+                                                       Quick Author's Note: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice.
+                                                       I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices.
 -->
 
 <ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -480,6 +480,63 @@
   <RangeEntry minFrequency="437810000" maxFrequency="438000000" mode="NFM" step="100" color="5033FF00">Satellite</RangeEntry>
   <RangeEntry minFrequency="438000000" maxFrequency="440000000" mode="NFM" step="100" color="50FF0000">70cm Ham Band</RangeEntry>
 
+  <!-- General Allocation -->
+  <!-- <RangeEntry minFrequency="446000000" maxFrequency="446200000" mode="NFM" step="100" color="554545FF">PMR446</RangeEntry> -->
+
+  <!-- Analog Allocations --> 
+  <RangeEntry minFrequency="446000000" maxFrequency="446012500" mode="NFM" step="100" color="554545FF">PMR446 Ch. 1</RangeEntry>
+  <RangeEntry minFrequency="446012500" maxFrequency="446025000" mode="NFM" step="100" color="552929FF">2</RangeEntry>
+  <RangeEntry minFrequency="446025000" maxFrequency="446037500" mode="NFM" step="100" color="554545FF">3</RangeEntry>
+  <RangeEntry minFrequency="446037500" maxFrequency="446050000" mode="NFM" step="100" color="552929FF">4</RangeEntry>
+  <RangeEntry minFrequency="446050000" maxFrequency="446062500" mode="NFM" step="100" color="554545FF">5</RangeEntry>
+  <RangeEntry minFrequency="446062500" maxFrequency="446075000" mode="NFM" step="100" color="552929FF">6</RangeEntry>
+  <RangeEntry minFrequency="446075000" maxFrequency="446087500" mode="NFM" step="100" color="554545FF">7</RangeEntry>
+  <RangeEntry minFrequency="446087500" maxFrequency="446100000" mode="NFM" step="100" color="552929FF">8</RangeEntry>
+  <RangeEntry minFrequency="446100000" maxFrequency="446112500" mode="NFM" step="100" color="554545FF">9</RangeEntry>
+  <RangeEntry minFrequency="446112500" maxFrequency="446125000" mode="NFM" step="100" color="552929FF">10</RangeEntry>
+  <RangeEntry minFrequency="446125000" maxFrequency="446137500" mode="NFM" step="100" color="554545FF">11</RangeEntry>
+  <RangeEntry minFrequency="446137500" maxFrequency="446150000" mode="NFM" step="100" color="552929FF">12</RangeEntry>
+  <RangeEntry minFrequency="446150000" maxFrequency="446162500" mode="NFM" step="100" color="554545FF">13</RangeEntry>
+  <RangeEntry minFrequency="446162500" maxFrequency="446175000" mode="NFM" step="100" color="552929FF">14</RangeEntry>
+  <RangeEntry minFrequency="446175000" maxFrequency="446187500" mode="NFM" step="100" color="554545FF">15</RangeEntry>
+  <RangeEntry minFrequency="446187500" maxFrequency="446200000" mode="NFM" step="100" color="552929FF">PMR446 Ch. 16</RangeEntry>
+
+  <!-- Digital PMR446 dPMR (FDMA) Allocations -->
+  <!--
+  <RangeEntry minFrequency="446000000" maxFrequency="446006250" mode="NFM" step="100" color="554545FF">dPMR446 Ch. 1</RangeEntry>
+  <RangeEntry minFrequency="446006250" maxFrequency="446012500" mode="NFM" step="100" color="552929FF">2</RangeEntry>
+  <RangeEntry minFrequency="446012500" maxFrequency="446018750" mode="NFM" step="100" color="554545FF">3</RangeEntry>
+  <RangeEntry minFrequency="446018750" maxFrequency="446025000" mode="NFM" step="100" color="552929FF">4</RangeEntry>
+  <RangeEntry minFrequency="446025000" maxFrequency="446031250" mode="NFM" step="100" color="554545FF">5</RangeEntry>
+  <RangeEntry minFrequency="446031250" maxFrequency="446037500" mode="NFM" step="100" color="552929FF">6</RangeEntry>
+  <RangeEntry minFrequency="446037500" maxFrequency="446043750" mode="NFM" step="100" color="554545FF">7</RangeEntry>
+  <RangeEntry minFrequency="446043750" maxFrequency="446050000" mode="NFM" step="100" color="552929FF">8</RangeEntry>
+  <RangeEntry minFrequency="446050000" maxFrequency="446056250" mode="NFM" step="100" color="554545FF">9</RangeEntry>
+  <RangeEntry minFrequency="446056250" maxFrequency="446062500" mode="NFM" step="100" color="552929FF">10</RangeEntry>
+  <RangeEntry minFrequency="446062500" maxFrequency="446068750" mode="NFM" step="100" color="554545FF">11</RangeEntry>
+  <RangeEntry minFrequency="446068750" maxFrequency="446075000" mode="NFM" step="100" color="552929FF">12</RangeEntry>
+  <RangeEntry minFrequency="446075000" maxFrequency="446081250" mode="NFM" step="100" color="554545FF">13</RangeEntry>
+  <RangeEntry minFrequency="446081250" maxFrequency="446087500" mode="NFM" step="100" color="552929FF">14</RangeEntry>
+  <RangeEntry minFrequency="446087500" maxFrequency="446093750" mode="NFM" step="100" color="554545FF">15</RangeEntry>
+  <RangeEntry minFrequency="446093750" maxFrequency="446100000" mode="NFM" step="100" color="552929FF">16</RangeEntry>
+  <RangeEntry minFrequency="446100000" maxFrequency="446106250" mode="NFM" step="100" color="554545FF">17</RangeEntry>
+  <RangeEntry minFrequency="446106250" maxFrequency="446112500" mode="NFM" step="100" color="552929FF">18</RangeEntry>
+  <RangeEntry minFrequency="446112500" maxFrequency="446118750" mode="NFM" step="100" color="554545FF">19</RangeEntry>
+  <RangeEntry minFrequency="446118750" maxFrequency="446125000" mode="NFM" step="100" color="552929FF">20</RangeEntry>
+  <RangeEntry minFrequency="446125000" maxFrequency="446131250" mode="NFM" step="100" color="554545FF">21</RangeEntry>
+  <RangeEntry minFrequency="446131250" maxFrequency="446137500" mode="NFM" step="100" color="552929FF">22</RangeEntry>
+  <RangeEntry minFrequency="446137500" maxFrequency="446143750" mode="NFM" step="100" color="554545FF">23</RangeEntry>
+  <RangeEntry minFrequency="446143750" maxFrequency="446150000" mode="NFM" step="100" color="552929FF">24</RangeEntry>
+  <RangeEntry minFrequency="446150000" maxFrequency="446156250" mode="NFM" step="100" color="554545FF">25</RangeEntry>
+  <RangeEntry minFrequency="446156250" maxFrequency="446162500" mode="NFM" step="100" color="552929FF">26</RangeEntry>
+  <RangeEntry minFrequency="446162500" maxFrequency="446168750" mode="NFM" step="100" color="554545FF">27</RangeEntry>
+  <RangeEntry minFrequency="446168750" maxFrequency="446175000" mode="NFM" step="100" color="552929FF">28</RangeEntry>
+  <RangeEntry minFrequency="446175000" maxFrequency="446181250" mode="NFM" step="100" color="554545FF">29</RangeEntry>
+  <RangeEntry minFrequency="446181250" maxFrequency="446187500" mode="NFM" step="100" color="552929FF">30</RangeEntry>
+  <RangeEntry minFrequency="446187500" maxFrequency="446193750" mode="NFM" step="100" color="554545FF">31</RangeEntry>
+  <RangeEntry minFrequency="446193750" maxFrequency="446200000" mode="NFM" step="100" color="552929FF">dPMR Ch. 32</RangeEntry>
+  -->
+
   <RangeEntry minFrequency="465986500" maxFrequency="465988500" mode="NFM" step="100" color="5091A4EE">Metops' DCP configuration control</RangeEntry>
 
   <RangeEntry minFrequency="470000000" maxFrequency="608000000" mode="WFM" step="1000" color="50FFE55C">Television UHF</RangeEntry>
@@ -798,6 +855,7 @@
   Radio Astronomy - 40FFFF00  (Yellow)
   NOAA Radio and EMWIN - 5000CED1  (Dark Cyan)
   CB - 77FF7777 (Whitish Red), Alt is 77FF5858 (Darker Whitish Red), R/C is 77ADFF7D (Whitish Green)
+  PMR446 - 554545FF (Darkish Blue), Alt. is 552929FF (Darker Blue)
 
 
   Military Air - 5090EE90  (Light Green)  (Military Default)
