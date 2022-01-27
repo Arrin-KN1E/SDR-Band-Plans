@@ -202,7 +202,10 @@
 
   <RangeEntry minFrequency="7200000" maxFrequency="7300000" mode="AM" step="100" color="50AD63FF">Shared 40m and Shortwave (41m) Broadcast</RangeEntry>
   <RangeEntry minFrequency="7300000" maxFrequency="7450000" mode="AM" step="100" color="505D63FF">Shortwave (41m) Broadcast</RangeEntry>
-  <RangeEntry minFrequency="7450000" maxFrequency="7850000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
+  <RangeEntry minFrequency="7450000" maxFrequency="7633500" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
+  <RangeEntry minFrequency="7633500" maxFrequency="7636500" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
+  <RangeEntry minFrequency="7636500" maxFrequency="7850000" mode="USB" step="100" color="55008080">Maritime</RangeEntry>
+
   <RangeEntry minFrequency="7850000" maxFrequency="8289750" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 8MHz Channels in the future -->
   <RangeEntry minFrequency="8289750" maxFrequency="8292250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
   <RangeEntry minFrequency="8292250" maxFrequency="8680000" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>
@@ -218,7 +221,9 @@
   <RangeEntry minFrequency="10130000" maxFrequency="10140000" mode="USB" step="10" color="5000FF00">RTTY</RangeEntry>
   <RangeEntry minFrequency="10140000" maxFrequency="10150000" mode="USB" step="10" color="5000B3FF">Packet  |30m Ham Band</RangeEntry>
 
-  <RangeEntry minFrequency="10150000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Aeronautical</RangeEntry>
+  <RangeEntry minFrequency="10150000" maxFrequency="11407000" mode="USB" step="100" color="55008080">Aeronautical</RangeEntry>
+  <RangeEntry minFrequency="11407000" maxFrequency="11410000" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
+  <RangeEntry minFrequency="11410000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Aeronautical</RangeEntry>
   <RangeEntry minFrequency="11600000" maxFrequency="12100000" mode="AM" step="100" color="505D63FF">Shortwave (25m) Broadcast</RangeEntry>
   <RangeEntry minFrequency="12100000" maxFrequency="12288750" mode="USB" step="100" color="55008080">(Ship/Shore) Maritime</RangeEntry>  <!-- Add Marine 12MHz Channels in the future -->
   <RangeEntry minFrequency="12288750" maxFrequency="12291250" mode="USB" step="100" color="50FF0091">Distress</RangeEntry>
@@ -229,7 +234,7 @@
   <RangeEntry minFrequency="13553000" maxFrequency="13567000" mode="CW" step="10" color="50FF0000">22m (HiFER) Band and 22m ISM</RangeEntry>  <!-- See also: MedFER in Reference below| This is also an ISM Band-->
   <RangeEntry minFrequency="13567000" maxFrequency="13570000" mode="CW" step="10" color="44006179">22m ISM Band</RangeEntry>
   <RangeEntry minFrequency="13570000" maxFrequency="13870000" mode="AM" step="100" color="505D63FF">Shortwave (22m) Broadcast</RangeEntry>
-  <RangeEntry minFrequency="13870000" maxFrequency="14000000" mode="USB" step="100" color="55008080">Propagation Testing</RangeEntry>
+  <RangeEntry minFrequency="13927000" maxFrequency="13930000" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
 
   <RangeEntry minFrequency="14000000" maxFrequency="14070000" mode="USB" step="10" color="50FF0000">20m Ham Band|</RangeEntry>
   <RangeEntry minFrequency="14070000" maxFrequency="14095000" mode="USB" step="10" color="500000FF">RTTY</RangeEntry>
