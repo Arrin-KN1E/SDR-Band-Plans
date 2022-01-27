@@ -278,7 +278,9 @@
 
   <RangeEntry minFrequency="7200000" maxFrequency="7300000" mode="LSB" step="10" color="50AD63FF">Shared 40m and Shortwave (41m) Broadcast</RangeEntry>
   <RangeEntry minFrequency="7300000" maxFrequency="7450000" mode="AM" step="10" color="505D63FF">Shortwave (41m) Broadcast</RangeEntry>
-  <RangeEntry minFrequency="7450000" maxFrequency="7708100" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
+  <RangeEntry minFrequency="7450000" maxFrequency="7633500" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
+  <RangeEntry minFrequency="7633500" maxFrequency="7636500" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
+  <RangeEntry minFrequency="7636500" maxFrequency="7708100" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
   <RangeEntry minFrequency="7708100" maxFrequency="7711100" mode="USB" step="10" color="5500FF91">WEFAX Iqaluit/ Resolute, CA</RangeEntry>  <!-- WEFAX Iqaluit/ Resolute, Canada -->
   <RangeEntry minFrequency="7711100" maxFrequency="7848500" mode="USB" step="10" color="505D88FF">Aeronautical/ Maritime</RangeEntry>
   <RangeEntry minFrequency="7848500" maxFrequency="7851500" mode="USB" step="10" color="44FF00FF">CHU Canada</RangeEntry>  <!-- CHU 7.85 MHz -->
@@ -400,7 +402,9 @@
   <RangeEntry minFrequency="11088100" maxFrequency="11091100" mode="USB" step="10" color="5500FF91">WEFAX Honolulu, HI</RangeEntry>
   <RangeEntry minFrequency="11091100" maxFrequency="11175000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
   <RangeEntry minFrequency="11175000" maxFrequency="11178000" mode="USB" step="100" color="5090EE90">HFGCS</RangeEntry>
-  <RangeEntry minFrequency="11178000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
+  <RangeEntry minFrequency="11178000" maxFrequency="11407000" mode="AM" step="10" color="40AFFFEE">Transoceanic Flights (HFDL)</RangeEntry>
+  <RangeEntry minFrequency="11407000" maxFrequency="11410000" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
+  <RangeEntry minFrequency="11410000" maxFrequency="11600000" mode="USB" step="100" color="55008080">Private Land Mobile</RangeEntry>
   <RangeEntry minFrequency="11600000" maxFrequency="12100000" mode="AM" step="100" color="505D63FF">Shortwave (25m) Broadcast</RangeEntry>
 
 
@@ -522,7 +526,9 @@
   <RangeEntry minFrequency="13553000" maxFrequency="13567000" mode="CW" step="10" color="50FF0000">22m (HiFER) Band and 22m ISM</RangeEntry>  <!-- See also: MedFER in Reference below| This is also an ISM Band-->
   <RangeEntry minFrequency="13567000" maxFrequency="13570000" mode="CW" step="10" color="44006179">22m ISM Band</RangeEntry>
   <RangeEntry minFrequency="13570000" maxFrequency="13870000" mode="AM" step="100" color="505D63FF">Shortwave (22m) Broadcast</RangeEntry>
-  <RangeEntry minFrequency="13870000" maxFrequency="14000000" mode="USB" step="100" color="55008080">Propagation Testing</RangeEntry>
+  <RangeEntry minFrequency="13870000" maxFrequency="13927000" mode="USB" step="100" color="55008080">Propagation Testing</RangeEntry>
+  <RangeEntry minFrequency="13927000" maxFrequency="13930000" mode="USB" step="10" color="5090EE90">MARS</RangeEntry>
+  <RangeEntry minFrequency="13930000" maxFrequency="14000000" mode="USB" step="100" color="55008080">Propagation Testing</RangeEntry>
 
   <RangeEntry minFrequency="14000000" maxFrequency="14070000" mode="USB" step="10" color="50FF0000">20m Ham Band|</RangeEntry>
   <RangeEntry minFrequency="14070000" maxFrequency="14095000" mode="USB" step="10" color="500000FF">RTTY</RangeEntry>
