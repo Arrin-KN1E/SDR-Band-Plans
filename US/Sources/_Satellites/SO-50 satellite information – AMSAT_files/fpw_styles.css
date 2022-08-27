@@ -1,0 +1,74 @@
+/* This file is an attempt to lighly standardize the layout without beating up the theme */
+
+/*
+ * Our HTML element needs to be blocky
+ * See plugin FAQ for IE8 support
+ */
+article {
+	display: block;
+}
+
+/* A clearfix solution just for this plugin */
+/* Thanks for catching this, Jeremy Green! */
+.fpw-clearfix:before,
+.fpw-clearfix:after {
+	content: " ";
+	display: table;
+}
+.fpw-clearfix:after {
+	clear: both;
+}
+.fpw-clearfix {
+	*zoom: 1;
+}
+
+/* Handle Hidden Fields Better */
+.fpw-page-title:empty,
+.fpw-featured-image:empty,
+.fpw-excerpt:empty {
+	display: none;
+}
+
+/* Nice padding/margin */
+.fpw-page-title,
+.fpw-featured-image {
+	margin: 0 0 10px 0;
+	padding-top: 0;
+}
+
+/* a friendly font size suggestions */
+.fpw-page-title {
+	margin: 10px 0;
+	padding: 0; /* stupid Twenty Eleven */
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Responsive images */
+/* Going for the 1.5x retina technique. Feedback is welcome. */
+.fpw-featured-image,
+.fpw-featured-image img {
+	max-width: 100% !important;
+	height: auto !important;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Wrapped Layout */
+.fpw-layout-wrapped .fpw-featured-image {
+	float: right;
+	width: 45%;
+	margin-left: 10px;
+	overflow: hidden;
+}
+
+/* Read More Link */
+.fpw-read-more-link {
+	display: inline-block; /* Make sure the link stays together */
+}
+
+/* Fixes an issue in Kubrick and probably other themes */
+a .fpw-page-title {
+    color: inherit;
+}

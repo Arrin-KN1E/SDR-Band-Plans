@@ -1,0 +1,275 @@
+
+
+#myfcst-location-input {
+	/* box-sizing: initial;
+	/border: solid 2px #CCC;
+	font-size: 14px;
+	width: 90%;
+	height: 22px;
+	padding: 3px;
+	margin: 5px 0;
+	background: #EEE no-repeat; */
+	font: 8pt Tahoma, sans-serif;
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+#myfcst-location-input:focus {
+	box-sizing: initial;
+}
+
+label[for=myfcst-location-input] {
+	color: #350;
+	font-size: 9pt;
+}
+
+
+
+#myfcst-widget {
+    min-height: 300px;
+	margin-bottom: 15px;
+}
+
+#myfcst {
+	/* padding: 5px 0; */
+	padding: 0px;
+	width: 140px;
+	overflow: hidden;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+#myfcst-form {
+	
+	/* margin: 0px 0px 10px 0px; */
+	height:300px;
+	/* border: 2px dashed #FFD599; */
+	border-top: 2px solid #006838; 
+	border-bottom: 2px solid #006838;
+	/*padding: 30px 12px 10px 10px; */
+	padding: 0px;
+	background-color: #fff;
+	background: url('images/myfcst-bg.png');
+	margin: 0px;
+	width: 100%;
+	display:none;
+}
+
+#myfcst-form #myfcst-title {
+	/*
+	color: #FAA41A;
+	border-bottom: 1px dotted #FAA41A;
+	*/
+	text-shadow: #060 0px 0px 4px;
+	padding-top: 24px;
+	color: #fff;
+	font-size: 14pt;	
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+	/*padding-bottom: 10px; */
+	/*margin-bottom: 20px; */
+}
+
+#myfcst-input-block {
+	width: auto;
+	margin: 10px 0px 5px 0px;
+	padding: 8px 12px 8px 8px;
+	background: url('images/myfcst-block-bg.png');
+}
+
+
+#myfcst-form .myfcst-footer {
+	
+	padding-top: 10px;
+	/*border-top: 1px dotted #FAA41A; */
+	text-align: center;
+}
+
+#myfcst-form .myfcst-policy a:link {
+	color: #fff;	
+}
+
+#myfcst-form .myfcst-policy a:hover {
+	text-decoration: underline;	
+}
+
+
+#myfcst-remember { 
+	margin-top: 8px;
+}
+
+label[for=myfcst-remember] { 
+	color: #350;
+	font-size: 8pt;
+}
+
+input#myfcst-submit {
+	margin-bottom: 5px;
+}
+
+#myfcst-title {
+	/* color: #3366cc; */
+	color: #1763AB;
+	font-weight: bold;
+	font-size: 9pt;
+	display: block;
+	
+	/*margin-top: 10px; */
+}
+
+.myfcst-location {
+	font-size: 9pt;
+	margin: 0px;
+	/* margin: 6px 0; */
+
+}
+
+.myfcst-hr {
+	clear: both;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #94C6EF;
+	margin: 5px 0px;
+
+}
+
+#myfcst-current {
+	width: 130px;
+	max-height: 130px;
+	border: solid 1px #CCC;
+	font-size: 75px;
+	text-align: center;
+	margin: 5px 0px;;
+}
+
+#myfcst-tempf {
+	font-size: 40px;
+	font-weight: bold;
+	color: #444;
+	letter-spacing: -.04em;
+	display: block;
+}
+
+#myfcst-tempc {
+	font-size: 18px;
+	width: 38%;
+	display: inline-block;
+	text-align: left;
+}
+
+.myfcst-footer {
+	white-space: nowrap;
+	text-align: right;
+}
+
+.myfcst-footer a,.myfcst-footer label {
+	text-decoration: none;
+	font-size: 9px;
+}
+
+.myfcst-later-right,.myfcst-later-left {
+	/* width: 49%; */
+	width: 60px;
+	display: inline-block; 
+	vertical-align: top;
+	margin: 0px 4px;
+}
+/*
+.myfcst-later-left {
+	float: left;	
+}
+
+.myfcst-later-right {
+	float: right;	
+}
+*/
+#myfcst-later {
+	display:block;
+	margin-bottom: 5px;
+}
+
+#myfcst-later img {
+	/* width: 100%; */
+	border: solid 1px #CCC;
+}
+
+#myfcst-high, #myfcst-low {
+	font-size: 9pt;
+	font-weight: bold;
+	*letter-spacing: -.7px;
+}
+
+#myfcst-high {
+	color: #EF3725;
+}
+
+#myfcst-low {
+	color: #167DC4;
+}
+
+.myfcst-forecast {
+	/* font-size: 11px; */
+	font-size: 9pt;
+	white-space: normal;
+	 min-height: 15px;
+	margin:  2px 0px;
+}
+
+#myfcst-error {
+	color: red;
+	font-size: 10px;
+	margin: 0px 4px;
+	display:block;
+	text-align:center;
+	}
+
+#myfcst-loading {
+	font-size: 16px;
+	padding: 25px 0px;
+	text-align: center;
+   display:none;
+}
+
+#myfcst-fcst
+{
+    display:none;
+}
+.myfcst-multi
+{
+    cursor:pointer;
+    color:#1763AB;
+    font-size: 9pt;
+}
+
+.myfcst-multi:hover
+{
+    color:#00A3E3
+}
+#myfcst-multi-result
+{
+    display:none;
+}
+#myfcst-multi-result ul
+{
+    margin: 0 0 0 15px;
+}
+#myfcst-multi-result ul li
+{
+    padding-bottom:5px;
+}
+#cancelMulti
+{
+    background-color: #C5E5F5;
+    color: #1763AB;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 22px;
+    padding: 3px;
+    text-align: left;
+    width: 43px;
+}
+#cancelMulti:hover
+{
+    color:#00A3E3
+}

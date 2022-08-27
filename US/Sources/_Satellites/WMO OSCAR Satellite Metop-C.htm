@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html data-lt-installed="true" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Meteorological operational satellite - C | 3rd (last) flight unit of the EPS programme.
+Main mission: operational meteorology.
+Substantial contribution to ocean and ice monitoring, climate monitoring and atmospheric chemistry.
+">
+	<meta name="keywords" content="WMO, Satellite, Satellites, Instruments, Missions, Database, Requirements, Variables, Observations, RRR, Rolling Review of Requirements, CBS">
+<link rel="search" type="application/opensearchdescription+xml" title="WMO OSCAR SEARCH" href="https://space.oscar.wmo.int/pages/opensearch">
+<title>
+	WMO OSCAR &nbsp;|&nbsp;
+	Satellite: Metop-C</title>
+
+<link rel="stylesheet" href="WMO%20OSCAR%20Satellite%20Metop-C_files/styles.css"><link rel="stylesheet" href="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery-ui-1-12-0-custom.css"><link rel="stylesheet" href="WMO%20OSCAR%20Satellite%20Metop-C_files/jQSlider-4-2-1.css"><link rel="stylesheet" href="WMO%20OSCAR%20Satellite%20Metop-C_files/datatables-1-10-20.min.css"><link href="https://space.oscar.wmo.int/favicon.ico" type="image/x-icon" rel="icon"><link href="https://space.oscar.wmo.int/favicon.ico" type="image/x-icon" rel="shortcut icon"><script type="text/javascript" async="" src="WMO%20OSCAR%20Satellite%20Metop-C_files/google-analytics_ga.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery-3-5-1.min.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery-migrate-3-3-0.min.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery-ui-1-12-0.min.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery.cookie.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/datatable-1-10-20.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/jquery.datatables.plugins.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/dataTables.scroller.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/dataTables.jqueryui.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/highcharts.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/rrr.general-scripts.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/rrr.requirements-scripts.js"></script><script src="WMO%20OSCAR%20Satellite%20Metop-C_files/rrr.capabilities-scripts.js"></script><!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<!-- Google analytics snippet -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24410665-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  <script>
+  $( function() {
+	var cookieName = 'Oscar-release-diag-v2-6';
+    if ( $.cookie(cookieName) != 'shown') {
+    $( "#dialog-message" ).dialog({
+      modal: true,
+      draggable: false,
+      position: { my: 'right top', at: 'right-50 top+20' },
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+    $.cookie(cookieName, 'shown', {
+	expires: 365
+    });
+  }
+
+} );
+  </script>
+</head>
+<body>
+
+	<div id="container" class="container">
+		<div id="header">
+			<header class="block" id="toparea">
+	<div class="box leftalign">
+		<a href="http://www.wmo.int/"><img src="WMO%20OSCAR%20Satellite%20Metop-C_files/wmologo.png" alt="World Meteorological Organization" class="mainlogo"></a>	</div>
+	<div class="box leftalign" id="titlebox">
+
+		<h1>OSCAR</h1>
+				<div>
+			Observing Systems Capability Analysis and Review Tool<br>
+		</div>
+
+	</div>
+	<div class="box" id="loginstatus">
+		<!--nocache-->
+		<a href="https://space.oscar.wmo.int/users/login">Login</a>		<!--/nocache-->
+	</div>
+</header>
+<nav id="navigation" class="block menu-capabilities" style="clear: both;">
+	<div id="menu-level-1">
+		<div class="home-button leftalign"><a href="https://space.oscar.wmo.int/">Home</a></div><div class="requirements-button leftalign "><a href="https://space.oscar.wmo.int/observingrequirements">Observation Requirements</a></div><div class="spacecapabilities-button leftalign active"><a href="https://space.oscar.wmo.int/spacecapabilities">Space-based Capabilities</a></div><div class="surfacecapabilities-button leftalign"><a href="https://space.oscar.wmo.int/surfacecapabilities">Surface-based Capabilities</a></div><div class="analysis-button leftalign"><a href="https://space.oscar.wmo.int/analysis">Analysis</a></div>		<div class="rightalign">
+				<abbr title="Type your search term in the search bar and press enter to summarise your search results on one page.">
+		<img src="WMO%20OSCAR%20Satellite%20Metop-C_files/help.png" alt="Help icon" style="margin-top: 5px;">		</abbr>
+			<input type="input" name="search" id="quicksearch_cap" class="quicksearch defaultText ui-autocomplete-input" value="Quick Search..." autocomplete="off">		</div>
+	</div>
+	<div id="menu-level-2" class="menu-spacecapabilities">
+		<ul class="satellites">
+			<li id="spacecapabilities"><a href="https://space.oscar.wmo.int/spacecapabilities">Overview</a></li><li id="satelliteprogrammes"><a href="https://space.oscar.wmo.int/satelliteprogrammes">Programmes</a></li><li id="satellites"><a href="https://space.oscar.wmo.int/satellites">Satellites</a></li><li id="instruments"><a href="https://space.oscar.wmo.int/instruments">Instruments</a></li><li id="satellitefrequencies"><a href="https://space.oscar.wmo.int/satellitefrequencies">Frequencies</a></li><li id="spaceagencies"><a href="https://space.oscar.wmo.int/spaceagencies">Agencies</a></li><li id="satellitestatuses"><a href="https://space.oscar.wmo.int/satellitestatuses/status">Satellite Status</a></li><li id="gapanalyses"><a href="https://space.oscar.wmo.int/gapanalyses">Gap Analyses</a></li>		</ul>
+
+	</div>
+</nav>
+		</div>
+
+		<div id="content">
+			<!--nocache-->
+						<noscript>
+				<div class="error">
+					<strong>No JavaScript detected</strong><br /> Usage of this Website
+					will be severly limited without JavaScript. Please enable
+					JavaScript in your Browser.
+
+				</div>
+			</noscript>
+			<!--[if lt IE 7]>
+
+				<div class="error">
+					<strong>Internet Explorer 6 detected</strong><br/>
+					Warning: You are using a deprecated browser and might experience problems with some functionality. If possible, upgrade to a newer version. This website works well with all recent web browsers, e.g. IE9+ Firefox 2+, Opera or Safari.
+
+				</div>
+
+				<![endif]-->
+			<!--/nocache-->
+			<script src="http://maps.google.com/maps/api/js?sensor=false"></script><link rel="stylesheet" href="WMO%20OSCAR%20Satellite%20Metop-C_files/buttons.css">
+<div class="block" style="clear: left;">
+	<h2>
+		<a href="https://space.oscar.wmo.int/satellites/view/metop_b"><img src="WMO%20OSCAR%20Satellite%20Metop-C_files/resultset_previous.png" alt="Back" title="Go to previous Satellite"></a><a href="https://space.oscar.wmo.int/satellites/view/metop_sg_a1"><img src="WMO%20OSCAR%20Satellite%20Metop-C_files/resultset_next.png" alt="Forward" title="Go to next Satellite"></a>		Satellite:
+		Metop-C&nbsp;
+	</h2>
+</div>
+<div class="block">
+	<div class="column span-11 append-1">
+		<fieldset>
+			<legend>Satellite details </legend>
+
+			<table class="smalltable">
+				<tbody>
+
+					<tr>
+						<td style="width: 25%;" class="highlight">Acronym</td>
+						<td colspan="3">Metop-C						</td>
+					</tr>
+					<tr>
+						<td class="highlight">Full name</td>
+						<td colspan="3">Meteorological operational satellite - C						</td>
+
+					</tr>
+					<tr>
+						<td class="highlight">Satellite Description</td>
+						<td colspan="3"><ul><li>3rd (last) flight unit of the EPS programme.</li>
+<li>Main mission: operational meteorology.</li>
+<li>Substantial contribution to ocean and ice monitoring, climate monitoring and atmospheric chemistry.</li>
+</ul>						</td>
+
+					</tr>
+					<tr>
+						<td class="highlight">Mass at launch</td>
+						<td>3950 kg						</td>
+						<td class="highlight"><abbr title="Mass without fuel">Dry mass</abbr>
+						</td>
+						<td>3650 kg						</td>
+
+
+					</tr><tr>
+						<td class="highlight">Power</td>
+						<td colspan="3">2100 W						</td>
+
+					</tr>
+					<tr>
+						<td class="highlight">Data access link</td>
+						<td colspan="3">
+						no link provided						</td>
+
+					</tr>
+
+										<tr>
+						<td class="highlight"> Data access information</td>
+						<td colspan="3">
+                            <ul><li>Direct Broadcast (AHRPT): Real-time 
+availability of AMSU-A, ASCAT. AVHRR, GOME-2, GRAS, IASI, MHS, DCP 
+messages and SEM/2 (MEDEP + TED). LRPT not available.</li>
+<li>Near-real-time availability of extended-area coverage data by EARS.</li>
+<li>Near-real time availability of Level 1 data by EUMETCast.</li>
+<li>Alert messages of S&amp;RSAT to LUT in real time.</li>
+</ul>						</td>
+
+					</tr>
+										<tr>
+						<td class="highlight" style="width: 25%;">Orbit</td>
+						<td style="width: 25%;"><abbr title="Low Earth Orbit, quasi-polar, keeping constant Equatorial Crossing Time.">Sunsynchronous orbit</abbr>
+						</td><td class="highlight" style="width: 25%;">Altitude</td>
+						<td style="width: 25%;">817 km						</td>
+
+					</tr>
+
+
+										<tr>
+						<td class="highlight" style="width: 25%;">ECT</td>
+						<td colspan="3">09:31&nbsp;desc						</td>
+					</tr>
+					
+			</tbody></table>
+			<p>&nbsp;</p>
+			<table class="smalltable">
+
+				<tbody><tr>
+					<td style="width: 25%;" class="highlight">Space agency</td>
+					<td colspan="3"><a href="https://space.oscar.wmo.int/spaceagencies/view/eumetsat">EUMETSAT</a>
+						,&nbsp;<a href="https://space.oscar.wmo.int/spaceagencies/view/esa">ESA</a>					</td>
+
+
+				</tr>
+				<tr>
+					<td style="width: 25%;" class="highlight">Status</td>
+					<td colspan="3"><abbr title="All systems fully working">Operational</abbr>					</td>
+				</tr>
+				<tr>
+					<td style="width: 25%;" class="highlight">Details on Status <br>(as
+						available)
+					</td>
+					<td colspan="3">					</td>
+				</tr>
+				<tr>
+					<td style="width: 25%;" class="highlight">Launch</td>
+					<td style="width: 25%;">07 Nov 2018					</td>
+					<td style="width: 25%;" class="highlight"><abbr title="(expected) End of Life">EOL</abbr>
+					</td>
+					<td style="width: 25%;">≥2027					</td>
+				</tr>
+				<tr>
+					<td style="width: 15%;" class="highlight"><strong>Last update:</strong>
+					</td>
+					<td colspan="3">2022-02-21					</td>
+				</tr>
+			</tbody></table>
+		</fieldset>
+
+	</div>
+
+	<!-- End Column 10  -->
+
+	<div class="column span-12 last">
+
+		<fieldset>
+			<legend>Associated satellite programme and related satellites</legend>
+
+			<p>
+				<i>Note: red tag: no longer operational , green tag: operational ,
+					blue tag : future</i>
+			</p>
+			<ul class="treelist">
+
+				<li><strong><a href="https://space.oscar.wmo.int/satelliteprogrammes/view/eps">EUMETSAT Polar System</a> </strong>
+					<ul>
+						<li><a href="https://space.oscar.wmo.int/satellites/view/metop_a" class="deprecated flag-red">Metop-A</a><span class="grey"> (2006 - 2021)</span></li><li><a href="https://space.oscar.wmo.int/satellites/view/metop_b" class="current flag-green">Metop-B</a><span class="grey"> (2012 - 2024)</span></li><li><strong class="current flag-green">Metop-C</strong><span class="grey"> (2018 - 2027)</span></li>
+					</ul>
+				</li>
+
+			</ul>
+
+		</fieldset>
+		<fieldset>
+			<legend>Satellite Payload</legend>
+
+			<p>
+				All known Instruments flying on
+				Metop-C			</p>
+			<table class="smalltable">
+				<thead>
+				<tr>
+					<th>Acronym</th>
+					<th>Full name</th>
+				</tr>
+				</thead>
+				<tbody>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/a_dcs">A-DCS</a>						</td>
+						<td>Advanced Data Collection System (also called "Argos-3")						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/amsu_a">AMSU-A</a>						</td>
+						<td>Advanced Microwave Sounding Unit - A						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/ascat">ASCAT</a>						</td>
+						<td>Advanced Scatterometer						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/avhrr_3">AVHRR/3</a>						</td>
+						<td>Advanced Very High Resolution Radiometer / 3						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/gome_2">GOME-2</a>						</td>
+						<td>Global Ozone Monitoring Experiment - 2						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/gras">GRAS</a>						</td>
+						<td>GNSS Receiver for Atmospheric Sounding						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/iasi">IASI</a>						</td>
+						<td>Infrared Atmospheric Sounding Interferometer						</td>
+					</tr>
+														<tr>
+						<td style="width: 25%;">
+						<a href="https://space.oscar.wmo.int/instruments/view/mhs">MHS</a>						</td>
+						<td>Microwave Humidity Sounding						</td>
+					</tr>
+								</tbody>
+			</table>
+
+			<a href="#" id="open-instrument-table" class="button nephritis-button">Show instrument status and calibration</a>
+
+		</fieldset>
+		
+	</div>
+	<!-- End Column 13  -->
+
+
+</div>
+
+	<div class="block instrument-table" style="">
+
+		<fieldset>
+			<legend>
+				Satellite payload
+			</legend>
+
+			<p>All known instruments flying on
+				Metop-C			</p>
+
+			<table>
+				<thead>
+				<tr>
+					<th>Instrument</th>
+					<th>Full name</th>
+					<th>Start date</th>
+					<th>EOL date</th>
+					<th>Status</th>
+					<th><abbr title="Near Real-Time">NRT</abbr> data</th>
+					<th><abbr title="Data latency record (Minutes)">Data latency (mins)</abbr></th>
+					<th>Instrument landing page</th>
+					<th>Comments</th>
+				</tr>
+				</thead>
+				<tbody>
+									<tr id="inst-10">
+						<td class="nobr"><a name="inst-10"></a><a href="https://space.oscar.wmo.int/instruments/view/a_dcs">A-DCS</a></td>
+						<td class="nobr"><a name="inst-10"></a><a href="https://space.oscar.wmo.int/instruments/view/a_dcs">Advanced Data Collection System (also called "Argos-3")</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr"></td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/a-dcs-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-30">
+						<td class="nobr"><a name="inst-30"></a><a href="https://space.oscar.wmo.int/instruments/view/amsu_a">AMSU-A</a></td>
+						<td class="nobr"><a name="inst-30"></a><a href="https://space.oscar.wmo.int/instruments/view/amsu_a">Advanced Microwave Sounding Unit - A</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Degraded</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/amsu-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td>Ch. 50.3 GHz out of spec since July 2020.</td>
+					</tr>
+									<tr id="inst-47">
+						<td class="nobr"><a name="inst-47"></a><a href="https://space.oscar.wmo.int/instruments/view/ascat">ASCAT</a></td>
+						<td class="nobr"><a name="inst-47"></a><a href="https://space.oscar.wmo.int/instruments/view/ascat">Advanced Scatterometer</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/ascat-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-62">
+						<td class="nobr"><a name="inst-62"></a><a href="https://space.oscar.wmo.int/instruments/view/avhrr_3">AVHRR/3</a></td>
+						<td class="nobr"><a name="inst-62"></a><a href="https://space.oscar.wmo.int/instruments/view/avhrr_3">Advanced Very High Resolution Radiometer / 3</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/avhrr-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-167">
+						<td class="nobr"><a name="inst-167"></a><a href="https://space.oscar.wmo.int/instruments/view/gome_2">GOME-2</a></td>
+						<td class="nobr"><a name="inst-167"></a><a href="https://space.oscar.wmo.int/instruments/view/gome_2">Global Ozone Monitoring Experiment - 2</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/gome-2-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-174">
+						<td class="nobr"><a name="inst-174"></a><a href="https://space.oscar.wmo.int/instruments/view/gras">GRAS</a></td>
+						<td class="nobr"><a name="inst-174"></a><a href="https://space.oscar.wmo.int/instruments/view/gras">GNSS Receiver for Atmospheric Sounding</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/gras-instrument-status-and-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-207">
+						<td class="nobr"><a name="inst-207"></a><a href="https://space.oscar.wmo.int/instruments/view/iasi">IASI</a></td>
+						<td class="nobr"><a name="inst-207"></a><a href="https://space.oscar.wmo.int/instruments/view/iasi">Infrared Atmospheric Sounding Interferometer</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Active</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/iasi-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td></td>
+					</tr>
+									<tr id="inst-281">
+						<td class="nobr"><a name="inst-281"></a><a href="https://space.oscar.wmo.int/instruments/view/mhs">MHS</a></td>
+						<td class="nobr"><a name="inst-281"></a><a href="https://space.oscar.wmo.int/instruments/view/mhs">Microwave Humidity Sounding</a></td>
+						<td class="nobr">21 Feb 2019						</td>
+						<td class="nobr">
+							≥2027 *						</td>
+						<td class="nobr">Degraded</td>
+						<td class="nobr">Yes</td>
+						<td class="nobr">
+													</td>
+						<td class="nobr"><a href="https://www.eumetsat.int/mhs-instrument-status-calibration">www.eumetsat.int</a></td>
+						<td>Both 183 GHz channels H3 and H4 noisy since November 2018.</td>
+					</tr>
+								</tbody>
+			</table>
+			* The information in this field is estimated or assumed
+
+		</fieldset>
+	</div>
+
+
+
+<div class="block">
+
+	<fieldset>
+		<legend>
+			Satellite frequencies for Earth Observation, data transfer and platform communications and control
+		</legend>
+
+					<fieldset id="satellitefrequencywrapper">
+				<legend>Frequencies for satellite management</legend>
+				<table>
+					<thead>
+						<tr>
+							<th>Service</th>
+							<th>Direction</th>
+							<th>Frequency (MHz)</th>
+							<th>Emission designator</th>
+							<th>Bandwidth (kHz)</th>
+							<th>Polarisation</th>
+						 	<th><abbr title="Digital/Analog">D/A</abbr></th>
+						 	<th>Data rate (kbps) or Baseband (kHz)</th>
+							<th>Comments</th>
+						</tr>
+					</thead>
+					<tbody>
+											<tr>
+							<td>
+								TC &amp; Ranging							</td>
+							<td>
+								E-S							</td>
+							<td>
+								2053.4583&nbsp;MHz							</td>
+							<td>
+								1M50G1D							</td>
+							<td>
+								1500 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								2&nbsp; 
+								kbps							</td>
+							<td>Telecommand and ranging</td>
+						</tr>
+											<tr>
+							<td>
+								TM							</td>
+							<td>
+								S-E							</td>
+							<td>
+								2230&nbsp;MHz							</td>
+							<td>
+								2M00G1D							</td>
+							<td>
+								2000 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								4.096&nbsp; 
+								kbps							</td>
+							<td>Telemetry</td>
+						</tr>
+										</tbody>
+				</table>
+			</fieldset>
+							<fieldset id="satellitefrequencywrapper">
+				<legend>Earth observation MW frequencies</legend>
+				<table>
+					<thead>
+						<tr>
+							<th>Service</th>
+							<th>Sensing mode</th>
+							<th>Frequency (GHz)</th>
+							<th>Bandwidth (MHz)</th>
+							<th>Polarisation</th>
+							<th>Comments</th>
+						</tr>
+					</thead>
+					<tbody>
+											<tr>
+							<td>
+								AMSU-A							</td>
+							<td>
+								passive							</td>
+							<td>
+								23.8&nbsp;GHz							</td>
+							<td>
+								270 MHz							</td>
+							<td>
+								V								
+							</td>
+							<td>Water vapour channel
+</td>
+						</tr>
+											<tr>
+							<td>
+								AMSU-A							</td>
+							<td>
+								passive							</td>
+							<td>
+								31.4&nbsp;GHz							</td>
+							<td>
+								180 MHz							</td>
+							<td>
+								V								
+							</td>
+							<td>Window channel</td>
+						</tr>
+											<tr>
+							<td>
+								AMSU-A							</td>
+							<td>
+								passive							</td>
+							<td>
+								50 GHz - 57.62 GHz							</td>
+							<td>
+								0 MHz							</td>
+							<td>
+								H or V								
+							</td>
+							<td>Oxygen band, 12 channels</td>
+						</tr>
+											<tr>
+							<td>
+								AMSU-A							</td>
+							<td>
+								passive							</td>
+							<td>
+								89&nbsp;GHz							</td>
+							<td>
+								6000 MHz							</td>
+							<td>
+								V								
+							</td>
+							<td>Window channel</td>
+						</tr>
+											<tr>
+							<td>
+								MHS							</td>
+							<td>
+								passive							</td>
+							<td>
+								89&nbsp;GHz							</td>
+							<td>
+								2800 MHz							</td>
+							<td>
+								V								
+							</td>
+							<td>Window channel</td>
+						</tr>
+											<tr>
+							<td>
+								MHS							</td>
+							<td>
+								passive							</td>
+							<td>
+								157&nbsp;GHz							</td>
+							<td>
+								2800 MHz							</td>
+							<td>
+								V								
+							</td>
+							<td>Weak water vapour channel</td>
+						</tr>
+											<tr>
+							<td>
+								MHS							</td>
+							<td>
+								passive							</td>
+							<td>
+								179 GHz - 191.31 GHz							</td>
+							<td>
+								0 MHz							</td>
+							<td>
+								H or V								
+							</td>
+							<td>Water vapour band, 3 channels</td>
+						</tr>
+											<tr>
+							<td>
+								ASCAT							</td>
+							<td>
+								active							</td>
+							<td>
+								5.255&nbsp;GHz							</td>
+							<td>
+								1 MHz							</td>
+							<td>
+								-								
+							</td>
+							<td>C-band scatterometer</td>
+						</tr>
+										</tbody>
+				</table>
+			</fieldset>
+							<fieldset id="satellitefrequencywrapper">
+				<legend>Frequencies for scientific data acquisition and communication services at ground stations</legend>
+				<table>
+					<thead>
+						<tr>
+							<th>Service</th>
+							<th>Direction</th>
+							<th>Frequency (MHz)</th>
+							<th>Bandwidth (kHz)</th>
+							<th>Polarisation</th>
+							<th><abbr title="Digital/Analog">D/A</abbr></th>
+					 		<th>Data rate (kbps) or Baseband (kHz)</th>
+							<th>Comments</th>
+						</tr>
+					</thead>
+					<tbody>
+													<tr>
+						<td>
+								GDS							</td>
+							<td>
+								S-E							</td>
+							<td>
+								7800&nbsp;MHz							</td>
+							<td>
+								63000 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								70000&nbsp; 
+								kbps							</td>
+							<td>Raw data</td>
+						</tr>
+													<tr>
+						<td>
+								AHRPT							</td>
+							<td>
+								S-E							</td>
+							<td>
+								1701.3&nbsp;MHz							</td>
+							<td>
+								4500 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								3500&nbsp; 
+								kbps							</td>
+							<td>High resolution data - not in use</td>
+						</tr>
+													<tr>
+						<td>
+								AHRPT							</td>
+							<td>
+								S-E							</td>
+							<td>
+								1707&nbsp;MHz							</td>
+							<td>
+								4500 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								3500&nbsp; 
+								kbps							</td>
+							<td>High resolution data - used part time</td>
+						</tr>
+													<tr>
+						<td>
+								LRPT							</td>
+							<td>
+								S-E							</td>
+							<td>
+								137.1&nbsp;MHz							</td>
+							<td>
+								150 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								72&nbsp; 
+								kbps							</td>
+							<td>Selected data - not in use</td>
+						</tr>
+													<tr>
+						<td>
+								LRPT							</td>
+							<td>
+								S-E							</td>
+							<td>
+								137.9125&nbsp;MHz							</td>
+							<td>
+								150 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								72&nbsp; 
+								kbps							</td>
+							<td>Selected data - backup, not in use</td>
+						</tr>
+													<tr>
+						<td>
+								ADCS							</td>
+							<td>
+								E-S							</td>
+							<td>
+								401.585&nbsp;MHz							</td>
+							<td>
+								10 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								0.4/4.8&nbsp; 
+								kbps							</td>
+							<td>DCP reports</td>
+						</tr>
+													<tr>
+						<td>
+								ADCS							</td>
+							<td>
+								S-E							</td>
+							<td>
+								465.9875&nbsp;MHz							</td>
+							<td>
+								1 kHz							</td>
+							<td>
+								RHCP								
+							</td>
+							<td>
+								D							</td>
+							<td>
+								0.2/0.4&nbsp; 
+								kbps							</td>
+							<td>DCP configuration control</td>
+						</tr>
+											</tbody>
+				</table>
+			</fieldset>
+			</fieldset>
+</div>
+
+
+
+
+<script type="text/javascript">
+	$(function(){
+		$(window.location.hash).addClass('highlight').closest('.instrument-table').show();
+		$("#open-instrument-table").on('click', function() {
+			var table = $('.instrument-table');
+			table.fadeIn();
+//			$(this).attr('disabled', 'disabled');
+
+			$('html, body').animate({
+				scrollTop: $(table).offset().top
+			}, 1000);
+			return false;
+		});
+	});
+</script>
+
+		</div>
+		<footer>
+	<div id="footer" class="block" style="clear: left;">
+		<span class="leftalign">© <a href="https://public.wmo.int/en/programmes/wmo-space-programme">World
+				Meteorological Organization</a>&nbsp;2011-2022&nbsp;|&nbsp;
+			<a href="https://space.oscar.wmo.int/pages/disclaimer">Disclaimer</a>            &nbsp;|&nbsp;
+            <a href="https://space.oscar.wmo.int/apidoc/" target="_blank">API documentation</a>		</span>
+
+		<div id="help" class="rightalign">version 2.7.0α</div>
+
+	</div>
+
+</footer>
+	</div>
+	
+<div id="dialog-message" style="display:none;" title="New release">
+  <p> <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span> OSCAR/Space Version 2.7 released </p>
+  <p>
+On 6th July 2022 we have released a new software version of OSCAR/Space including new
+functionalities. Please see details <a href="https://wmoomm.sharepoint.com/:b:/s/wmocpdb/EeiVVPm54GZKgsbHdzI9cNsBlCaw7CmCaOs9LLUJ7sVogA?e=Mw6h3e">here</a>.
+  </p>
+</div>
+
+
+
+
+
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>

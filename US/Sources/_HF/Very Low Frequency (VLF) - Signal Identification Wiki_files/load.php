@@ -1,0 +1,2 @@
+window.onload=function(){document.getElementById("n-randompage").innerHTML="<a href='/wiki/Special:Random?"+Math.floor((Math.random()*314141414144444444032323))+"'>Random page</a>";}
+console.log("test");;mw.loader.state({"site":"ready"});

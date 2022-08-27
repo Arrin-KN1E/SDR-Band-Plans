@@ -1,0 +1,50 @@
+.button-hidden-submit {
+	display: none !important;
+}
+
+.form-item-nagu-type {
+	background: #f8f8f8;
+	padding: 2em 2em;
+}
+
+label[for="edit-nagu-type"] {
+	font-weight: bold;
+}
+
+#edit-filter-active-nagus .fieldset-legend{
+	font-weight: bold;
+	color: #a67c00;
+}
+
+table[data-drupal-selector="edit-active-nagu"] td a{
+	color: #a67c00 !important;
+}
+
+table[data-drupal-selector="edit-active-nagu"] td{
+	text-align: center;
+    vertical-align: middle !important;
+}
+
+table[data-drupal-selector="edit-active-nagu"] th{
+	text-align: center;
+    vertical-align: middle !important;
+}
+
+#edit-filter-archived-nagus .fieldset-legend{
+	font-weight: bold;
+	color: #a67c00;
+}
+
+table[data-drupal-selector="edit-archived-nagu"] td a{
+	color: #a67c00 !important;
+}
+
+table[data-drupal-selector="edit-archived-nagu"] td{
+	text-align: center;
+    vertical-align: middle !important;
+}
+
+table[data-drupal-selector="edit-archived-nagu"] th{
+	text-align: center;
+    vertical-align: middle !important;
+}

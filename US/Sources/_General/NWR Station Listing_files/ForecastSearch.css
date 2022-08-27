@@ -1,0 +1,25 @@
+@import url('search.css');
+
+#txtError 
+{
+    background-color: #B3E0F7;
+    border-radius: 5px 5px 5px 5px;
+    display: none;
+    font-size: 8pt;
+    opacity: 0.95;
+    padding: 4px;
+    position: absolute;
+    width: 320px;
+    z-index: 1000;
+}
+#inputstring
+{
+    font-size: 8pt; 
+    width: 93px; 
+    height: 23px; 
+    color: #999999;
+}
+#btnCloseError
+{
+    margin-top:3px;
+}

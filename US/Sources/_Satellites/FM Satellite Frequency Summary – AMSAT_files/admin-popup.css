@@ -1,0 +1,66 @@
+.wpas-mfp-fullscreen-popup .white-popup {
+        background: none !important;
+        padding: 0px !important;
+        width: auto !important;
+        max-width: none !important;
+        margin: 0 !important;
+}
+
+.wpas-mfp-fullscreen-popup .mfp-content .main_heading {
+        max-width: 1200px;
+        margin: auto;
+        font-size: 1.6em;
+        color: #626060;
+        margin-top:20px;
+}
+
+.wpas-mfp-fullscreen-popup .mfp-content select {
+        width: 100%;
+}
+
+
+.wpas-mfp-fullscreen-popup .mfp-content .select2.select2-container {
+        width: 100% !important;
+}
+
+
+.wpas-mfp-fullscreen-popup.mfp-wrap {
+        background: #F1F1F1;
+        z-index: 100099;
+}
+
+.wpas-mfp-fullscreen-popup.mfp-bg {
+        z-index: 9992;
+}
+
+.wpas-mfp-fullscreen-popup .white-popup .wpas_mfp_window_wrapper {
+        position: relative;
+        background: #FFF;
+        padding: 20px;
+        width:auto;
+        max-width: 1200px;
+        margin: 20px auto;
+}
+
+
+.wpas-mfp-fullscreen-popup .mfp-close {
+        right: 10px !important;
+        top: 12px !important;
+}
+
+
+/* Magnific popup footer style */
+.wpas_window_footer p.submit, .wpas_window_footer p.close_btn {
+        float: left;
+        margin-top: 20px;
+        padding: 0;
+}
+
+.wpas_window_footer p.close_btn {
+        margin-left: 20px;
+}
+
+.wpas_window_footer .spinner {
+        margin-top: 26px;
+        visibility: visible !important;
+}

@@ -1,0 +1,209 @@
+/* #Buttons - http://cssdeck.com/labs/beautiful-flat-buttons
+==================================================*/
+.button {
+  position: relative;
+  vertical-align: top;
+  padding: 5px 20px;
+  display: inline-block;
+  margin: 5px 0px;
+  font-size: 14px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.button:hover, .button:active, .button:focus {
+  color: white;
+}
+.button:active {
+  top: 1px;
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* #Sun Flower Button
+==================================================*/
+.sun-flower-button {
+  background: #f1c40f;
+  border-bottom: 2px solid #e2b607;
+  box-shadow: inset 0 -2px #e2b607;
+}
+
+/* #Orange Flat Button
+==================================================*/
+.orange-button {
+  background: #f39c12;
+  border-bottom: 2px solid #e8930c;
+  box-shadow: inset 0 -2px #e8930c;
+}
+
+/* #Carrot Flat Button
+==================================================*/
+.carrot-button {
+  background: #e67e22;
+  border-bottom: 2px solid #da751c;
+  box-shadow: inset 0 -2px #da751c;
+}
+
+/* #Pumpkin Flat Button
+==================================================*/
+.pumpkin-button {
+  background: #d35400;
+  border-bottom: 2px solid #c54e00;
+  box-shadow: inset 0 -2px #c54e00;
+}
+
+/* #Alizarin Flat Button
+==================================================*/
+.alizarin-button {
+  background: #e74c3c;
+  border-bottom: 2px solid #db4334;
+  box-shadow: inset 0 -2px #db4334;
+}
+
+/* #Pomegranate Flat Button
+==================================================*/
+.pomegranate-button {
+  background: #c0392b;
+  border-bottom: 2px solid #b53224;
+  box-shadow: inset 0 -2px #b53224;
+}
+
+/* #Turquoise Flat Button
+==================================================*/
+.turquoise-button {
+  background: #1abc9c;
+  border-bottom: 2px solid #12ab8d;
+  box-shadow: inset 0 -2px #12ab8d;
+}
+
+/* #Green Sea Flat Button
+==================================================*/
+.green-sea-button {
+  background: #16a085;
+  border-bottom: 2px solid #14947b;
+  box-shadow: inset 0 -2px #14947b;
+}
+
+/* #Emerald Flat Button
+==================================================*/
+.emerald-button {
+  background: #2ecc71;
+  border-bottom: 2px solid #28be68;
+  box-shadow: inset 0 -2px #28be68;
+}
+
+/* #Nephritis Flat Button
+==================================================*/
+.nephritis-button {
+  background: #27ae60;
+  border-bottom: 2px solid #219d55;
+  box-shadow: inset 0 -2px #219d55;
+}
+
+/* #Peter River Flat Button
+==================================================*/
+.peter-river-button {
+  background: #3498db;
+  border-bottom: 2px solid #2a8bcc;
+  box-shadow: inset 0 -2px #2a8bcc;
+}
+
+/* #Belize Hole Sea Flat Button
+==================================================*/
+.belize-hole-button {
+  background: #2980b9;
+  border-bottom: 2px solid #2475ab;
+  box-shadow: inset 0 -2px #2475ab;
+}
+
+/* #Amethyst Flat Button
+==================================================*/
+.amethyst-button {
+  background: #9b59b6;
+  border-bottom: 2px solid #8d4ca7;
+  box-shadow: inset 0 -2px #8d4ca7;
+}
+
+/* #Wisteria Flat Button
+==================================================*/
+.wisteria-button {
+  background: #8e44ad;
+  border-bottom: 2px solid #80399d;
+  box-shadow: inset 0 -2px #80399d;
+}
+
+/* #Wet Asphalt Flat Button
+==================================================*/
+.wet-asphalt-button {
+  background: #34495e;
+  border-bottom: 2px solid #263849;
+  box-shadow: inset 0 -2px #263849;
+}
+
+/* #Midnight Blue Flat Button
+==================================================*/
+.midnight-blue-button {
+  background: #2c3e50;
+  border-bottom: 2px solid #22303f;
+  box-shadow: inset 0 -2px #22303f;
+}
+
+/* #Clouds Flat Button
+==================================================*/
+.clouds-button {
+  color:#454545;
+  background: #ecf0f1;
+  border-bottom: 2px solid #dadedf;
+  box-shadow: inset 0 -2px #dadedf;
+}
+
+/* #Silver Flat Button
+==================================================*/
+.silver-button {
+  background: #bdc3c7;
+  border-bottom: 2px solid #acb2b7;
+  box-shadow: inset 0 -2px #acb2b7;
+}
+
+/* #Concrete Flat Button
+==================================================*/
+.concrete-button {
+  background: #859596;
+  border-bottom: 2px solid #95a5a6;
+  box-shadow: inset 0 -2px #95a5a6;
+}
+
+/* #Asbestos Flat Button
+==================================================*/
+.asbestos-button {
+  background: #7f8c8d;
+  border-bottom: 2px solid #6d7b7c;
+  box-shadow: inset 0 -2px #6d7b7c;
+}
+
+/* #Graphite Flat Button
+==================================================*/
+.graphite-button {
+  background: #454545;
+  border-bottom: 2px solid #2f2e2e;
+  box-shadow: inset 0 -2px #2f2e2e;
+}
+
+/* #'Disabled' Button
+==================================================*/
+.button[disabled] {
+  background: #bdc3c7;
+  border-bottom: 2px solid #acb2b7;
+  box-shadow: inset 0 -2px #acb2b7;
+  pointer-events: none;
+  opacity: 0.3;
+}
+.button[disabled]:hover {
+  top: 0px;
+  outline: inherit;
+  box-shadow: inherit;
+}

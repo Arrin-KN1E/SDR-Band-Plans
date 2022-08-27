@@ -1,0 +1,245 @@
+#sliding-popup {
+  background: url('../images/gradient.png') center center scroll repeat-y transparent;
+}
+
+.sliding-popup-bottom,
+.sliding-popup-top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: 99999;
+  left: 0;
+  text-align: center;
+}
+
+.sliding-popup-bottom {
+  position: fixed;
+}
+
+.sliding-popup-top {
+  position: relative;
+}
+
+.eu-cookie-compliance-content {
+  margin: 0 auto;
+  max-width: 80%;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.eu-cookie-compliance-buttons {
+  float: right; /* LTR */
+  margin: 0 0 1em 0;
+  max-width: 40%;
+}
+
+.eu-cookie-compliance-categories-buttons {
+  margin: 0 0 1em 0;
+  max-width: 60%;
+  float: left;
+}
+
+[dir="rtl"] .eu-cookie-compliance-buttons {
+  float: left;
+}
+[dir="rtl"] .eu-cookie-compliance-categories-buttons {
+  float: right;
+}
+
+.eu-cookie-compliance-more-button {
+  cursor: pointer;
+  display: inline;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: underline;
+  background: none;
+}
+
+.eu-cookie-compliance-secondary-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin-top: 1em;
+  padding: 0 8px;
+  vertical-align: middle;
+}
+
+.disagree-button.eu-cookie-compliance-more-button,
+.eu-cookie-compliance-agree-button,
+.eu-cookie-compliance-default-button,
+.eu-cookie-compliance-hide-button,
+.eu-cookie-compliance-more-button-thank-you,
+.eu-cookie-withdraw-button,
+.eu-cookie-compliance-save-preferences-button {
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 1em;
+  vertical-align: middle;
+  overflow: visible;
+  width: auto;
+  -moz-box-shadow: inset 0 1px 0 0 #ffffff; /* LTR */
+  -webkit-box-shadow: inset 0 1px 0 0 #ffffff; /* LTR */
+  box-shadow: inset 0 1px 0 0 #ffffff; /* LTR */
+  background-color: #ededed;
+  background-image: -moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background-image: -o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background-image: -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+  background-image: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 4px 8px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+
+[dir="rtl"] .eu-cookie-compliance-buttons button {
+  -moz-box-shadow: inset 0 0 0 1px #ffffff;
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+  box-shadow: inset 0 0 0 1px #ffffff;
+}
+
+.disagree-button.eu-cookie-compliance-more-button:hover,
+.eu-cookie-compliance-agree-button:hover,
+.eu-cookie-compliance-default-button:hover,
+.eu-cookie-compliance-hide-button:hover,
+.eu-cookie-compliance-more-button-thank-you:hover,
+.eu-cookie-withdraw-button:hover {
+  background-color: #dfdfdf;
+  background-image: -moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #dfdfdf), color-stop(100%, #ededed));
+  background-image: -webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background-image: -o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background-image: -ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+  background-image: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+}
+
+.disagree-button.eu-cookie-compliance-more-button:active,
+.eu-cookie-compliance-agree-button:active,
+.eu-cookie-compliance-default-button:active,
+.eu-cookie-compliance-hide-button:active,
+.eu-cookie-compliance-more-button-thank-you:active,
+.eu-cookie-withdraw-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.eu-cookie-compliance-message {
+  float: left; /* LTR */
+  margin: 5px 0 0;
+  max-width: 60%;
+}
+
+.eu-cookie-compliance-banner--categories .eu-cookie-compliance-message {
+  max-width: 100%;
+}
+
+.eu-cookie-compliance-categories {
+  clear: both;
+  padding-top: 1em;
+}
+
+.eu-cookie-compliance-categories label {
+  display: inline;
+}
+
+[dir="rtl"] .eu-cookie-compliance-message {
+  float: right;
+  text-align: right;
+}
+
+.eu-cookie-compliance-message h1,
+.eu-cookie-compliance-message h2,
+.eu-cookie-compliance-message h3,
+.eu-cookie-compliance-message p {
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0 0 5px 0;
+}
+
+.eu-cookie-compliance-message h1 {
+  font-size: 24px;
+}
+
+.eu-cookie-compliance-message h2 {
+  font-size: 16px;
+}
+
+.eu-cookie-compliance-message h3 {
+  font-size: 12px;
+}
+
+.eu-cookie-compliance-message p {
+  font-size: 12px;
+  display: inline;
+}
+
+.eu-cookie-withdraw-tab {
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.sliding-popup-bottom .eu-cookie-withdraw-tab {
+  border-width: 2px 2px 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.sliding-popup-top .eu-cookie-withdraw-tab {
+  border-width: 0 2px 2px;
+  border-radius: 0 0 5px 5px;
+}
+
+.eu-cookie-withdraw-wrapper.sliding-popup-top,
+.eu-cookie-withdraw-wrapper.sliding-popup-top .eu-cookie-withdraw-banner {
+  transform: scaleY(-1);
+}
+
+.eu-cookie-withdraw-tab {
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -100%);
+  left: 50%;
+}
+
+.eu-cookie-withdraw-wrapper.sliding-popup-top .eu-cookie-withdraw-tab {
+  transform: translate(-50%, -100%) scaleY(-1);
+}
+
+@media screen and (max-width: 600px) {
+  .eu-cookie-compliance-content {
+    max-width: 95%;
+  }
+
+  .eu-cookie-compliance-categories,
+  .eu-cookie-compliance-message {
+    max-width: 100%;
+  }
+
+  .eu-cookie-compliance-buttons {
+    clear: both;
+    float: none;
+    max-width: 100%;
+    margin: 5px 0 1em;
+  }
+
+  .eu-cookie-compliance-buttons.eu-cookie-compliance-has-categories {
+    float: right;
+    margin-top: -56px;
+  }
+
+  .eu-cookie-compliance-banner--categories .eu-cookie-compliance-buttons {
+    position: initial;
+    bottom: unset;
+    right: unset;
+  }
+}

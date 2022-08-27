@@ -1,0 +1,32 @@
+.message-register-gsc {
+	color: #4b4b4c !important;
+}
+
+.message-register-gsc li {
+	margin-top: 0.5em !important;
+}
+
+.message-register-gsc>ul>li>a {
+	color: #0071b3 !important;
+}
+
+.handle{
+	box-sizing: unset !important;
+}
+
+#edit-matomo{
+	margin-bottom: 1em;
+}
+
+#edit-matomo summary{
+	padding: 0.5em;
+    background: #e0e0e0;
+    font-weight: bold;
+}
+
+#edit-matomo div[class="details-wrapper"]{
+	padding-top: 1em;
+    padding-bottom: 1em;
+    background: #FFF;
+    padding-left: 1em;
+}

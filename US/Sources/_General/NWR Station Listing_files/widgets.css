@@ -1,0 +1,178 @@
+
+/* COMMON */
+
+/* Ensure that an empty widget is still visible in CKeditor. */
+.cke_editable div.cms-widget:empty {
+    min-height: 80px;
+}
+
+.cke_editable div.cms-widget:empty:before {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    content: attr(data-cms-widget);
+    text-transform: capitalize;
+}
+
+/* Show widget border in CKeditor. */
+.cke_editable div.cms-widget {
+    border: 2px dotted #CCCCCC;
+}
+
+
+/* COLORBOX */
+
+.cke_editable div.cms-colorbox[data-cms-colorbox-display-mode="thumbnail"] li {
+    border: 1px dashed #AAAAAA;
+}
+
+div.cms-colorbox:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content: " ";
+    clear: both;
+}
+
+div.cms-colorbox > ul {
+    list-style: none;
+    margin: 0;
+}
+
+div.cms-colorbox[data-cms-colorbox-display-mode="link"] li {
+    margin: 5px 5px 5px 15px;
+}
+div.cms-colorbox[data-cms-colorbox-display-mode="link"] li > a {
+    text-decoration: none;
+    color: #1763AB;
+}
+
+div.cms-colorbox[data-cms-colorbox-display-mode="thumbnail"] li {
+    float: left;
+    margin: 5px;
+}
+div.cms-colorbox[data-cms-colorbox-display-mode="thumbnail"] li > a > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* LOOPER */
+
+div.cms-looper-container {
+    display: inline-block;
+    border: 1px solid #135897;
+    padding: 5px;
+}
+
+div.cms-looper-modal div.cms-looper-container {
+    border: 2px solid #2C4056;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+div.cms-looper-contents {
+    position: relative;
+}
+
+div.cms-looper-title {
+    background-color: #C5E5F5;
+    color: #135897;
+    font-size: 17pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+div.cms-looper-buttons {
+    float: left;
+    margin-right: 5px;
+}
+
+div.cms-looper-control-modal {
+    float: right;
+    margin-left: 5px;
+    width: 32px;
+    height: 32px;
+    background-image:url("/css/images/expand.png");
+    cursor: pointer;
+}
+div.cms-looper-modal div.cms-looper-control-modal {
+    position: static;
+    width: 25px;
+    height: 25px;
+    background-image:url("/css/images/close.png");
+}
+
+div.cms-looper-control-bar {
+    height: 25px;
+    margin: 5px 0;
+}
+
+button.cms-looper-control-start,
+button.cms-looper-control-stop {
+    float: left;
+    margin-right: 5px;
+    width: 90px;
+}
+
+div.cms-looper-control-prev {
+    float: left;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background-image:url("/css/images/left_blue_25_25.png");
+    cursor: pointer;
+}
+
+div.cms-looper-control-speed-bar {
+    padding: 5px 8px;
+    overflow: hidden;
+}
+
+div.cms-looper-control-speed-bar {
+    cursor: pointer;
+}
+
+div.cms-looper-control-next {
+    float: right;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    background-image:url("/css/images/right_blue_25_25.png");
+    cursor: pointer;
+}
+
+div.cms-looper-slideshow {
+    clear: both;
+}
+
+div.cms-looper-slideshow img {
+    width: 100%;
+}
+
+div.cms-looper-modal {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 101;
+    text-align: center;
+}
+
+div.cms-looper-modal-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    /* The following two lines are a hack to get the modal background to work in IE8. */
+    background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,5 +1,5 @@
-# Bandplans for SDRsharp
-These are custom bandplans for SDR#. They are more detailed than the default bandplans; therefore, should be of greater aid for signal identification.  
+# Band Plans for SDRsharp
+These are custom band plans for SDR# which should be of greater aid for signal identification.  
 
 If you just want to know how to install it: [click here](#installation).
 
@@ -34,24 +34,26 @@ If you just want to know how to install it: [click here](#installation).
 1. [International Bandplan Contents](#international-bandplan)
 1. [Installation](#installation)
 1. [Create Your Own Bandplan/ Contributing](#create-your-own-bandplan)
-1. [What Was Added in the Latest Update](#what-was-added-in-latest-update)
+1. [Latest Updates](##Latest-Updates)
 1. [Conclusion](#conclusion)
 
 
 ## Introduction
-Hello everyone! Quick backstory, a while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better bandplan for SDR#. It was my desire to make a decently detailed bandplan from then on, so here it is!
+Hello everyone! Quick backstory, a while back a few users and I on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites) discussed the creation of a better band plan for SDR#. It was my desire to make a decently detailed band plan from then on, so here it is!
 
-I've made the US Bandplan (where I live) the most detailed, since US allocations are what I'm most familiar with. More detail on what it contains in the 'Contents' section.
+I've made the US band plan (where I live) the most detailed, since US allocations are what I'm most familiar with. More detail on what it contains in the 'Contents' section.
 
-The International Bandplan is a more general version for anyone else in the world. It also might contain allocations that are not correct in your country, so if you want to make sure, you could use the 'Useful Links/ Downloads' resources to try and confirm. The bandplan does not contain allocations in some spots since different regions might have numerous wildly different allocations. It is still an upgrade from the default SDRsharp bandplan though. More detail on what it contains in the 'Contents' section.
+The International band plan is a more general version for anyone else in the world. It also might contain allocations that are not correct in your country, so if you want to make sure, you could use the 'Useful Links/ Downloads' resources to try and confirm. The band plan does not contain allocations in some spots since different regions might have numerous wildly different allocations. It is still an upgrade from the default SDR# band plan though. More detail on what it contains in the 'Contents' section.
 
-This project is also an opportunity for people to make bandplans for their own areas. Those created bandplans could then be added to this repository to make a number of bandplans available to everyone in the SDR community and expand the usefulness of this project.  
+This project is also an opportunity for people to make band plans for their own areas. Those created band plans could then be added to this repository to make a number of band plans available to everyone in the SDR community and expand the usefulness of this project.  
 
 Also, a few things to keep in mind!  
+- Sources for the allocations are in the comments of the band plan file. Note: Newer version of SDR# reformat the band plan file wiping the comments and sources, so keep a separate file to review or view the file on Github.  
 - Make sure to use the 'Useful Links/ Downloads' resources if your trying to confidently identify a signal.  
 - Watch out for interference, harmonics, and be aware of the limitations of your SDR (e.g. Signals can appear to be at a frequency they really are not [for various technical reasons]).  
-- Since bandplans are meant to be an aid in helping identify an unknown signal I tried to make them as detailed as possible without making them cluttered, so some signals might be from a secondary allocation user that couldn't be listed.  
-- When using the bandplan you may need to zoom in a lot to read the allocation name, since a named allocation is the same width as the signals bandwidth.   
+- Since band plans are meant to be an aid in helping identify an unknown signal I tried to make them as detailed as possible without making them cluttered, so some signals might be from a secondary allocation user that couldn't be listed.  
+- When using the band plan you may need to zoom in a lot to read the allocation name, since a named allocation is the same width as the signals bandwidth.
+
 
 
 
@@ -77,7 +79,8 @@ Note: Updated videos will be made in the future when I know I've added all of th
 
 ### Raw XML
 [US BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/US/BandPlan.xml)  
-[International BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/International/BandPlan.xml)  
+[French Band Plan (HF Only) from @bestel74](https://raw.githubusercontent.com/Arrin-KN1E/SDRSharp-Band-Plans/master/French/BandPlan.xml)
+[International BandPlan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/International/BandPlan.xml)
 [Create Your Own Bandplan (Raw XML)](https://raw.githubusercontent.com/Arrin-KN1E/SDRsharpbandplans/master/Create-Your-Own/Create-Your_Own.xml)
 
 
@@ -88,7 +91,7 @@ Note: Updated videos will be made in the future when I know I've added all of th
 <img src="https://i.imgur.com/RrgZ5Ki.png" width="3000"/>
 
 [**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDRsharpbandplans/archive/master.zip), extract it, navigate to the file you want (US or International), then drag and drop it in.  
-Just make sure to have a backup of the old default bandplan in case something doesn't work!
+Just make sure to have a backup of the old default band plan in case something doesn't work!
 
 
 ## US Band Plan Contents
@@ -133,7 +136,7 @@ The files also contain a list of contents, reference, color legend, explanation 
 ## International Bandplan
 Note for Github: Due to either limitations of my Markup knowledge or Markup itself, I couldn't add the details to the list of contents any way other than changing their names, which I did not want to do. This should be okay though.  
 
-Quick Author's Note on the bandplan: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice. I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. There also might be a few things missing from this list for a variety of reasons. Anyway...
+Quick Author's Note on the band plan: It is an absolute pain to try and compile a list that every country can agree on, so I went with what I thought would likely be the best choice. I live in the US so I have no experience or familiarity with frequencies other than those in the US, so it's within reason that I will make mistakes/ seemingly unfounded choices. There also might be a few things missing from this list for a variety of reasons. Anyway...
 
 **The International plan contains, among many other things not listed:**
 
@@ -172,37 +175,11 @@ The purpose of the efforts here are to aid SDR users in the ability to identify 
 It has a simple layout with nothing more than a basic structure that the writer can adhere to if they desire. Luckily XML is a simple language that can be easily learned by those even with little skill in programming.  
 
 
-## What Was Added in Latest Updates
+## Latest Updates
 
-This section lists the most recent additions to the bandplans. No distinction is given between what was added in the 'US' or 'International' bandplan, but the international version does not include Milstar, EMWIN VHF Repeaters, 220MHz Command/ Telemetry, and WEFAX Stations out of the following list:   
+Addition of sources below the allocations in the XML file's comments (about every 25 lines).
 
-*SNPP: TDRSS, Telemetry, Command (2067.27 MHz, 2247.5 MHz )  
-NOAAs-15, 18, 19: CDA, Telemetry, Command (2247.5 MHz ,2026 MHz, 2247.5 MHz)   
-NOAA-20: TDRSS, Telemetry, Command  (2067.27 MHz, 2247.5 MHz )*
-
-*136MHz Aeronautical Data Links: 136.650 - 136.8MHz and 136.975*
-
-*Milstar: 243.785 MHz - 243.822 MHz*
-
-*EMWIN VHF Repeaters 163.3MHz-163.35MHz and 168.7125MHz-168.8125MHz*
-
-*220MHz Command/ Telemetry*
-
-*Marine (AIS): 161.975 MHz — 162.025 MHz*
-
-*Time Stations: JJY-40 (40 KHz)(Japan), RBU (66.66 KHz)(Russia), BPC (68.5 KHz)(China), DCF77 (77.5 kHz)(Germany), TDF (162 kHz)(France)*
-
- *Submarine Communications: NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), NML (25.2 KHz)(US), NOV (26.9 KHz)(US), SHR (38 KHz)(Sweden), SAS/SRC (40.4 kHz)(Sweden), SAS2 (42.5 kHz)(Sweden), SAS3 (44.2 kHz)(Sweden), GYN2 GBR (81 kHz)(UK)*
-
-*Number Stations/ Secret Stations: UVB-76 (4625KHz and 4810KHz), The Pip (5448 kHz [day]
-3756 kHz [night])*
-
-*WEFAX US: Honolulu (9982.5 KHz, 11090KHz, 16135 KHz), Kodiak (2054KHz, 4298KHz, 8459KHz, 12412.5KHz)
-WEFAX Canada: Halifax (122.5khZ, 4271KHz, 6496.4KHz, 10536KHz, 13510KHz)(Not Active but Added), Iqaluit (3253KHz, 7710KHz), Resolute (3253KHz, 7710KHz), Sydney -Nova Scotia (4416KHz, 6915.1KHz), Inuvik (4292KHz, 8456KHz)*
-
-And some general superficial improvements.
+Starlink Downlink and Uplink frequencies
 
 
 ## Conclusion  
-
-This is an ongoing project that may go on for a long time. After I decide the plans are relatively comprehensive I plan on investigating being able to add bandplans to other SDR programs than just SDR#. In the future I plan on adding upto 6GHz (maybe 10GHZ) in the files but commented out since at this time I don't know if SDR# can go over 2.5GHz, but if someone was to look in the file they could see what is above 2.5GHz.  

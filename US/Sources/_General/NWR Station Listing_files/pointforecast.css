@@ -1,0 +1,553 @@
+/* Point Forecast Page */
+@media print {
+	.topnav, .header-doc, #forecast-lookup, #topnews, .current-conditions, #hourly, #ndfd, #additional_forecasts,
+	.full-width-first.communication-links, .footer, .footer-legal  { display: none; } 	
+}
+
+h2 { 
+	margin-bottom: 3px;
+}
+h2 a:link {
+	text-decoration: none;	
+}
+
+.addthis_toolbox {
+	float: right;
+	margin-top: 6px;
+	width:175px; /* for Chrome not displaying it right */
+}
+
+.forecast-section {
+	padding: 5px 0px;
+	/* margin: 5px 0px 10px 0px; */
+	margin: 10px 0px 10px 0px;
+	/* border-bottom: 1px dotted #167DC4; */
+	border-bottom: 1px dotted #AAA;
+	position: relative;
+	background-color: #f6f6f6;
+	height: auto !important;
+	min-height: 27px; 
+}
+.forecast-section .four-fifth-first, .forecast-section .three-fifth-first,
+.forecast-section .two-third-first
+ {
+	padding: 0px 6px;	
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+.forecast-section .two-fifth-last, .forecast-section .one-third-last {
+	padding: 0px;
+	position: relative;
+	bottom: 0px;
+	right: 8px;	
+	vertical-align:bottom;
+}
+
+
+.forecast-section h2 {
+	font-size: 11pt;	
+	color: #666;
+	font-weight: bold;
+	margin: 0px;
+}
+.forecast-section h1 {
+	font-size: 19pt;
+	margin-bottom: 0px;	
+	display: block;
+}
+/*.forecast-section h1 {
+	margin-bottom: 0px;
+	font-size: 18pt;
+	color: #135897;
+	font-weight: bold;
+}*/
+
+.forecast-section-options {
+	font-size: 9pt;
+	text-align: right;	
+	padding: 0px;
+}
+
+.forecast-section-options a:link {
+	font-size: 9pt;
+	font-weight: bold;	
+}
+
+.forecast-section-options p {
+	margin-bottom: 4px;	
+}
+h2.wfo-label a:link {
+	text-decoration: underline;
+}
+
+h2.wfo-label a:hover {
+	color: #00A3E3;
+}
+.locationHeader {
+	background-color: #167dc4;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+	vertical-align: bottom;
+}
+
+div.locationHeader {
+	padding: 5px;	
+	min-height: 30px;
+}
+
+.locationHeader div {
+	padding: 0px;	
+}
+
+.locationHeader a:link {
+	text-decoration: none;
+	color: #fff;
+}
+.locationHeader a:hover {
+	text-decoration: underline;	
+}
+.locationHeader a:visited {
+	color: #fff;
+}	
+
+.locationheader-options {
+	color: #fff;
+	font-size: 9pt;
+	text-transform: none;
+	padding-right: 10px !important;
+	text-align: right;
+}
+
+.point-forecast-area-title  {
+	font-weight: bold;
+	color: #FFF;
+	font-size: 18pt;
+}
+
+.point-forecast-icons {
+	margin-bottom: 5px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#point_forecast_icons {
+border-bottom: 1px dotted #ccc;
+padding-bottom: 10px;
+}
+
+.point-forecast-icons img.period-icon {
+	border: 1.5px solid #cccccc;
+	margin: 4px 0px;
+}
+
+.point-forecast-icons img.period-trend {
+	border: 0px;
+	margin: 0px;
+}
+
+.point-forecast-icons p, .current-conditions p {
+	margin-bottom: 0px;
+}
+
+
+.point-forecast-icons .one-ninth-first {
+	text-align: center;	
+	color: #000;
+	font-size: 9pt;
+}
+
+.point-forecast-icons .one-ninth-first .txt-ctr-caps {	
+	min-height: 28px;	
+}
+
+.point-forecast-icons-high, .point-forecast-icons-low {
+	font-size: 9pt;
+	font-weight: bold;
+}
+.point-forecast-icons-low {
+	color: #15a3e0;
+}
+
+.point-forecast-icons-high {
+	color: #ef3725;
+}
+
+ul.current-conditions, ul.point-forecast-7-day, ul.point-forecast-info, ul.point-forecast-info, ul.current-conditions-detail, ul.marine-current-conditions  {
+	list-style: none !important;	
+	margin: 0px;
+}
+
+li span.label {
+	font-weight: bold;
+	font-size: 9pt;
+	color: #444;		
+	line-height: 1.4em;
+}
+
+div.point-forecast-7-day {
+	margin-bottom: 10px;	
+}
+.point-forecast-7-day-options {
+	float: right;
+}
+
+ul.point-forecast-7-day {
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;	
+	margin-bottom: 20px;
+}	
+
+ul.point-forecast-7-day li {
+	padding: 6px 6px 6px 90px;
+	font-size: 9pt;
+	border-bottom: 1px dotted #cccccc;
+	min-height: 30px; 
+}
+
+ul.point-forecast-7-day  li span.label {
+	display: block;
+	width: 70px;
+	text-align: right;
+	margin-left: -85px;
+	float: left;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+ul.point-forecast-7-day li:before,
+ul.point-forecast-7-day li:after {
+    content: " ";
+    display: table;
+}
+
+ul.point-forecast-7-day li:after {
+    clear: both;
+}
+
+ul.point-forecast-7-day li {
+    *zoom: 1;
+}
+/* */
+
+ul.point-forecast-info li, ul.marine-current-conditions li {
+	padding-left: 110px;
+	min-height: 17px;	
+}
+
+ul.point-forecast-info li span.label, ul.marine-current-conditions li span.label {
+	width: 90px;
+	text-align: right;
+	position: absolute;
+	margin-left: -110px;
+}
+
+.point-forecast-info a:link {
+	font-size: 9pt;
+	font-weight: bold;	
+}
+ .row-even {
+	background: none !important;
+}
+
+.point-forecast-right  div {
+	margin-bottom: 15px;
+}
+
+.forecast-downloads {
+	margin: 5px 0px;	
+}
+
+/* Point forecast map */
+/* Polygon colors - border: #339900, fill:  #598527 50% */
+/* Fix:  border:  2px #009900, fill:  #33FF33, 40% */
+
+.point-forecast-map div {
+	 margin-bottom: 0px !important; 
+}
+.point-forecast-map {
+	width: 300px !important; 
+	margin-bottom: 20px !important;
+}
+
+.point-forecast-map-header {
+	font-size: 9pt;	
+	font-weight: bold;
+	color: #444;
+}
+
+.point-forecast-map-header .disclaimer { 
+	float: right; 
+	font-size: 8pt;
+	font-weight: normal !important;
+}
+.point-forecast-map-footer { 
+	text-align: center;
+ }
+.point-forecast-map-footer p {
+	font-size: 9pt !important; margin-top: 5px;
+}
+
+.point-forecast-map-progress {
+ display: none;	
+}
+#gmap { 
+	width: 300px; 
+	height: 220px; 
+	margin-bottom: 5px; 
+	position: relative; 
+}
+
+.radar-thumb {
+	width: 150px ;
+	height: 120px;	
+}
+.satellite-thumb {
+	width: 140px;
+	height: 120px;
+}
+
+
+
+
+.hazardous-conditions-container  {
+	padding: 0px;
+	border: 1px solid #C60000;
+	margin-bottom: 10px; 
+}
+
+.hazardous-conditions {
+	padding: 0px;
+	margin: 10px 0px 0px 0px;
+	border-bottom: 1px solid #A80000;
+	background-color: #FFF0F0;
+}
+
+.hazardous-conditions h1 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #A80000;
+	padding: 4px;
+	margin: 0px;
+	letter-spacing: 0.3em;
+} 
+
+.hazardous-conditions a:link, .hazardous-conditions a:visited {
+	/* color: #BF0000; */
+	font-weight: normal;
+	color: #A80000;
+	font-size: 12pt;	
+}
+
+.hazardous-conditions ul   {
+	margin: 8px;
+	list-style-type: none;
+}
+
+.hazardous-conditions li {
+	display: inline-block;
+	background: url('/images/bullet_red.png') no-repeat left 4px;
+	padding-left: 10px;
+	vertical-align: top;
+	margin-bottom: 5px;
+	width:100%;	
+	zoom: 1;
+	*display: inline;
+}
+
+
+.myforecast-current-lrg {
+	font-size: 40px;
+	font-weight: bold;
+	color: #444;
+	letter-spacing: -.04em;
+}
+.myforecast-current-sm {
+	font-size: 18px;	
+	font-weight: normal;
+}
+
+.current-conditions {
+	height: 130px;
+	padding-bottom: 5px;
+}
+
+
+.current-conditions .one-third-first {
+	height: 100%;	
+}
+
+.current-conditions .feature img {
+	width: 120px;
+	height: 120px;
+}
+.current-conditions-location {
+	font-size: 11pt;
+	color: #3863B1;
+	font-weight: bold;
+	letter-spacing: .01em;
+}
+.current-conditions-location a:hover {
+	color: #00A3E3 !important;
+}
+.current-conditions-location a:visited {
+	color: #3863B1;	
+}
+
+ul.current-conditions-detail {
+	margin-bottom: 5px;
+}
+ul.current-conditions-detail li {
+	padding-left: 80px;
+	min-height: 17px;	
+}
+ul.current-conditions-detail li span.label {
+	width: 80px;
+	text-align: right;
+	position: absolute;
+	margin-left: -90px;
+}
+
+.current-conditions-timestamp {
+	padding: 0px;
+	margin-bottom: 5px;
+	font-size: 8pt;
+}
+
+.current-conditions-extra {
+	font-size: 9pt;
+	margin-top: 15px;
+	margin-bottom: 8px; 
+}	
+
+#ndfd .one-sixth-first {
+	padding-left: 0px;
+	
+	text-align: center;
+}
+
+#ndfd .one-sixth-first p {
+	margin-top: 6px;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #444;
+	
+}
+
+/* MARINE */
+
+
+.marine .point-forecast-icons {
+	border-bottom: none;	
+}
+
+.marine-point-forecast-notice {
+	width: 95%;
+	text-align:center;
+	margin-top: 20px;	
+	padding: 10px;
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+}
+
+.marine-point-forecast-notice p {
+	margin-bottom: 8px;	
+}
+
+.marine-update-notice {
+	font-size: 9pt;
+	color: #444;	
+}
+
+.marine-nearby-obs {
+	margin: 20px 0px 0px 0px;
+}
+
+.marine-nearby-obs a:link {
+	text-decoration: underline;
+
+}
+
+.marine .myforecast-current-lrg {
+	font-size: 16pt;	
+}
+
+.marine .myforecast-current.distance {
+	margin-top: 8px;	
+}
+
+.marine .current-conditions {
+	margin-bottom: 10px;	
+}
+
+.marine .current-conditions.marine-zone {
+	margin-bottom: 20px;	
+}
+
+.marine .current-conditions .current-conditions-detail .div-quarter {
+	margin-bottom: 5px;
+}
+
+.marine .current-conditions-timestamp {
+	width: 100%;
+	text-align:center;
+}
+
+.marine-warn {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #666666;	
+}
+
+.marine-warn img {
+	border: 0px;
+}
+
+.marine a:link.point-notices-jump {
+	text-decoration: none !important;
+	font-size: 7pt;
+	vertical-align: super;
+	margin-left: 6px;
+}
+
+/* ADAPTIVE STYLES */
+/*
+@media screen and (max-width: 1000px){
+	#current_conditions_station { display: none; }
+	.sitename { display: none; }
+	#about_forecast { display: none; }
+	#additional_forecasts { display: none; }
+	#ndfd { display: none; }
+	#footer_legal_gov { display: none;}
+	.hazardous-conditions a:link, .hazardous-conditions a:visited { font-size: 10pt !important; font-weight: bold !important; }
+	.forecast-section .two-third-first { width: 100%; padding: 4px 4px; }
+	#point_forecast_icons { width: 100%; overflow: auto; padding-bottom: 5px;}
+	#point_forecast_icons img.period-icon { width: 60px; height: 60px; }
+	#point_forecast_icons .one-ninth-first { width: 70px !important; }
+	.point-forecast-icons { width: 820px; border: none; }
+	#point_forecast_detail .two-third-first { width: 100%; }
+	.point-forecast-7-day { width: 100%;  }
+	.two-third-first.point-forecast-7-day { padding: 4px; }
+	
+	.point-forecast-right { width: 100%; float: none; padding: 4px; }
+	.point-forecast-map { width: 100%; }
+	#gmap, #gmap img { width: 100%; }
+	#radar img { width: 47%; height: auto;}
+	#hourly img { width: 100%; height: auto;}	
+}
+@media screen and (max-width: 680px) {
+	.current-conditions .one-third-first { width: 50%; padding-left: 2px; }
+	#current_conditions { width: auto; padding-right: 0px !important; }
+	#current_conditions img { width: 80px !important; height: 80px !important; margin-right: 5px; }
+	#current_conditions .div-half, #current_conditions .div-half-right { width: auto !important; }
+	#current_conditions .myforecast-current-lrg { font-size: 24pt !important;} 
+	#current_conditions_detail { width: 138px; padding-left: 0px !important; padding-right: 0px; float: right;}
+	ul.current-conditions-detail { font-size: 8pt !important; }
+	p.current-conditions-timestamp { width: 100%; text-align: center;}
+}
+*/

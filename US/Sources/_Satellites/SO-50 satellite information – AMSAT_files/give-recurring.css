@@ -1,0 +1,303 @@
+/**
+ * Give Recurring Frontend CSS
+ */
+
+/*--------------------------------------------
+Donors Choice Checkbox
+----------------------------------------------*/
+[id*=give-form] .give-recurring-donors-choice {
+	margin: 0 0 25px;
+	display: block;
+	line-height: 1em;
+	clear: both;
+	cursor: pointer;
+}
+
+[id*=give-form] .give-recurring-donors-choice-period {
+	height: 28px;
+	font-size: 15px;
+	margin: 0 2px;
+	padding: 3px;
+	display: inline-block;
+	width: auto;
+}
+
+[id*=give-form] .give-recurring-donors-choice label {
+	cursor: pointer;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+[id*=give-form] .give-recurring-donors-choice input[type="checkbox"] {
+	margin: 0 3px 0 0;
+	position: relative;
+	width: auto;
+}
+
+/* Button mode support */
+[id*='give-form'] .give-recurring-donors-choice + .give-btn,
+[id*='give-form'] .give-recurring-admin-choice + .give-btn {
+	display: block;
+	clear: both;
+}
+
+/* Admin Defined */
+[id*='give-form'].give-recurring-form-admin [id*='give-payment-mode-select'],
+.give-modal [id*='give-payment-mode-select'] {
+	clear: both;
+}
+
+span.give-recurring-admin-choice {
+	float: left;
+	font-size: 18px;
+	font-style: italic;
+	margin: 3px 0 0 10px;
+}
+
+.give-modal span.give-recurring-admin-choice {
+	margin: 0 0 15px 0;
+}
+
+[id*='give-form'].give-recurring-form-admin div.give-donation-amount,
+[id*='give-form'].give-recurring-form-admin p.give-donation-amount {
+	float: left
+}
+
+.give-recurring-multi-level-message {
+	font-style: italic;
+	font-size: 0.95em;
+}
+
+/*--------------------------------------------
+Donation Receipt Subscription
+----------------------------------------------*/
+
+.give-subscription-billing-cycle {
+	font-style: italic;
+	display: block;
+}
+
+.give-recurring-manage-subscriptions-receipt-link {
+	float: right;
+}
+
+.give-receipt-thead-text {
+	font-size: 16px;
+	text-align: center;
+	display: block;
+}
+
+table#give-subscription-receipt td,
+table#give-subscription-receipt th {
+	text-align: left;
+}
+
+span.give-donation-status-recurring svg {
+	fill: #2683B8;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 3px;
+}
+
+#give-recurring-modal-period-wrap {
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+}
+
+[id*='give-form'].give-recurring-form fieldset {
+	clear: both;
+}
+
+#give-recurring-form #give_checkout_form_wrap legend {
+	border-bottom: 0;
+	width: auto;
+}
+
+.give-recurring-donation-main {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 30px 0 0;
+}
+
+.give-recurring-donation-main h3.give-recurring-donation-title {
+	background: #f6f6f6;
+	padding: 20px 10px 20px 20px;
+	text-align: left;
+	margin: 0;
+	font-size: 17px;
+	color: #000;
+	font-weight: 500;
+	font-style: inherit;
+	border-bottom: 1px solid #ccc;
+}
+
+.give-recurring-donation-main form#give-form {
+	padding: 30px;
+	margin: 0;
+}
+
+.give-recurring-donation-main div#give-stripe-credit-card-content {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 30px;
+	margin: 0 0 25px;
+	width: 100%;
+}
+
+.give-recurring-donation-main form#give-form fieldset legend {
+	border: 0 none;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc {
+	border: 1px solid #ccc;
+	padding: 20px 15px;
+	display: inline-block;
+	width: 100%;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc .give-recurring-cc-left span.card-type {
+	position: absolute;
+	left: 0;
+	float: left;
+	right: 0;
+	top: 0 !important;
+	vertical-align: middle;
+
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc .give-recurring-cc-left {
+	position: relative;
+	float: left;
+	vertical-align: middle;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc span.give-recurring-cc-type-name {
+	display: inline-block;
+	font-size: 100%;
+	vertical-align: middle;
+	margin-left: 55px;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc span.give-recurring-cc-last4 {
+	font-size: 100%;
+	padding-left: 5px;
+	color: #333;
+	vertical-align: middle;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc span.give-recurring-card-expiration {
+	background-color: #7c7c7c;
+	padding: 5px;
+	color: #fff;
+	border-radius: 3px;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc .give-recurring-cc-right {
+	float: right;
+}
+
+#give_checkout_form_wrap .give-recurring-current-method h3,
+#give_checkout_form_wrap .give-recurring-updated-method h3 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	margin-top: 0;
+}
+
+#give_checkout_form_wrap .give-recurring-show-cc {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+	.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc .give-recurring-cc-left {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.give-recurring-donation-main .give-recurring-current-method .give-recurring-show-cc .give-recurring-cc-right {
+		float: none;
+		width: 100%;
+	}
+
+	.give-recurring-donation-main form.give-form .form-row label, .give-recurring-donation-main form[id*=give-form] .form-row label {
+		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+	.give-recurring-donation-main form#give-form {
+		padding: 15px;
+	}
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type {
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 37px;
+	height: 26px;
+	background-size: 37px 26px !important;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.visa {
+	background: url("../images/visa.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.mastercard {
+	background: url("../images/mastercard.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.discover {
+	background: url("../images/discover.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.amex {
+	background: url("../images/amex.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.maestro {
+	background: url("../images/maestro.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.dinersclub {
+	background: url("../images/diners-club.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.jcb {
+	background: url("../images/jcb.svg") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.dankort {
+	background: url("../images/dankort.png") no-repeat;
+}
+
+#give_purchase_form_wrap span.give-recurring-updated-card-type.unionpay {
+	background: url("../images/unionpay.svg") no-repeat;
+}
+
+table.give-recurring-edit-amount-table {
+	margin: 0 0 30px 0;
+}
+
+table.give-table.give-recurring-edit-amount-table thead tr th,
+table.give-table.give-recurring-edit-amount-table tbody tr td {
+	font-size: 16px;
+	text-align: left;
+	padding: 20px;
+}
+
+.give-recurring-update-subscription-amount-form .give-donation-amount h3  {
+	text-transform: uppercase;
+	font-size: 18px;
+}
