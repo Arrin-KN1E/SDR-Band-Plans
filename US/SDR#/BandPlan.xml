@@ -42,12 +42,12 @@
   <RangeEntry minFrequency="80850" maxFrequency="81150" mode="CW" step="1" color="5580C0C0">GYN2 GBR (UK)</RangeEntry>  <!-- GYN2 GBR (UK) 81 kHz 300 Hz? BW (Subs) -->
   <RangeEntry minFrequency="81150" maxFrequency="120600" mode="CW" step="1" color="55008080">Radiolocation</RangeEntry>
   <!-- Sources:
-Unallocated: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
-Submarine: https://www.sigidwiki.com/wiki/Category:VLF
-PLC: https://en.wikipedia.org/wiki/Power-line_communication
-     (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
-Time Signal: https://www.sigidwiki.com/wiki/Category:Time
-Radionavigation/ Meteorological Aids(US18/ 5.54A): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  Unallocated: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  Submarine: https://www.sigidwiki.com/wiki/Category:VLF
+  PLC: https://en.wikipedia.org/wiki/Power-line_communication
+       (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  Time Signal: https://www.sigidwiki.com/wiki/Category:Time
+  Radionavigation/ Meteorological Aids(US18/ 5.54A): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
   -->
 
   <!--
@@ -74,16 +74,16 @@ Radionavigation/ Meteorological Aids(US18/ 5.54A): https://transition.fcc.gov/oe
   <RangeEntry minFrequency="479000" maxFrequency="525000" mode="USB" step="10" color="55008080">Maritime Mobile/ Aeronautical Radionavigation/ RFID</RangeEntry>
   <RangeEntry minFrequency="525000" maxFrequency="1705000" mode="AM" step="10" color="33FF0000">AM Radio/ Medium Wave (212m)</RangeEntry>  <!-- Medium Wave (212m) is part of AM Radio to 1606.5MHz-->
   <!-- Sources:
-RFID: https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=5B6910658810D7BE26545271DEA619D3?doi=10.1.1.182.5224&rep=rep1&type=pdf
-WEFAX: https://www.weather.gov/media/marine/rfax.pdf
-PLC: https://en.wikipedia.org/wiki/Power-line_communication
-     (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
-Ham Bands: http://www.arrl.org/band-plan
-           https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf
-LowFER: https://en.wikipedia.org/wiki/LowFER
-Long Wave & AM: https://en.wikipedia.org/wiki/AM_broadcasting#Broadcast_band_frequencies
-Time: https://www.sigidwiki.com/wiki/Category:Time
-Radiolocation & Maritime Mobile(5.61/ 5.64): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  RFID: https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=5B6910658810D7BE26545271DEA619D3?doi=10.1.1.182.5224&rep=rep1&type=pdf
+  WEFAX: https://www.weather.gov/media/marine/rfax.pdf
+  PLC: https://en.wikipedia.org/wiki/Power-line_communication
+       (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  Ham Bands: http://www.arrl.org/band-plan
+             https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf
+  LowFER: https://en.wikipedia.org/wiki/LowFER
+  Long Wave & AM: https://en.wikipedia.org/wiki/AM_broadcasting#Broadcast_band_frequencies
+  Time: https://www.sigidwiki.com/wiki/Category:Time
+  Radiolocation & Maritime Mobile(5.61/ 5.64): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
   -->
 
 
@@ -99,9 +99,9 @@ Radiolocation & Maritime Mobile(5.61/ 5.64): https://transition.fcc.gov/oet/spec
   <RangeEntry minFrequency="1843000" maxFrequency="1995000" mode="LSB" step="10" color="50FF0000">SSB, SSTV (160m)</RangeEntry>  <!-- Added 160m for visability purposes, 1.910MHz SSB QRP, 1.843-2.000MHz	SSB, SSTV and other wideband modes -->
   <RangeEntry minFrequency="1995000" maxFrequency="2000000" mode="CW" step="10" color="503CCCFF">Experimental, Beacons  |160m Ham Band</RangeEntry>  <!-- 	Experimental, Beacons -->
   <!-- Sources:
-  PLC: https://en.wikipedia.org/wiki/Power-line_communication
-       (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
-  Ham Bands: http://www.arrl.org/band-plan
+    PLC: https://en.wikipedia.org/wiki/Power-line_communication
+         (US2): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+    Ham Bands: http://www.arrl.org/band-plan
   -->
 
 
@@ -122,22 +122,20 @@ Radiolocation & Maritime Mobile(5.61/ 5.64): https://transition.fcc.gov/oet/spec
 
   <RangeEntry minFrequency="3500000" maxFrequency="3570000" mode="LSB" step="10" color="50FF0000">80m Ham Band|</RangeEntry>  <!-- Shared to 4MHz with Shortwave -->
   <RangeEntry minFrequency="3570000" maxFrequency="3600000" mode="LSB" step="10" color="50FFFFFF">RTTY/Data DX (80m)</RangeEntry>  <!-- 3.590MHz  RTTY/Data DX -->
-  <RangeEntry minFrequency="3600000" maxFrequency="3754500" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
-  <RangeEntry minFrequency="3754500" maxFrequency="3757500" mode="CW" step="1" color="50DD1111">The Pip (Night)</RangeEntry>  <!-- The Pip 3756 kHz during  night -->
-  <RangeEntry minFrequency="3757500" maxFrequency="3790000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
+  <RangeEntry minFrequency="3600000" maxFrequency="3790000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder -->
   <RangeEntry minFrequency="3790000" maxFrequency="3800000" mode="LSB" step="10" color="40FF0000">DX window (80m)</RangeEntry>
   <RangeEntry minFrequency="3800000" maxFrequency="3882000" mode="LSB" step="10" color="50FF0000">80m</RangeEntry>  <!-- Placeholder,  3.845MHz SSTV -->
   <RangeEntry minFrequency="3882000" maxFrequency="3888000" mode="AM" step="10" color="5000FF00">AM calling frequency (80m)</RangeEntry>
   <RangeEntry minFrequency="3888000" maxFrequency="3900000" mode="LSB" step="10" color="50FF0000">80m Ham Band</RangeEntry>  <!-- Placeholder -->
   <RangeEntry minFrequency="3900000" maxFrequency="4000000" mode="AM" step="10" color="40FF00FF">Shared 80m| and Shortwave (75m) Broadcast</RangeEntry>  <!-- 75m is inside 80m band -->
   <!-- Sources:
-  Maritime Mobile: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
-  HFDL: https://cartoonman.github.io/Shoc/hfdl.htm
-  Distress and Calling: https://www.hfunderground.com/wiki/index.php/HF_marine
-  WEFAX: https://www.weather.gov/media/marine/rfax.pdf
-  Time: https://www.sigidwiki.com/wiki/Category:Time
-  Shortwave: https://en.wikipedia.org/wiki/Shortwave_radio#Frequency_allocations
-  Ham Bands: http://www.arrl.org/band-plan
+    Maritime Mobile: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+    HFDL: https://cartoonman.github.io/Shoc/hfdl.htm
+    Distress and Calling: https://www.hfunderground.com/wiki/index.php/HF_marine
+    WEFAX: https://www.weather.gov/media/marine/rfax.pdf
+    Time: https://www.sigidwiki.com/wiki/Category:Time
+    Shortwave: https://en.wikipedia.org/wiki/Shortwave_radio#Frequency_allocations
+    Ham Bands: http://www.arrl.org/band-plan
              https://www.iaru.org/wp-content/uploads/2020/10/IARU-Region-2-Band-plan.pdf
   -->
 
@@ -180,7 +178,7 @@ Radiolocation & Maritime Mobile(5.61/ 5.64): https://transition.fcc.gov/oet/spec
  -->
 
  <!-- Sources:
-HF Marine: https://www.navcen.uscg.gov/mf-hf-channel-information
+  HF Marine: https://www.navcen.uscg.gov/mf-hf-channel-information
  -->
 
 
@@ -198,8 +196,8 @@ HF Marine: https://www.navcen.uscg.gov/mf-hf-channel-information
   <RangeEntry minFrequency="4344100" maxFrequency="4347100" mode="USB" step="10" color="5500FF91">WEFAX PT. Reyes, CA  (Night)</RangeEntry>  <!-- WEFAX PT. Reyes -->
 
   <!-- Sources:
-WEFAX: https://www.weather.gov/media/marine/rfax.pdf
-Maritime: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
+  WEFAX: https://www.weather.gov/media/marine/rfax.pdf
+  Maritime: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
   -->
 
 
@@ -244,8 +242,8 @@ Maritime: https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf
  -->
 
  <!-- Sources:
-HF Marine: https://www.navcen.uscg.gov/mf-hf-channel-information
-Maritime/ CODAR: https://www.sigidwiki.com/wiki/CODAR
+  HF Marine: https://www.navcen.uscg.gov/mf-hf-channel-information
+  Maritime/ CODAR: https://www.sigidwiki.com/wiki/CODAR
  -->
 
 
@@ -255,8 +253,6 @@ Maritime/ CODAR: https://www.sigidwiki.com/wiki/CODAR
   <RangeEntry minFrequency="4727000" maxFrequency="4750000" mode="USB" step="10" color="55008080">Maritime</RangeEntry>
 
   <RangeEntry minFrequency="4750000" maxFrequency="4995000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>
-  <!-- <RangeEntry minFrequency="4810000" maxFrequency="4813000" mode="USB" step="1" color="50DD1111">UVB-76 (Upper)</RangeEntry>  UVB-76 4810kHz
-  <RangeEntry minFrequency="4813000" maxFrequency="4995000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry> -->
 
   <RangeEntry minFrequency="4995000" maxFrequency="5005000" mode="AM" step="10" color="44FF00FF">WWV NIST</RangeEntry>  <!-- NIST 5MHz-->
   <RangeEntry minFrequency="5005000" maxFrequency="5060000" mode="AM" step="10" color="505D63FF">Shortwave (Tropical Band 60m) Broadcast</RangeEntry>
@@ -285,8 +281,6 @@ Maritime/ CODAR: https://www.sigidwiki.com/wiki/CODAR
 
 
   <RangeEntry minFrequency="5406400" maxFrequency="5900000" mode="USB" step="10" color="505D88FF">Aeronautical (HFDL)</RangeEntry>
-  <!--<RangeEntry minFrequency="5446500" maxFrequency="5449500" mode="CW" step="1" color="50DD1111">The Pip (Day)</RangeEntry>   The Pip 5448 kHz by day
-  <RangeEntry minFrequency="5449500" maxFrequency="5900000" mode="USB" step="10" color="505D88FF">Aeronautical (HFDL)</RangeEntry> -->
   <RangeEntry minFrequency="5900000" maxFrequency="6200000" mode="AM" step="10" color="505D63FF">Shortwave (49m) Broadcast</RangeEntry>
 
   <!-- Dechannelized (Default) -->
@@ -2123,8 +2117,7 @@ OrbComm: https://www.ctu.cz/sites/default/files/cs/download/oznamene_typy_rozhra
   DSN: https://deepspace.jpl.nasa.gov/dsndocs/810-005/201/201C.pdf
   -->
 
-  <RangeEntry minFrequency="2119962966" maxFrequency="2113315000" mode="NFM" step="100" color="55366FFF">TDRS Forward Link</RangeEntry>
-  <RangeEntry minFrequency="2113315000" maxFrequency="2180000000" mode="NFM" step="100" color="50FFEE4A">Cellular Service| / Broadcast Microwave</RangeEntry>  <!-- UMTS Band 1 -->
+  <RangeEntry minFrequency="2119962966" maxFrequency="2180000000" mode="NFM" step="100" color="50FFEE4A">Cellular Service| / Broadcast Microwave</RangeEntry>  <!-- UMTS Band 1 -->
   <RangeEntry minFrequency="2180000000" maxFrequency="2200000000" mode="NFM" step="100" color="40FFCD00">Mobile Satellite Service (MSS)/ Broadcast Microwave Service</RangeEntry>
   <RangeEntry minFrequency="2200000000" maxFrequency="2208575000" mode="NFM" step="100" color="55366FFF">TDRS Return Link</RangeEntry>
   <RangeEntry minFrequency="2208575000" maxFrequency="2213505000" mode="WFM" step="100" color="5500FFFF">GOES Telemetry and Ranging</RangeEntry>  <!--   2211.04MHz -->
@@ -2517,25 +2510,16 @@ OrbComm: https://www.ctu.cz/sites/default/files/cs/download/oznamene_typy_rozhra
   <RangeEntry minFrequency="10450000000" maxFrequency="10500000000" mode="WFM" step="100" color="50FF009A">Space, Earth and Telecommand Stations| 3cm Ham Band</RangeEntry>
   <!-- Sources:
 Ham Bands: http://www.arrl.org/band-plan
-  -->
+-->
 
-<RangeEntry minFrequency="10600000000" maxFrequency="10700000000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
-<RangeEntry minFrequency="10700000000" maxFrequency="12700000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
-
-<!--  <RangeEntry minFrequency="12750000000" maxFrequency="12750000000" mode="WFM" step="100" color="">Art</RangeEntry> -->
-
-
-<RangeEntry minFrequency="14000000000" maxFrequency="14500000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
-
-<RangeEntry minFrequency="17800000000" maxFrequency="18600000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
-
-<RangeEntry minFrequency="18800000000" maxFrequency="19300000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
-
-<RangeEntry minFrequency="29500000000" maxFrequency="30000000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
-
-<RangeEntry minFrequency="37500000000" maxFrequency="42500000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
-
-<RangeEntry minFrequency="47200000000" maxFrequency="52400000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
+  <RangeEntry minFrequency="10600000000" maxFrequency="10700000000" mode="WFM" step="100" color="40FFFF00">Radio Astronomy</RangeEntry>
+  <RangeEntry minFrequency="10700000000" maxFrequency="12700000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
+  <RangeEntry minFrequency="14000000000" maxFrequency="14500000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
+  <RangeEntry minFrequency="17800000000" maxFrequency="18600000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
+  <RangeEntry minFrequency="18800000000" maxFrequency="19300000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
+  <RangeEntry minFrequency="29500000000" maxFrequency="30000000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
+  <RangeEntry minFrequency="37500000000" maxFrequency="42500000000" mode="WFM" step="100" color="553AFFFF">Starlink Downlink</RangeEntry>
+  <RangeEntry minFrequency="47200000000" maxFrequency="52400000000" mode="WFM" step="100" color="553AFFFF">Starlink Uplink</RangeEntry>
 
 <!-- Sources:
 Radioastronomy (US342): https://transition.fcc.gov/oet/spectrum/table/fcctable.pdf

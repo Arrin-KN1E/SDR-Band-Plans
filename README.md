@@ -177,9 +177,9 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 ## Latest Updates
 
-Addition of sources below the allocations in the XML file's comments (about every 25 lines).
+Addition of sources below the allocations in the SDR# XML file's comments (about every 25 lines).
 
-Starlink Downlink and Uplink frequencies
+Starlink and TDRS Downlink and Uplink frequencies
 
 
 ## Conclusion  
