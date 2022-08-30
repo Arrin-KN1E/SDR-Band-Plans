@@ -2,7 +2,8 @@
 <img src="https://i.imgur.com/8GxX1oC.jpg" width="3000"/>
 These are open-source detailed band plans for greater aid in signal identification, and for those who simply want more from their band plan.  
 
-If you just want to know how to install it: [click here](#installation).
+
+**If you just want to know how to install it**: [click here](#installation).
 
 
 
@@ -59,15 +60,24 @@ I am also trying to support other SDR software, but .
 | International    |🟩   | 🟥    |
 | Build Your Own   |🟩   | 🟪    |
 
-Legend:
-⬜ - In the Future
-🟪 - Next Update
-🟦 - Partial Band Plan
-🟩 - Full Support
-🟨 - Preliminary/ Review
-🟧 - Experimental
-🟥 - No Plan to Support (Open to Requests)
-🔳 - Adapted from Other Works/ 'As is'
+Legend:  
+
+⬜ - In the Future  
+
+🟪 - Next Update  
+
+🟦 - Partial Band Plan  
+
+🟩 - Full Support  
+
+🟨 - Preliminary/ Review  
+
+🟧 - Experimental  
+
+🟥 - No Plan to Support (Open to Requests)  
+
+🔳 - Adapted from Other Works/ 'As is'  
+
 
 ## Preview the Bandplans
 
