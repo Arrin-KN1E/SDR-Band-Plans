@@ -35,7 +35,8 @@ Open-source detailed band plans for greater aid in signal identification, and fo
 <!--1. [Miscellaneous](#miscellaneous)-->   
 <!--1. [International Band Plan Contents](#international-bandplan)-->
 <!--1. [Create Your Own Band plan/ Contributing](#create-your-own-band-plan)-->
-   <!--1.[French]()-->
+<!--1.[French]()-->
+<!--1.[Conversion Scripts]()-->
 ***
 
 # Introduction
@@ -89,6 +90,7 @@ If you want to a different view of the plans I have some old videos showing the 
 | Build Your Own   |🟩   | 🟪    |
 
 <!-- Add from SDR++ Band Plans -->
+<!-- Add SDRuno -->
 
 Legend:  
 
@@ -139,11 +141,11 @@ Locate the band plans folder in SDR++; example for windows: *sdrpp_windows_x64>r
 
 [**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDR-Band-Plans/archive/refs/heads/master.zip), extract it, navigate to the file you want (US,  International, etc. e.g. *SDR-Band-Plans-master>US>SDR++*), then drag and drop the JSON file (e.g. 'usa-kn1e') into the 'bandplans' folder.
 
-So far, this would show the allocations if selected in SDR++, but there would be no color to the band plan banners. To do this, open the "`Config BandColors Modification.txt`" and copy all of the text in the file. (If new, run SDR++ to generate a config file) Open the `config` file and paste the copied text in the "`"bandColors": {` field:
+So far, this would show the allocations if selected in SDR++, but there would be no color to the band plan banners. To add this, open the "`Config BandColors Modification.txt`" and copy all of the text in the file. (If new SDR++ download, run SDR++ to generate a config file) Open the SDR++ `config` file and paste the copied text in the "`"bandColors": {` field:
 
   <img src="https://i.imgur.com/iWjZ6qo.jpg" width="3000"/>
 
-*Correct any formatting errors and make sure they all have commas.*
+*Correct any formatting errors and make sure they all have commas, except the last line.*
 
 Save and open SDR++, if it looks like the sample images, it's good to go!  
 
@@ -155,35 +157,35 @@ The strange hex format basically brute-force converts the color format used in S
 ## US Band Plan Contents
 **The US plan contains, among many other things not listed:**
 
-### Broadcast
+### Broadcast:
 AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television Channels 2 to 69 *Note: Some TV channels are no longer used for TV anymore.                                                               
 
-### Ham
+### Amateur:
 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m, 17m, 15m, 12m, 10m, 6m, 2m, 1.25m, 70cm, 33cm, 23cm, 13cm, 9cm, 5cm, 3cm   (w/ ARRL BPs)
 
-### Satellites
+### Satellites:
 NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT, CDA, Telemetry, Command), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A, Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging), Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites, Milstar, NOAA-20/ JPSS (TDRSS, Telemetry, Command), SNPP (TDRSS, Telemetry, Command), Starlink(U/D), TRDS(U/D)    
 
-### ISM
+### ISM:
 50m (6.7MHz), 22m (13.7MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Not ISM but Common Use Part 15), 33cm (900MHz), 13cm (2.5GHz)  
 
-### Time Signals
+### Time Signals:
 20KHz Time Signal, WWVB, WWV (2.5, 5, 10, 15, 20, 25), CHU (3.33, 7.85, 14.670), JJY-40 (40 KHz)(Japan), RBU (66.66 KHz)(Russia), BPC (68.5 KHz)(China), DCF77 (77.5 kHz)(Germany), TDF (162 kHz)(France)   
 
-### Aeronautical
+### Aeronautical:
 ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)  
 
-### Marine
+### Marine:
 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), (AIS), and Most Distress Frequencies  <!-- Welcome to my first easter egg!   Did Rich really want that juicy Shaq meat? Or, was it peer pressure that made him say it? -->
 
-### Submarine Stations
+### Submarine Stations:
 NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), NML (25.2 KHz)(US), NOV (26.9 KHz)(US), SHR (38 KHz)(Sweden), SAS/SRC (40.4 kHz)(Sweden), SAS2 (42.5 kHz)(Sweden), SAS3 (44.2 kHz)(Sweden), GYN2 GBR (81 kHz)(UK)                       
 
 
-### Miscellaneous
+### Miscellaneous:
 CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands, Railroad H.O.T and E.O.T. (Head and End of train Devices), 220MHz Control/ Telemetry
 
-### More
+### More:
 The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
 
 ***
@@ -195,31 +197,31 @@ Quick Author's Note on the band plan: It is impossible to compile a list that ev
 
 **The International plan contains, among many other things not listed:**
 
-### Broadcast
+### Broadcast:
 AM Radio, FM Radio, Long Wave, Medium Wave (212m), Shortwave (Tropical Band 120m), Shortwave (Tropical Band 90m), Shortwave (75m), Shortwave (Tropical Band 60m), Shortwave (49m), Sortwave (41m), Shortwave (31m), Shortwave (25m), Shortwave (22m), Shortwave (19m), Shortwave (16m), Shortwave (15m), Shortwave (13m), Shortwave (11m), Television (Generalized)
 
-### Ham
+### Amateur:
 With (ARRL) Bandplans: 2200m, 1750m (LowFER), 630m, 160m, 80m, 60m, 40m, 30m, 22m (HiFER), 20m  
 Without Bandplans: 17m, 15m, 12m, 10m, 6m, 2m, 70cm, 23cm, 13cm   
 
-### Satellites
+### Satellites:
 NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT), METEOR M2 (LRPT, AHRPT), METEOR M2-2 (AHRPT), Orbcomm (Uplink and Downlink), GOES-16, GOES-17 (HRIT, GRB, DCP), Metop-A,
 Metop-B, Metop-C (Metops AHRPT, DCP) Feng-Yun-3A, Feng-Yun-3B, Feng-Yun-3C (CHRPT), GPS (L5, L2, L1), GALILEO (E5a, E1, SAR Downlink), GLONASS (G1, G2, G3), Iridium (General, Ring, Alert, Messaging),
 Inmarsat (General Only), ISS (Voice U/D, SSTV, VHF Packet U/D, U/V Repeater Uplink, ISS UHF Packet U/D, ISS U/V Repeater Downlink), AO-85 (U/D), AO-91 (U/D), AO-92 (U/D), SO-50 (U/D), PO-101 (U/D), SiriusXM Satellites,
 
-### ISM
+### ISM:
 22m (13.5MHz, inside HiFER), 10m (27MHz), 8m (40MHz), 70cm (433MHz) (Europe, Africa, Russia), 33cm (902MHz) (Americas), 13cm (2.5GHz)   
 
-### Time Signals
+### Time Signals:
 20KHz Time Signal, WWVB, Generalized 2.5, 5, 10, 15, 20, 25MHz
 
-### Aeronautical
+### Aeronautical:
 ADSB 978, ADSB 1090
 
-### Marine
+### Marine:
 2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), and Most Distress Frequencies
 
-### More
+### More:
 The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
 
 ***
