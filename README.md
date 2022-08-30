@@ -9,34 +9,33 @@ Open-source detailed band plans for greater aid in signal identification, and fo
 ## Table of Contents  <!--                           Don't use capitals or spaces in the link section                    -->
 1. [Introduction](#introduction)
    1. [Preview the Band Plans](#preview-the-band-plans)
-     1. [Pictures](#preview-the-bandplans)
+     1. [Pictures](#preview-the-band-plans)
      1. [Videos](#videos-of-the-bandplans)
    1. [Supported Software](#supported-software)
    1. [Things to Keep in Mind](#things-to-keep-in-mind)
 1. [Installation](#installation)
-   1. [SDR#](#SDR#)
-   1. [SDR++](#SDR++)
+   1. [SDR#](#sdr#​)
+   1. [SDR++](#sdr++)
 1. [Band Plans Contents](#band-plan-contents)
    1. [US](#us-band-plan-contents)
-   <!--1.[French]()-->
    1. [International](#international-band-plan-contents)
-   <!--1. [Create Your Own Band plan/ Contributing](#create-your-own-band-plan)-->
+1. [Latest Updates](#latest-updates)
+1. [Useful Links/ Downloads](#useful-links/-downloads)
+<!--1. [Sources]()-->
+<!--1. [Create Your Own Band plan/ Contributing](#create-your-own-band-plan)-->
 <!--1. [US Band Plan Contents](#us-band-plan-contents)-->
-   <!--1. [Broadcast](#broadcast)-->
-   <!--1. [Ham](#ham)-->
-   <!--1. [Satellites](#satellites)-->
-   <!--1. [ISM](#ism)-->
-   <!--1. [Time Signals](#time-signals)-->
-   <!--1. [Aeronautical](#aeronautical)-->
-   <!--1. [Marine](#marine)-->
-   <!--1. [Submarine Stations](#submarine-stations)-->   
-   <!--1. [Miscellaneous](#miscellaneous)-->   
+<!--1. [Broadcast](#broadcast)-->
+<!--1. [Ham](#ham)-->
+<!--1. [Satellites](#satellites)-->
+<!--1. [ISM](#ism)-->
+<!--1. [Time Signals](#time-signals)-->
+<!--1. [Aeronautical](#aeronautical)-->
+<!--1. [Marine](#marine)-->
+<!--1. [Submarine Stations](#submarine-stations)-->   
+<!--1. [Miscellaneous](#miscellaneous)-->   
 <!--1. [International Band Plan Contents](#international-bandplan)-->
 <!--1. [Create Your Own Band plan/ Contributing](#create-your-own-band-plan)-->
-1. [Latest Updates](##Latest-Updates)
-<!--1. [Sources]()-->
-1. [Useful Links/ Downloads](#useful-links/-downloads)
-
+   <!--1.[French]()-->
 ***
 
 # Introduction
