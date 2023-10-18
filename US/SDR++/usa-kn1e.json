@@ -456,6 +456,12 @@
             "end": 4293100
         },
         {
+         "name": "Maritime",
+         "type": "55008080",
+         "start": 4293100,
+         "end": 4296100
+        },
+        {
             "name": "WEFAX Kodiak, AK",
             "type": "5500FF91",
             "start": 4296100,
@@ -1512,7 +1518,7 @@
             "end": 27150000
          },
          {
-            "name": "16 (Also SSB)",
+            "name": "16 (SSB)",
             "type": "77FF7777",
             "start": 27150000,
             "end": 27160000
@@ -1638,31 +1644,31 @@
             "end": 27360000
          },
          {
-            "name": "36 (Also SSB)",
+            "name": "36 (SSB)",
             "type": "77FF5858",
             "start": 27360000,
             "end": 27370000
          },
          {
-            "name": "37 (Also SSB)",
+            "name": "37 (SSB)",
             "type": "77FF7777",
             "start": 27370000,
             "end": 27380000
          },
          {
-            "name": "38 (Also SSB, LSB)",
+            "name": "38 (SSB)",
             "type": "77FF5858",
             "start": 27380000,
             "end": 27390000
          },
          {
-            "name": "39 (Also SSB)",
+            "name": "39 (SSB)",
             "type": "77FF7777",
             "start": 27390000,
             "end": 27400000
          },
          {
-            "name": "40 (Also SSB) |CB",
+            "name": "40 (SSB) |CB",
             "type": "77FF5858",
             "start": 27400000,
             "end": 27410000
