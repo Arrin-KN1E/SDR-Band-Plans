@@ -6,8 +6,8 @@
 > **_A section of the 137MHz region in SDR++_**
 ## 
 #### Quick links:
-- **[*\*U.S. band plan contents*](#us-band-plan-contents)**
-- **[*\*International band plan contents*](#international-band-plan-contents)**
+- **[*\*Listed U.S. band plan contents*](#us-band-plan-contents)**
+- **[*\*Listed International band plan contents*](#international-band-plan-contents)**
 
 - **[*\*Installation section*](#installation)**
 
@@ -38,7 +38,7 @@
 
 # Introduction
 Does the default band plan for your SDR software not have enough detail for you? 
-If the answer is yes, we felt the same way on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites). That's why I decided to create this repository, so the SDR community can contribute to and create idealized band plans. 
+If the answer is yes, we felt the same way on [r/rtlsdr](https://reddit.com/r/rtlsdr) and [r/amateursatellites](https://reddit.com/r/amateursatellites). That's why I decided to create this repository, so the SDR community can construct idealized band plans. 
 
 In this README file we will cover almost  everything you'll want to know. What's in the band plans, how to read them, which software you can use with them, and how to install them. 
 
@@ -83,24 +83,25 @@ Due to the quantity of allocations the lists of contents are located at the end 
 <!-- Add SDRuno in future -->
 
 Legend:  
-🟪 Partial Band Plan
+🟪 Partial Band Plan  
 🟦 Add in Near Future  
 🟩 Full Support  
 🟨 Experimental Release  
-🟧 Possible in The Future
+🟧 Possible in The Future  
 <!--🟥 - No Plan to Support at This Time -->
 <!--⬜ - 'As-is'/ Adapted From Other Works -->
 <!--🔳🟫⬛ -->
 ***
 
 ## Band Plan Instructions
-> Example image of CB allocations to be used as a reference.
+> Example CB allocations reference image.
 <img src="https://i.imgur.com/rBUCJ0D.jpg" width="500"/>
 
 ### Notation System
-1. The vertical bar (' **|** ') denotes an edge of a larger allocation is on the edge of that banner. Upper or lower allocation edge is dependent on which side of the allocation's name the vertical bar (' **|** ') is on. _e.g. See reference image: CB| Ch.1 is lowest frequency edge and 40 (SSB)| CB is the highest frequency edge._
+1. The vertical bar (' **|** ') denotes an edge of a larger allocation is on the edge of that banner. Upper or lower allocation edge is dependent on which side of the allocation's name the vertical bar (' **|** ') is on. _e.g. **See CB reference image**: CB| Ch.1 is lowest frequency edge and 40 (SSB)| CB is the highest frequency edge._ 
+This method is also used to show nested allocations. _e.g. At 137.1MHz shared center allocations - NOAA-19 (40kHz wide), inside METEOR (120kHz wide), inside SpaceBees (150kHz wide) allocations._
 
-1. Channelized allocations may omitt the 'Ch.' (Channel) descripter within its allocation area when either the general allocation is large or individual channels are narrow (harder to read). _e.g. See reference image: CB not having 'Ch.' every channel._
+1. Channelized allocations may omitt the 'Ch.' (Channel) descripter within its allocation area when either the general allocation is large and can be colored distinctly from neighboring allocations or individual channels are narrow or harder to read. _e.g. **See CB reference image**: CB channels not showing 'Ch.' in any channel but 1._
 
 1. Parentheses (' **( )** ') is used when clarification may be of help. e.g. _Television Ch.2 (VHF)_, _OrbComm Ch.1 (Downlink)_, _Public Safety (EMS/ Fire/ Police)_
 
@@ -109,7 +110,7 @@ In the SDR# (XML) band plan file, usually every 25 lines allocations have source
 
 <img src="https://i.imgur.com/gAqdyXx.png" width="3000"/>
 
-> Image of the allocations with the sources comments at the bottom (in the XML file).
+> Image of allocations with sources comments below them (in the XML file).
 
 ##
 SDR++ however, uses JSON which does not natively support commenting, therefore no self-documenting capability for citing sources. 
@@ -117,7 +118,7 @@ As a work around, the SDR# XML file here on github at **_US/SDR#/BandPlan.xml_**
 
 ### Color Legend
 1. All allocation colors follow a color legend. You can refer to this color legend in the [Color Legend Listed](#color-legend-listed) section of this README or use the SDR# XML file. 
-1. Channelized areas will have alternating individual channel colors similar in appearance but emphasize the different channels within the same general allocation. _e.g. CB example image shows odd channels are lighter and even channels are darker._
+1. Channelized areas will have alternating individual channel colors similar in appearance but emphasize the different channels within the same general allocation. _e.g. **See CB reference image**: shows odd channels are lighter and even channels are darker._
 
 
 
@@ -205,7 +206,7 @@ NOAA-15, NOAA-18, NOAA-19 (NOAAs DSB, DCS, APT, HRPT, CDA, Telemetry, Command), 
 ADSB 978, ADSB 1090, ACARS, Air Band VOR/ILS, Air Band Voice, Civilian Aircraft Distress/ Emergency (121.5 MHz)  
 
 #### Marine:
-2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), (AIS), and Most Distress Frequencies  <!-- Welcome to an easter egg! Why doesn't Reese's put smaller peanut butter cups inside their bigger ones? -->
+2, 4, 6, 8, 12, 16, 18, 22, 25, and 156MHz (Marine VHF) (Marine 4MHz and Marine VHF are expanded to show channels), WEFAX (Boston, New Orleans, Port Reyes), (AIS), and Most Distress Frequencies  <!-- Why doesn't Reese's put smaller peanut butter cups inside their bigger ones? -->
 
 #### Submarine Stations:
 NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), NML (25.2 KHz)(US), NOV (26.9 KHz)(US), SHR (38 KHz)(Sweden), SAS/SRC (40.4 kHz)(Sweden), SAS2 (42.5 kHz)(Sweden), SAS3 (44.2 kHz)(Sweden), GYN2 GBR (81 kHz)(UK)                       
@@ -215,7 +216,7 @@ NWC (19.8 KHz)(Australia), NPM (21.4 KHz)(US), Jim Creek (NLK) (24.8 KHz)(US), N
 CB, GMRS and FRS, NOAA (NWR), 800MHz Bands, Police/ Fire/ Ambulance/ Business (2m), Hydrogen Line, Industrial/Business Bands, Paging Bands, Railroad H.O.T and E.O.T. (Head and End of train Devices), 220MHz Control/ Telemetry
 
 #### More:
-The files also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
+The XML file also contain a list of contents, reference, color legend, explanation on how you can customize the file, and my comments about the file, at the bottom under all of the allocations.
 
 ***
 
@@ -255,141 +256,141 @@ The files also contain a list of contents, reference, color legend, explanation 
 
 ***
 ### Color Legend Listed
-**Note: SDR# and SDR++ use YRGB (Y for transparency), so the following list will not be perfectly descriptive.**
+**Note: SDR# and SDR++ use YRGB (Y for transparency), colors cannot be rendered in this readme, so the following list will not be perfectly descriptive and should be used as a reference.**
 
 - General colors are used when an allocation can be either of two similar allocation types. 
 - 'Alt.' colors are the alternate colors used in channelized allocations. 
-- If color overlay is not practical - 44DBFFEC (Mintish White)
+- If color overlay is not practical - #44DBFFEC (Mintish White)
 
 
 #### General Colors:
-  - Distress and Calling (Personal Locator Beacons Service) - 50FF0091  (Pinkish Red)
-  - Aeronautical/ Aviation - 505D88FF  (Light Blue)
-  - Cellular Services (3G/4G/LTE) - 50FFE600  (Gold)/ Advanced Wireless Service - 50FFEE4A  (Light Yellow)
-  - Commercial Broadcast Stations - 5580C0C0  (Darker Blue-Green)
-  - Fixed Services - 40FF0077  (Pinkish Red)
-  - Government and Public Service - 5000FF89  (Greener Mint)
-  - ISM Bands - 44006179  (Dark marine Blue)
-  - Maritime - 55008080  (Dark Blue-Green)/ Alt. is - 5500C9C9 (Lighter Blue-Green)
-  - Military Air, 1432 - 1435 MHz Band - 5090EE90  (Light Green, Military Default)
-  - Military Sat - 50C2F542  (Greenish Yellow)
-  - Navigation (Radiolocation, Radionavigation): 5500FF7F  (Light Green)  (Non-GPS type)
-  - Number Station/ Secret - 50DD1111 (Dark Red)
-  - Power Line Carrier (PLC) Systems - 40BAFD00  (Slight Green Yellow)
-  - Radar - 5004B704  (Dark Green)
-  - Radio Astronomy - 40FFFF00  (Yellow)
-  - Satellites: 5500FFFF  (Aqua)
-  - Submarine Communications/ Unallocated (0 - 9KHz) - 40FFFFFF  (Light White)
-  - Submarine Stations - 5580C0C0  (Darker Blue-Green)
-  - (Buffer) - 00000000  (Empty)
+  - Distress and Calling (Personal Locator Beacons Service) - #50FF0091  (Pinkish Red)
+  - Aeronautical/ Aviation - #505D88FF  (Light Blue)
+  - Cellular Services (3G/4G/LTE) - #50FFE600  (Gold)/ Advanced Wireless Service - #50FFEE4A  (Light Yellow)
+  - Commercial Broadcast Stations - #5580C0C0  (Darker Blue-Green)
+  - Fixed Services - #40FF0077  (Pinkish Red)
+  - Government and Public Service - #5000FF89  (Greener Mint)
+  - ISM Bands - #44006179  (Dark marine Blue)
+  - Maritime - #55008080  (Dark Blue-Green)/ Alt. is - #5500C9C9 (Lighter Blue-Green)
+  - Military Air, 1432 - 1435 MHz Band - #5090EE90  (Light Green, Military Default)
+  - Military Sat - #50C2F542  (Greenish Yellow)
+  - Navigation (Radiolocation, Radionavigation): #5500FF7F  (Light Green)  (Non-GPS type)
+  - Number Station/ Secret - #50DD1111 (Dark Red)
+  - Power Line Carrier (PLC) Systems - #40BAFD00  (Slight Green Yellow)
+  - Radar - #5004B704  (Dark Green)
+  - Radio Astronomy - #40FFFF00  (Yellow)
+  - Satellites: #5500FFFF  (Aqua)
+  - Submarine Communications/ Unallocated (0 - 9KHz) - #40FFFFFF  (Light White)
+  - Submarine Stations - #5580C0C0  (Darker Blue-Green)
+  - (Buffer) - #00000000  (Empty)
 ###
-  - Longwave - 505347FF  (Light Blue)
-  - Medium Wave - 505D63FF  (Light Blue)
-  - Shortwave - 505D63FF  (Light Blue)
-  - AM Radio - 33FF0000  (Light Red)
-  - FM Radio - 4000FF9A  (Mint)
-  - TV - 50FFE55C  (Tan)
-  - ADSB/ ACARS  - 400000FF  (Light Blue)
-  - Air Band Voice/ (VOR/ILS) - 505D88FF  (Light Blue)
-  - CB - 77FF7777 (Whitish Red), Alt is 77FF5858 (Darker Whitish Red), R/C is 77ADFF7D (Whitish Green)
-  - PMR446 - 554545FF (Darkish Blue), Alt. is 552929FF (Darker Blue) [Not used in US, but kept for reference]
-  - Common Use Part 15 Bands: 44006179   (Dark marine Blue)
-  - GMRS, FRS, MURS - 40BAFD00  (Slight Green Yellow)  Alt. is - 40BBE100 (Darker Green Yellow)
-  - NOAA Radio and EMWIN - 5000CED1  (Dark Cyan)
-  - Time Stations - 44FF00FF  (Magenta)
-  - WEFAX - 5500FF91   (Greener Mint)
+  - Longwave - #505347FF  (Light Blue)
+  - Medium Wave - #505D63FF  (Light Blue)
+  - Shortwave - #505D63FF  (Light Blue)
+  - AM Radio - #33FF0000  (Light Red)
+  - FM Radio - #4000FF9A  (Mint)
+  - TV - #50FFE55C  (Tan)
+  - ADSB/ ACARS  - #400000FF  (Light Blue)
+  - Air Band Voice/ (VOR/ILS) - #505D88FF  (Light Blue)
+  - CB - #77FF7777 (Whitish Red), Alt is #77FF5858 (Darker Whitish Red), R/C is #77ADFF7D (Whitish Green)
+  - PMR446 - #554545FF (Darkish Blue), Alt. is #552929FF (Darker Blue) [Not used in US, but kept for reference]
+  - Common Use Part 15 Bands: #44006179   (Dark marine Blue)
+  - GMRS, FRS, MURS - #40BAFD00  (Slight Green Yellow)  Alt. is - #40BBE100 (Darker Green Yellow)
+  - NOAA Radio and EMWIN - #5000CED1  (Dark Cyan)
+  - Time Stations - #44FF00FF  (Magenta)
+  - WEFAX - #5500FF91   (Greener Mint)
 ###
-  - Band Services - 40FF0077  (Pinkish Red)
-  - Cable Antenna Relay Service/ the Local Television Transmission Service/ Broadcast Microwave - 50FFBC00  (Orange)
-  - Disaster/Long Distance Communications - 50B00B68 (Dark Magenta)
-  - H.O.T./ DPU /E.O.T. - 5091FF00 (Yellow-Green)
-  - Industrial/Business - 5089FF00 (Yellow-Green)
-  - Lightning Detection Systems - 5500C9C9 (Lighter Blue-Green)
-  - Medical Device Radiocommunication Service, Telemetry, Medical, RFID, Military Systems - 507676FF  (Whiteish Blue)
-  - Multiple Address Service (MAS) - 50FF9A00  (Dark Orange)
-  - Paging and Radiotelephone - 50FFCE83 (Whitish Orange)
-  - Personal Communications - 401A00FF (Dark Blue)
-  - Police/ Fire/ Ambulance/ Business - 50D00098  (Dark Magenta)
-  - Private Land Mobile - 55008080  (Dark Blue-Green)/ Alt. is - 5500C9C9 (Lighter Blue-Green) (Same as Marine)
-  - RailRoad - 50FFD500 (Yellow-Orange)
-  - Telemetry (General) - 5091FF00 (Yellow-Green)
-  - WiFi - 44006179 (Dark Turquoise)/  Alt. is - 44009980 (Greener Blue-Green)
+  - Band Services - #40FF0077  (Pinkish Red)
+  - Cable Antenna Relay Service/ the Local Television Transmission Service/ Broadcast Microwave - #50FFBC00  (Orange)
+  - Disaster/Long Distance Communications - #50B00B68 (Dark Magenta)
+  - H.O.T./ DPU /E.O.T. - #5091FF00 (Yellow-Green)
+  - Industrial/Business - #5089FF00 (Yellow-Green)
+  - Lightning Detection Systems - #5500C9C9 (Lighter Blue-Green)
+  - Medical Device Radiocommunication Service, Telemetry, Medical, RFID, Military Systems - #507676FF  (Whiteish Blue)
+  - Multiple Address Service (MAS) - #50FF9A00  (Dark Orange)
+  - Paging and Radiotelephone - #50FFCE83 (Whitish Orange)
+  - Personal Communications - #401A00FF (Dark Blue)
+  - Police/ Fire/ Ambulance/ Business - #50D00098  (Dark Magenta)
+  - Private Land Mobile - #55008080  (Dark Blue-Green)/ Alt. is - #5500C9C9 (Lighter Blue-Green) (Same as Marine)
+  - RailRoad - #50FFD500 (Yellow-Orange)
+  - Telemetry (General) - #5091FF00 (Yellow-Green)
+  - WiFi - #44006179 (Dark Turquoise)/  Alt. is - #44009980 (Greener Blue-Green)
 ###
 #### Satellites:
-  - NOAA - 5500FFFF  (Aqua)
-  - NOAA Command - 2200BFFF  (Darker Aqua)
-  - NOAA HRPT - 557AFFFF  (Whitish Auqa)
-  - NOAA DSB - 44FF00FF  (Magenta)
+  - NOAA - #5500FFFF  (Aqua)
+  - NOAA Command - #2200BFFF  (Darker Aqua)
+  - NOAA HRPT - #557AFFFF  (Whitish Auqa)
+  - NOAA DSB - #44FF00FF  (Magenta)
 ###
-  - GOES - 5500FFFF  (Aqua)
+  - GOES - #5500FFFF  (Aqua)
 ###
-  - METEOR - 2200BFFF  (Darker Aqua)
-  - METEOR HRPT - 555CBABA  (Dark Aqua)
+  - METEOR - #2200BFFF  (Darker Aqua)
+  - METEOR HRPT - #555CBABA  (Dark Aqua)
 ###
-  - OrbComm Downlink - 33FF4400  (Dark Orange)/ Alt. is - 33FF713D (Slightly Lighter Dark Orange)
-  - OrbComm Uplink - 33EBC334  (Gold)/ Alt. is - 33FFC800 (Orange)
-  - OrbComm Gateway - 55FF8000  (Light Orange)
-  - SpaceBees Downlink - 55008CFF  (Dark Cyan)
-  - SpaceBees Uplink - 55AE57FF  (Light Purple)
+  - OrbComm Downlink - #33FF4400  (Dark Orange)/ Alt. is - #33FF713D (Slightly Lighter Dark Orange)
+  - OrbComm Uplink - #33EBC334  (Gold)/ Alt. is - #33FFC800 (Orange)
+  - OrbComm Gateway - #55FF8000  (Light Orange)
+  - SpaceBees Downlink - #55008CFF  (Dark Cyan)
+  - SpaceBees Uplink - #55AE57FF  (Light Purple)
 ###
-  - FY-3n HRPT - 55FFBA2E  (Light Orange)
-  - METOP HRPT - 55F07070  (Light Red)
+  - FY-3n HRPT - #55FFBA2E  (Light Orange)
+  - METOP HRPT - #55F07070  (Light Red)
 ###
   - GPS, GALILEO, GLONASS -  (Yellow, Blue, Orange)
-  - Iridium - 33FF672F   (Orange)
-  - Iridium Access Band/ Simplex Channels- 55FF672F   (Orange)
-  - Inmarsat - 33FF4400  (Dark Orange)
+  - Iridium - #33FF672F   (Orange)
+  - Iridium Access Band/ Simplex Channels- #55FF672F   (Orange)
+  - Inmarsat - #33FF4400  (Dark Orange)
 ###
-  - Deep Space Network Uplink - 55FFEF85/ Alt. is - 55FFE430
-  - Deep Space Network Downlink - 556B95FF/ Alt is - 55366FFF
+  - Deep Space Network Uplink - #55FFEF85/ Alt. is - #55FFE430
+  - Deep Space Network Downlink - #556B95FF/ Alt is - #55366FFF
 ###
-  - ComSatBw - 506B6A8A (Gray)
-  - Milstar - 50C2F5AA (whitish green)
-  - SDS, SICRAL, Skynet, - 50F5D3AA (Whitish orange)
-  - UFO, FLTSATCOM8: 50ABAAF5 (Whitish Blue)  Alt. is 50CCAAFF (Whitish Purple)
+  - ComSatBw - #506B6A8A (Gray)
+  - Milstar - #50C2F5AA (whitish green)
+  - SDS, SICRAL, Skynet, - #50F5D3AA (Whitish orange)
+  - UFO, FLTSATCOM8: #50ABAAF5 (Whitish Blue)  Alt. is #50CCAAFF (Whitish Purple)
 ###
-  - DCS/ DCP control or Satellite Control - 5091A4EE  (Whitish Blue)
-  - DCS/ DCP or Satellite Uplinking - 55C4FF00  (Gold)
-  - Earth Exploration-Satellite, and Space Research Services - 5091A4EE  (Whitish Blue)
-  - General Space Communications E-S, S-S, S-E - 553AFFFF  (Slightly White Aqua)
-  - General or Government Use Meteorological-Satellite Service - 50738FFF  (Light Blue)
-  - Meassaging Satellites Default/ Mobile Satellite Service (MSS) - 40FFCD00  (Light Orange)
-  - Radionavigation Satellite Service - 4089FF00  (Yellow Green)
-  - Satellite Digital Audio Radio Service (SDARS) - 5000ABFF  (Sky Blue)
-  - SiriusXM Satellites - 40004DFF (Dark Blue)
-  - Standard Frequency and Beacon - 50DE91EE  (Lavender)
+  - DCS/ DCP control or Satellite Control - #5091A4EE  (Whitish Blue)
+  - DCS/ DCP or Satellite Uplinking - #55C4FF00  (Gold)
+  - Earth Exploration-Satellite, and Space Research Services - #5091A4EE  (Whitish Blue)
+  - General Space Communications E-S, S-S, S-E - #553AFFFF  (Slightly White Aqua)
+  - General or Government Use Meteorological-Satellite Service - #50738FFF  (Light Blue)
+  - Meassaging Satellites Default/ Mobile Satellite Service (MSS) - #40FFCD00  (Light Orange)
+  - Radionavigation Satellite Service - #4089FF00  (Yellow Green)
+  - Satellite Digital Audio Radio Service (SDARS) - #5000ABFF  (Sky Blue)
+  - SiriusXM Satellites - #40004DFF (Dark Blue)
+  - Standard Frequency and Beacon - #50DE91EE  (Lavender)
 ###
 #### Ham:
-  - Default/ Placeholders - 40FF0000 (Red)
-  - Satellite Downlinks - 5500E6FF  (Cyan)/  Alt. Satellite Downlinks - 5500C6DB  (Darker Cyan)
-  - Satellite Uplinks - 50FFFF00  (Yellow)/  Alt. Satellite Uplinks - 50DDDD00  (Darker Yellow)
-  - Satellite (Up or Down) - 5033FF00  (Yellow-Green)
-  - ISS Voice Downlinks - 5500BCFF  (Sky Blue)
-  - ISS Voice Uplink - 55C4FF00  (Gold)
-  - General ISS - 55C4FF00  (Gold)
-  - DX window, Phone, Broadband Modes, Wideband Gunnplexers - 40FF0000  (Red)
-  - APRS - 5000FFBF  (Light Mint)
-  - ATV - 50FF0089  (Pinkish Red)
-  - Beacons Satellite/ Terrestrial - 50ACFFEC  (White Mint)
-  - Calling Frequencies - 50FFB300  (Orange)
-  - Digital - 508000FF  (Purple)
-  - EME - 5086FFFC  (Light Cyan)
-  - Experimental - 503CCCFF  (Sky Blue)
-  - FM Simplex, General Simplex - 503CFF00  (Green)
-  - General Linear Translator Output - 50FF578A  (Whitish Red)
-  - Ham Paging Service - 50FFCE83  (Whitish Orange)
-  - Linear Translator Inputs - 50FF004D  (Pinkish Red)
-  - Linear Translator Output - 50FF0000  (Red)
-  - Links/ control - 50FF009A  (Pinkish Red)
-  - Mixed Mode, Analog/Digital - 40FF00BC  (Pink)
-  - Packet - 5000B3FF  (Sky Blue)
-  - RTTY/Data - 500089FF  (Dark Sky Blue)
-  - Repeater I/O - 508000FF  (Purple)
-  - Repeaters Inputs - 50FFFF00  (Yellow)
-  - Repeaters Outputs - 5089FF00  (Yellow-Green)
-  - SSTV - 50FF004D  (Pinkish Red)
-  - Telegraphy - 50E9E9E9  (Gray White)
-  - Weak Signal - 507DDDFF  (Lighter Sky Blue)
+  - Default/ Placeholders - #40FF0000 (Red)
+  - Satellite Downlinks - #5500E6FF  (Cyan)/  Alt. Satellite Downlinks - #5500C6DB  (Darker Cyan)
+  - Satellite Uplinks - #50FFFF00  (Yellow)/  Alt. Satellite Uplinks - #50DDDD00  (Darker Yellow)
+  - Satellite (Up or Down) - #5033FF00  (Yellow-Green)
+  - ISS Voice Downlinks - #5500BCFF  (Sky Blue)
+  - ISS Voice Uplink - #55C4FF00  (Gold)
+  - General ISS - #55C4FF00  (Gold)
+  - DX window, Phone, Broadband Modes, Wideband Gunnplexers - #40FF0000  (Red)
+  - APRS - #5000FFBF  (Light Mint)
+  - ATV - #50FF0089  (Pinkish Red)
+  - Beacons Satellite/ Terrestrial - #50ACFFEC  (White Mint)
+  - Calling Frequencies - #50FFB300  (Orange)
+  - Digital - #508000FF  (Purple)
+  - EME - #5086FFFC  (Light Cyan)
+  - Experimental - #503CCCFF  (Sky Blue)
+  - FM Simplex, General Simplex - #503CFF00  (Green)
+  - General Linear Translator Output - #50FF578A  (Whitish Red)
+  - Ham Paging Service - #50FFCE83  (Whitish Orange)
+  - Linear Translator Inputs - #50FF004D  (Pinkish Red)
+  - Linear Translator Output - #50FF0000  (Red)
+  - Links/ control - #50FF009A  (Pinkish Red)
+  - Mixed Mode, Analog/Digital - #40FF00BC  (Pink)
+  - Packet - #5000B3FF  (Sky Blue)
+  - RTTY/Data - #500089FF  (Dark Sky Blue)
+  - Repeater I/O - #508000FF  (Purple)
+  - Repeaters Inputs - #50FFFF00  (Yellow)
+  - Repeaters Outputs - #5089FF00  (Yellow-Green)
+  - SSTV - #50FF004D  (Pinkish Red)
+  - Telegraphy - #50E9E9E9  (Gray White)
+  - Weak Signal - #507DDDFF  (Lighter Sky Blue)
 
 ***
 
