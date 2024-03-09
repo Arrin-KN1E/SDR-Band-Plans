@@ -27,6 +27,7 @@
   1. [Installation Instructions](#installation)
      1. [SDR#](#installation)
      1. [SDR++](#sdr-1)
+     1. [Gqrx](#gqrx)
   1. [Further Resources](#further-resources)
      1. [U.S. Band Plan Listed Contents](#us-band-plan-contents)
      1. [International Band Plan Listed Contents](#international-band-plan-contents)  
@@ -48,6 +49,7 @@ In this README file we will cover almost  everything you'll want to know. What's
 
 ## Preview the Band Plans
 <!-- This section shows examples -->
+
 #### Sample Images
 
 <img src="https://i.imgur.com/t2JzvMe.jpg" width="3000"/>   
@@ -57,6 +59,10 @@ In this README file we will cover almost  everything you'll want to know. What's
 <img src="https://i.imgur.com/GxEiHKo.jpg" width="3000"/>  
 
 > *The New Orleans WEFAX on 4317.9kHz (USB) in SDR++ (WEFAX in US version only.)*
+
+<img src="https://i.imgur.com/ONeUzXs.png" width="3000"/>  
+
+> *A local pager on 454.325MHz in Gqrx*
   
 
 #### Videos 
@@ -73,12 +79,12 @@ Due to the quantity of allocations the lists of contents are located at the end 
 
 ***
 ## Supported Software
-| Region/ Version  | SDR# | SDR++ |
-|------------------|------|-------|
-| USA              |🟩   | 🟨    |
-| French           |🟪   | 🟧    |  
-| International    |🟩   | 🟦    |
-| Build Your Own   |🟩   | 🟧    |
+| Region/ Version  | SDR# | SDR++ | Gqrx |
+|------------------|------|-------|------|
+| USA              |🟩   | 🟩    |🟩    |
+| French           |🟩   | 🟧    |🟩    |
+| International    |🟩   | 🟦    |🟩    |
+| Build Your Own   |🟩   | 🟧    |🟧    |
 
 <!-- Add SDRuno in future -->
 
@@ -114,7 +120,9 @@ In the SDR# (XML) band plan file, usually every 25 lines allocations have source
 
 ##
 SDR++ however, uses JSON which does not natively support commenting, therefore no self-documenting capability for citing sources. 
-As a work around, the SDR# XML file here on github at **_US/SDR#/BandPlan.xml_** or your local copy of the XML file open in a code editor could be used as a reference. Alternatively, you can reference the sources folder. However, it is limited in sources to avoid any potential copyright issues.
+As a workaround, the SDR# XML file here on github at **_US/SDR#/BandPlan.xml_** or your local copy of the XML file open in a code editor could be used as a reference. Alternatively, you can reference the sources folder. However, it is limited in sources to avoid any potential copyright issues.
+
+Gqrx does not list source comments yet, so for now, follow the same workaround as SDR++. This should not be a problem as all band plans should have the same allocations.  
 
 ### Color Legend
 1. All allocation colors follow a color legend. You can refer to this color legend in the [Color Legend Listed](#color-legend-listed) section of this README or use the SDR# XML file. 
@@ -147,7 +155,7 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 1. Download the repository ([**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDR-Band-Plans/archive/refs/heads/master.zip)) and extract the folder.
 
-1. Navigate to the file you want (e.g. *SDR-Band-Plans-master>US>SDR#*), select the file named `BandPlan` then copy & paste or drag & drop the file into the SDR 'bin' folder.
+1. Navigate to the file you want (e.g. *SDR-Band-Plans-master/US/SDR#*), select the file named `BandPlan` then copy & paste or drag & drop the file into the SDR 'bin' folder.
 1. If prompted to replace the old `BandPlan` file, say yes. _(Assuming you did make a copy of the old band plan file, you're prepared to undo this change if necessary.)_  
 
 <img src="https://i.imgur.com/RrgZ5Ki.png" width="3000"/>  
@@ -160,13 +168,13 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 **SDR++ takes a little more work, but still is easy enough:**
 
-1. Locate the band plans folder in SDR++. example for windows: _sdrpp_windows_x64>res>bandplans_
+1. Locate the band plans folder in SDR++. example for windows: _sdrpp_windows_x64/res/bandplans_
 2. Download the repository ([**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDR-Band-Plans/archive/refs/heads/master.zip)) and extract the folder.
-3. Navigate to the file you want (e.g. *SDR-Band-Plans-master>US>SDR++*), then drag and drop the `usa-kn1e` JSON file into the SDR++ bandplans folder. _(So far, this would show the allocations if selected in SDR++, but there would be no color to the band plan banners.)_
+3. Navigate to the file you want (e.g. *SDR-Band-Plans-master/US/SDR++*), then drag and drop the `usa-kn1e` JSON file into the SDR++ bandplans folder. _(So far, this would show the allocations if selected in SDR++, but there would be no color to the band plan banners.)_
 <img src="https://i.imgur.com/ZwvncI3.jpg" width="3000"/>
 
 4. Locate the `config` file in the main SDR++ folder. Example for windows: The _sdrpp_windows_x64>_  folder, you should see 'modules', 'recordings', & 'res' folders if in the right location.  _(If your SDR++ has not been ran before, run the program now so it can generate a config file.)_ 
-**_Make sure to make a copy of the old default `config` file in case something doesn't work!_**
+**_Make sure to make a copy of the old default config file in case something doesn't work!_**
 5. In the extracted Github repository folder, open the `Config BandColors Modification.txt` in a text/ code editor and copy all of the text in the file.
 6. Open the SDR++ `config` file in a text/ code editor and paste the previously copied code between the `"bandColors": {` line and the `"amateur": "#FF0000FF",` line in that field. _(Make sure to keep the old code, maintain the code formatting, and check for missing or extra commas; only the last line in that field `"military": "#FFFF00FF"` should not have a comma after it.)_
 
@@ -178,6 +186,20 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 
 The strange hex format basically brute-force converts the color format used in SDR# to the color format used in SDR++. It was easier to adapt the XML file to JSON this way, but this will most likely be updated in the future.
+
+***
+
+
+### Gqrx
+
+1. Locate the folder where Gqrx _bandplan.csv_ is located. Example for Raspberry Pi OS: _home/user/.config/gqrx_
+2. Download the repository ([**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDR-Band-Plans/archive/refs/heads/master.zip)) and extract the folder.
+3. Navigate to the file you want (e.g. *SDR-Band-Plans-master/US/Gqrx*), then drag and drop the `bandplan.csv` file into the Gqrx folder. _(Make sure to make a backup of the original bandplan.csv. Also, if you see no files in the folder, run Gqrx at least once)_.
+
+<img src="https://i.imgur.com/iZd9KRc.png" width="3000"/>
+
+> _Copy and replace of bandplan.csv_
+
 
 ***
 # Further Resources
