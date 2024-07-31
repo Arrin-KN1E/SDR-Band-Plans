@@ -155,6 +155,8 @@ It has a simple layout with nothing more than a basic structure that the writer 
 
 1. Download the repository ([**Click Here** to download the ZIP file](https://github.com/Arrin-KN1E/SDR-Band-Plans/archive/refs/heads/master.zip)) and extract the folder.
 
+Ensure that SDR# is not running, otherwise the BandPlan.xml file will be overwritten with original data when exiting. 
+
 1. Navigate to the file you want (e.g. *SDR-Band-Plans-master/US/SDR#*), select the file named `BandPlan` then copy & paste or drag & drop the file into the SDR 'bin' folder.
 1. If prompted to replace the old `BandPlan` file, say yes. _(Assuming you did make a copy of the old band plan file, you're prepared to undo this change if necessary.)_  
 
